@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Vs Code Extensions
+.vscode
