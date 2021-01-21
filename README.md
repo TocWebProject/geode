@@ -1,5 +1,5 @@
 # geode
-Application visant à évaluer l’ouverture d’un environnement éducatif - Formulaire & Résultat 
+Application visant à évaluer l’ouverture d’un environnement éducatif - Formulaire & Résultat w/Nuxt.js, Tailwind Css. 
 
 Version 0.1.0 en cours de développement - branch develop
 
