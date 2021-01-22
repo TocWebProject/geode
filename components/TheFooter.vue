@@ -91,10 +91,10 @@
 
     <div class="bg-blue-50">
       <div class="container mx-auto text-center w-2/3 py-4 px-5">
-        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-base">
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-sm">
           Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha.
         </span>
-        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-base">
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-sm">
           Géode est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
         </span>
       </div>
@@ -110,13 +110,6 @@
 
 <script>
 export default {
-    name: 'TheFooter'
+    name: 'TheFooter',
 }
 </script>
-
-<style>
-svg:hover {
-    fill: black;
-}
-
-</style>

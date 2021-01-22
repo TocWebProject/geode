@@ -1,0 +1,16 @@
+/* Smooth Scrool Anchor */
+html {
+    scroll-behavior: smooth;
+ }
+
+ /* Pages Transition */
+.page-enter-active, .page-leave-active { transition: all .4s ease }
+.page-enter, .page-leave-active { transform: translateY(20px); opacity: 0; }
+
+/* Documentation Page */
+.hr-sommaire {
+    width: 70px;
+    border: 2px solid rgb(239, 246, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
