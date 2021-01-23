@@ -1,9 +1,9 @@
 <template>
     <div class="bg-white h-full overflow-hidden pb-10">
-        <h3 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-6 sm:text-3xl md:text-4xl">Documentation</h3>
+        <h3 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h3>
         <div class="container mt-5 mb-10 mx-auto flex flex-wrap justify-center">
-            <div class="col-auto">
-                <div class="w-60 lg:w-60 h-60 ml-0 mt-5 mb-7 lg:mt-10 pr-10 rounded bg-blue-100">
+            <div class="col-auto kf-moveInLeft">
+                <div class="w-60 lg:w-60 h-60 ml-0 mt-5 mb-7 lg:mt-10 pr-10 rounded shadow-lg bg-blue-100">
                     <nav class="w-60 p-8 pt-5 h-60">
                         <ul>
                             <p class="text-2xl font-medium">Sommaire</p>
@@ -21,8 +21,8 @@
                     Débutez le test
                 </NuxtLink>
             </div>
-            <article class="flex flex-col w-2/3 items-center px-4 mt-4 md:ml-10 overflow-auto max-h-screen">
-                <h3 class="w-100 text-xl text-center font-bold">
+            <article class="kf-moveInRight flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 sm:ml-0 overflow-auto max-h-screen">
+                <h3 class="w-100 text-xl text-center font-bold md:mr-5 sm:mr-2">
                     Lowest Common Ancestor
                 </h3>
 
@@ -33,7 +33,7 @@
                 <div class="-mx-4">
                     <img
                     class="object-cover object-bottom w-full h-48 my-6"
-                    src="https://source.unsplash.com/ots0EOYuGtU"
+                    src="~/assets/img/img-documentation-1.jpg"
                     />
                 </div>
 
@@ -177,6 +177,7 @@
 
 <script>
 export default {
+    name: 'documentation',
     head () {
         // Meta Tag for this page
     },
@@ -185,13 +186,5 @@ export default {
 </script>
 
 <style>
-@media screen and (max-width: 1024px) {
-    .test-link-desktop {
-        display: none;
-    }
 
-    .test-link-mobile{
-        display: flex;
-    }
-}
 </style>

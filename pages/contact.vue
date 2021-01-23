@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-white h-full overflow-hidden">
-        <h3 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-8 sm:text-3xl md:text-4xl">Contact</h3>
-        <div>
+    <div class="bg-white overflow-hidden">
+        <h3 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-8 sm:text-3xl md:text-4xl">Contact</h3>
+        <div class="kf-appear-2 container-contact">
             <div class="lg:py-4 lg:pb-32 lg:flex lg:justify-center">
                 <div class="bg-blue-50 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
                     <div class="lg:w-1/2">
@@ -22,6 +22,7 @@
 
 <script>
 export default {
+    name: 'contact',
     
 }
 </script>

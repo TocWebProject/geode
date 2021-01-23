@@ -1,4 +1,4 @@
-/* Smooth Scrool Anchor */
+/* ---------------- Smooth Scrool Anchor ---------------- */
 html {
     scroll-behavior: smooth;
  }
@@ -7,10 +7,73 @@ html {
 .page-enter-active, .page-leave-active { transition: all .4s ease }
 .page-enter, .page-leave-active { transform: translateY(20px); opacity: 0; }
 
-/* Documentation Page */
+/* ---------------- Keyframes ---------------- */
+.kf-appear-1 {
+    animation: 1s appear;
+    }
+    
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+}
+
+.kf-appear-2 {
+    animation: 1.3s appear;
+    }
+    
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+    }
+
+.kf-moveInLeft {
+    animation: 1s moveInLeft;
+    }
+
+    @keyframes moveInLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+    
+    }
+
+.kf-moveInRight {
+    animation: 1s moveInRight;
+    }
+
+    @keyframes moveInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+    
+    }
+
+/* ---------------- Documentation Page ---------------- */
 .hr-sommaire {
     width: 70px;
     border: 2px solid rgb(239, 246, 255);
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .test-link-desktop {
+        display: none;
+    }
+
+    .test-link-mobile{
+        display: flex;
+    }
+}
+
+
+/* ---------------- Contact Page ----------------*/
+@media screen and (min-height: 1024px) {
+    .container-contact {
+        height: 56vh;
+    }
 }

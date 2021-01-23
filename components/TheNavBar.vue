@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
-      <NuxtLink to="/" class="flex items-center flex-no-shrink text-black mr-8 md:mr-6 mb-2 hover:text-blue-600">
-        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+    <nav class="flex items-center justify-between flex-wrap bg-teal p-6 pb-4">
+      <NuxtLink to="/" class="flex items-center flex-no-shrink text-blue-900 mr-8 md:mr-5 mb-2 hover:text-blue-700">
+        <img src="~/assets/img/bar-chart.png" class="w-9 h-9 mb-2 mr-3" alt="Logo Grille Géode">
         <h1 class="font-semibold text-3xl xl:text-4xl tracking-tight">La Grille Géode</h1>
       </NuxtLink>
       <div class="block sm:hidden">
@@ -12,7 +12,7 @@
       </div>
       <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
         <div class="text-xl sm:flex-grow text-black">
-          <NuxtLink to="/documentation" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-blue-600 mr-4">
+          <NuxtLink to="/documentation" class="no-underline block mt-5 sm:inline-block sm:mt-0 text-teal-lighter hover:text-blue-600 mr-4">
             Documentation
           </NuxtLink>
           <NuxtLink to="/references" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-blue-600 mr-4">
