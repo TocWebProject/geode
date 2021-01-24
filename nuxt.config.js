@@ -23,6 +23,13 @@ export default {
     '~/assets/css/main.css',
   ],
 
+  // Loading Indicator
+  loadingIndicator: {
+    name: 'folding-cube',
+    color: '#1d4ed8',
+    background: '#dbeafe'
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],

@@ -49,8 +49,8 @@
       </div>
     </div>
     <div class="border-top border-gray-200">
-        <div class="container bg-blue-100 flex flex-wrap mx-auto justify-center mt-6 px-3">
-          <NuxtLink to="/#test" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+        <div class="container bg-blue-100 flex flex-wrap mx-auto justify-center mt-6 mb-3 px-3">
+          <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
               Débutez le test
           </NuxtLink>
           <NuxtLink to='/documentation' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-blue-700  bg-white hover:bg-blue-200 md:text-lg">

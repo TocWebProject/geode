@@ -17,11 +17,11 @@
                         </ul>
                     </nav>
                 </div>
-                <NuxtLink to="/#test" class="test-link-desktop w-full sm:hidden lg:flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                <NuxtLink to="/#geode" class="geode-link-desktop w-full sm:hidden lg:flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
                     Débutez le test
                 </NuxtLink>
             </div>
-            <article class="kf-moveInRight flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 sm:ml-0 overflow-auto max-h-screen">
+            <article class="kf-moveInRight flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
                 <h3 class="w-100 text-xl text-center font-bold md:mr-5 sm:mr-2">
                     Lowest Common Ancestor
                 </h3>
@@ -169,7 +169,7 @@
                 </p>
             </article>
         </div>
-        <NuxtLink to="/#test" class="test-link-mobile w-52 mx-auto hidden items-center justify-center mt-3 px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+        <NuxtLink to="/#geode" class="geode-link-mobile w-52 mx-auto hidden items-center justify-center mt-3 px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
                 Débutez le test
         </NuxtLink>
     </div>

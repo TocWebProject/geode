@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
  }
 
- /* Pages Transition */
+/* ---------------- Pages Transition ---------------- */
 .page-enter-active, .page-leave-active { transition: all .4s ease }
 .page-enter, .page-leave-active { transform: translateY(20px); opacity: 0; }
 
@@ -52,6 +52,15 @@ html {
     
     }
 
+/* -------------------------------- PAGES -------------------------------- */
+
+/* ---------------- Home Page ---------------- */
+
+/* Form */
+select:focus{
+    outline: none;
+}
+
 /* ---------------- Documentation Page ---------------- */
 .hr-sommaire {
     width: 70px;
@@ -61,15 +70,14 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
-    .test-link-desktop {
+    .geode-link-desktop {
         display: none;
     }
 
-    .test-link-mobile{
+    .geode-link-mobile{
         display: flex;
     }
 }
-
 
 /* ---------------- Contact Page ----------------*/
 @media screen and (min-height: 1024px) {
