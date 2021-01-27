@@ -1,6 +1,6 @@
 <template>
     <section class="h-auto bg-blue-50">
-        <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-44 sm:text-5xl md:text-6xl">Débutez le test</h3>
+        <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-40 sm:text-5xl md:text-6xl">Débutez le test</h3>
         <div class="pt-20 pb-52 px-10 bg-gray-100 bg-opacity-50 h-full">
             <form id="geodeForm" role="form" v-on:submit="onSubmit"> 
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
@@ -347,6 +347,7 @@
                 </button>
             </form>
         </div>
+        <TheResult v-if="showResult" v-on:restart-test="restartTest" />
     </section>  
 </template>
 
@@ -355,6 +356,9 @@
 export default {
     name: 'TheTest',
     layout: 'default',
+    provide() {
+        return { geodeData: this.geodeData}
+    },
     data() {
         return {
             geodeData: {
@@ -375,6 +379,7 @@ export default {
             },
             attemptSubmit: false,
             dataMissing: false,
+            showResult: false,
         }
     },
     computed: {
@@ -423,7 +428,7 @@ export default {
 	},
     methods: {
         onSubmit: function (e) {
-            e.preventDefault();
+            
 			this.attemptSubmit = true;
 			if (
 				this.missingAcces||
@@ -440,15 +445,51 @@ export default {
 				this.missingCommunication ||
 				this.missingRessources
 			) {
-                this.dataMissing = true
+                this.dataMissing = true,
+                this.showResult = false,
 				console.log("Data missing");
 			} else {
+                this.showResult = true,
                 this.dataMissing = false,
                 console.log("There is some data !");
                 console.log(this.geodeData)
-                this.$router.push('/resultats')
+                
+            } 
+
+            if (this.dataMissing === false && this.showResult === true) {
+                this.attemptSubmit = false;
+                this.redirect();
             }
-		}
+
+            e.preventDefault();
+        },
+        
+        redirect(){
+            this.$router.push('/#result');
+        },
+
+        restartTest() {   
+
+            console.log('starting restart')
+            this.geodeData.acces === '';
+            this.geodeData.lieu === '';
+            this.geodeData.temps === '';
+            this.geodeData.rythme === '';
+            this.geodeData.objectifs === '';
+            this.geodeData.cheminement === '';
+            this.geodeData.sequence === '';
+            this.geodeData.methodes === '';
+            this.geodeData.format === '';
+            this.geodeData.contenus === '';
+            this.geodeData.supports === '';
+            this.geodeData.evaluation === '';
+            this.geodeData.communication === '';
+            this.geodeData.ressources === '';
+            
+            this.attemptSubmit = false;
+            this.dataMissing = false;
+            this.showResult = false;
+        },
     }   
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white overflow-hidden">
-        <h3 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-8 sm:text-3xl md:text-4xl">Contact</h3>
+        <h1 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-8 sm:text-3xl md:text-4xl">Contact</h1>
         <div class="kf-appear-2 container-contact">
             <div class="lg:py-4 lg:pb-32 lg:flex lg:justify-center">
                 <div class="bg-blue-50 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
