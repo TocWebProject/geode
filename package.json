@@ -13,6 +13,7 @@
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
+    "@nuxtjs/html-validator": "^0.1.6",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.2",

@@ -20,7 +20,7 @@
                 </a>
               </div>
               <div class="mt-3 sm:mt-0 sm:ml-3">
-                <NuxtLink to='/documentation' href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                <NuxtLink to='/documentation' href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                   Documentation
                 </NuxtLink>
               </div>
@@ -43,7 +43,3 @@ export default {
   transition: 'page',
 }
 </script>
-
-<style>
-
-</style>

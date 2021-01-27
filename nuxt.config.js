@@ -41,6 +41,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/html-validator'
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
