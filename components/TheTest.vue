@@ -1,8 +1,8 @@
 <template>
     <section class="h-auto bg-blue-50">
-        <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-40 sm:text-5xl md:text-6xl">Débutez le test</h3>
+        <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h3>
         <div class="pt-20 pb-52 px-10 bg-gray-100 bg-opacity-50 h-full">
-            <form id="geodeForm" role="form" v-on:submit="onSubmit"> 
+            <form id="geodeForm" role="form" v-on:submit.prevent="onSubmit"> 
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
                     <div class="bg-gray-100 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
                         <div class="max-w-sm mx-auto md:w-full md:mx-0">
@@ -342,7 +342,7 @@
                     </div>
                 </div>
                 <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 mx-auto p-5 bg-red-100 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
-                <button type="submit" class="w-60 mx-auto mt-10 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
+                <button v-if="!showResult" type="submit" class="w-60 mx-auto mt-10 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
             </form>
@@ -427,7 +427,7 @@ export default {
 		},
 	},
     methods: {
-        onSubmit: function (e) {
+        onSubmit() {
             
 			this.attemptSubmit = true;
 			if (
@@ -457,11 +457,10 @@ export default {
             } 
 
             if (this.dataMissing === false && this.showResult === true) {
-                this.attemptSubmit = false;
                 this.redirect();
             }
 
-            e.preventDefault();
+            // e.preventDefault();
         },
         
         redirect(){
@@ -469,7 +468,6 @@ export default {
         },
 
         restartTest() {   
-
             console.log('starting restart')
             this.geodeData.acces === '';
             this.geodeData.lieu === '';
