@@ -5,7 +5,11 @@
             <div class="lg:py-4 lg:pb-32 lg:flex lg:justify-center">
                 <div class="bg-blue-50 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
                     <div class="lg:w-1/2">
-                        <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1549816726-4d11db08e745?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80')"></div>
+                        <picture>
+                            <source media="(max-width: 575.97px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-400x265.jpg">
+                            <source media="(min-width: 575.98px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg">
+                            <img class="kf-appear-1 h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:rounded-lg" src="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg" alt="Photographie du dôme en verre d'un batiment moderne">
+                        </picture> 
                     </div>
                     <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
                         <h2 class="text-2xl text-gray-800 font-bold">Partagez nous votre<span class="text-blue-600"> expérience</span></h2>

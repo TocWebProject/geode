@@ -30,7 +30,11 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5 xl:w-5/12">
-      <img class="kf-appear-1 h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full" src="https://images.unsplash.com/photo-1549816726-4d11db08e745?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80" alt="">
+      <picture>
+        <source media="(max-width: 575.97px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-400x265.jpg">
+        <source media="(min-width: 575.98px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg">
+        <img class="kf-appear-1 h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full" src="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg" alt="Photographie du dôme en verre d'un batiment moderne">
+      </picture> 
     </div>
   </div>
   <TheTest></TheTest>

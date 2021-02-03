@@ -1,7 +1,7 @@
 <template>
     <section class="h-auto bg-blue-50">
         <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h3>
-        <div class="pt-20 pb-52 px-10 bg-gray-100 bg-opacity-50 h-full">
+        <div class="pt-20 pb-32 px-10 bg-gray-100 bg-opacity-50 h-full">
             <form id="geodeForm" role="form" v-on:submit.prevent="onSubmit"> 
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
                     <div class="bg-gray-100 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">

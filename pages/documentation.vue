@@ -1,9 +1,9 @@
 <template>
     <div class="bg-white h-full overflow-hidden pb-10">
         <h3 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h3>
-        <div class="container mt-5 mb-10 mx-auto flex flex-wrap justify-center">
+        <div class="container lg:mt-5 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
             <div class="col-auto kf-moveInLeft">
-                <div class="w-60 lg:w-60 h-60 ml-0 mt-5 mb-7 lg:mt-10 pr-10 rounded shadow-lg bg-blue-100">
+                <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 lg:mt-10 pr-10 rounded shadow-lg bg-blue-100">
                     <nav class="w-60 p-8 pt-5 h-60">
                         <ul>
                             <p class="text-2xl font-medium">Sommaire</p>
@@ -21,7 +21,7 @@
                     Débutez le test
                 </NuxtLink>
             </div>
-            <article class="kf-moveInRight flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
+            <article class="kf-appear-1 flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
                 <h3 class="w-100 text-xl text-center font-bold md:mr-5 sm:mr-2">
                     Lowest Common Ancestor
                 </h3>
@@ -31,10 +31,11 @@
                 </p>
 
                 <div class="-mx-4">
-                    <img
-                    class="object-cover object-bottom w-full h-48 my-6"
-                    src="~/assets/img/img-documentation-1.jpg"
-                    />
+                    <picture>
+                        <source media="(max-width: 575.97px)" srcset="~/assets/img/img-documentation-450x337.jpg">
+                        <source media="(min-width: 575.98px)" srcset="~/assets/img/img-documentation-1080x810.jpg">
+                        <img class="object-cover object-bottom w-full md:h-48 h-24 my-6" src="~/assets/img/img-documentation-1080x810.jpg" alt="Photographie du dôme en verre d'un batiment moderne vue du dessus">
+                    </picture> 
                 </div>
 
                 <p class="mt-4 text-justify">
@@ -123,6 +124,14 @@
                 <p class="mt-4 text-justify">
                     Let's say we're building an app with a collapsible panel. If the panel isOpen, we'll show the body. Clicking the title triggers the toggleIsOpen action.
                 </p>
+
+                <div class="-mx-4">
+                    <picture>
+                        <source media="(max-width: 575.97px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-400x265.jpg">
+                        <source media="(min-width: 575.98px)" srcset="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg">
+                        <img class="object-cover object-bottom w-full md:h-48 h-24 my-6" src="~/assets/img/la-grille-geode-image-by-photongo-900x598.jpg" alt="Photographie du dôme en verre d'un batiment moderne">
+                    </picture> 
+                </div>
 
                 <p class="mt-4 text-justify">
                     Let's say we're building an app with a collapsible panel. If the panel isOpen, we'll show the body. Clicking the title triggers the toggleIsOpen action.
