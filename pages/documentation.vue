@@ -8,9 +8,9 @@
                         <ul>
                             <p class="text-2xl font-medium">Sommaire</p>
                             <hr class="hr-sommaire">
-                            <li><a class="hover:text-blue-800" href="#target1">YOOO</a></li>
-                            <li><a class="hover:text-blue-800" href="#target2">YOOO</a></li>
-                            <li><a class="hover:text-blue-800" href="#target3">YOOO</a></li>
+                            <li><a class="hover:text-blue-800" href="#target1">Titre 1 - gfezf</a></li>
+                            <li><a class="hover:text-blue-800" href="#target2">Titre 2 - gfgdfgdfg</a></li>
+                            <li><a class="hover:text-blue-800" href="#target3">Titre 3 - ezf z zeffzeff</a></li>
                             <li>blalazefz zefzefze zezefzef </li>
                             <li>blala</li>
                             <li>blala</li>

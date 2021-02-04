@@ -4,7 +4,7 @@
         <div class="pt-20 pb-32 px-10 bg-gray-100 bg-opacity-50 h-full">
             <form id="geodeForm" role="form" v-on:submit.prevent="onSubmit"> 
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
-                    <div class="bg-gray-100 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
+                    <div class="bg-gray-50 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
                         <div class="max-w-sm mx-auto md:w-full md:mx-0">
                             <div class="inline-flex items-center space-x-4 mb-2">
                                 <img
@@ -341,7 +341,7 @@
                         <hr/>
                     </div>
                 </div>
-                <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 mx-auto p-5 bg-red-100 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
+                <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 red-alert-error-pattern mx-auto p-5 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
                 <button v-if="!showResult" type="submit" class="w-60 mx-auto mt-10 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>

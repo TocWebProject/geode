@@ -4,10 +4,10 @@
             <h3 id="result" class="kf-appear-2 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-10 sm:text-3xl md:text-4xl">Résultats</h3>
             <!-- <p class="text-center mt-10"> {{ geodeData }} </p> -->
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen">
-                <p class="mx-auto w-full text-base leading-8 text-justify pb-5">
+                <p class="mx-auto p-6 md:p-4 w-full text-base leading-8 text-justify">
                     L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
                 </p>
-                <bar-chart-result :data="barChartData" :options="barChartOptions" :height="300"/>
+                <bar-chart-result class="p-3" :data="barChartData" :options="barChartOptions" :height="300"/>
             </div>
             <div class="kf-appear2 mx-auto md:w-1/2 w-10/12">
                 <h4 class="text-center mt-8 mb-5 text-3xl text-blue-900">Le degré d'ouverture de votre formation</h4>
