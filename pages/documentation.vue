@@ -1,13 +1,13 @@
 <template>
     <div class="bg-white h-full overflow-hidden pb-10">
-        <h3 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h3>
+        <h1 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h1>
         <div class="container lg:mt-5 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
             <div class="col-auto kf-moveInLeft">
                 <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 lg:mt-10 pr-10 rounded shadow-lg bg-blue-100">
                     <nav class="w-60 p-8 pt-5 h-60">
-                        <ul>
                             <p class="text-2xl font-medium">Sommaire</p>
                             <hr class="hr-sommaire">
+                        <ul>
                             <li><a class="hover:text-blue-800" href="#target1">Titre 1 - gfezf</a></li>
                             <li><a class="hover:text-blue-800" href="#target2">Titre 2 - gfgdfgdfg</a></li>
                             <li><a class="hover:text-blue-800" href="#target3">Titre 3 - ezf z zeffzeff</a></li>
