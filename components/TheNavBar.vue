@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="flex items-center justify-between flex-wrap bg-teal p-6 pb-4">
-      <NuxtLink to="/" class="flex items-center flex-no-shrink text-blue-900 mr-8 md:mr-5 mb-2 hover:text-blue-700">
+      <NuxtLink to="/" class="flex items-center flex-no-shrink text-blue-900 mr-8 md:mr-5 mb-2 hover:text-blue-500">
         <img src="~/assets/img/bar-chart.png" class="w-9 h-9 mb-2 mr-3" alt="Logo Grille Géode">
         <h1 class="font-semibold text-3xl xl:text-4xl tracking-tight">La Grille Géode</h1>
       </NuxtLink>
@@ -42,4 +42,14 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.nuxt-link-active {
+    color: #1e3a8a;
+}
+
+.nuxt-link-active:hover {
+    color: #3b82f6;
+}
+</style>
 
