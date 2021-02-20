@@ -1,7 +1,9 @@
 <template>
+    <!-- Page Documentation -->
     <div class="bg-white h-full overflow-hidden pb-10">
-        <h1 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h1>
+        <h2 class="kf-appear-1 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Documentation</h2>
         <div class="container lg:mt-5 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
+            <!-- Menu Documentation -->
             <div class="col-auto kf-moveInLeft">
                 <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 lg:mt-10 pr-10 rounded shadow-lg bg-blue-100">
                     <nav class="w-60 p-8 pt-5 h-60">
@@ -21,7 +23,8 @@
                     Débutez le test
                 </NuxtLink>
             </div>
-            <article class="kf-appear-1 flex flex-col w-2/3 items-center px-4 mt-4 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
+            <!-- Text Documentation -->
+            <article class="kf-appear-1 flex flex-col w-3/4 lg:w-2/3 items-center px-4 mt-4 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
                 <h3 class="w-100 text-xl text-center font-bold md:mr-5 sm:mr-2">
                     Lowest Common Ancestor
                 </h3>

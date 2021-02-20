@@ -1,5 +1,6 @@
 <template>
   <footer class="text-gray-700 body-font">
+    <!--  4 links columns -->
     <div class="bg-gray-50 px-5 py-12 mx-auto">
       <div class="flex flex-wrap md:justify-center text-center -mb-10 -mx-4">
         <div class="lg:w-1/6 md:w-1/2 w-full px-4">
@@ -56,6 +57,7 @@
         </div>
       </div>
     </div>
+    <!--  Call to actions -->
     <div class="border-top border-gray-200">
         <div class="container bg-blue-100 flex flex-wrap mx-auto justify-center mt-6 mb-3 px-3">
           <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
@@ -72,24 +74,36 @@
           </NuxtLink>
         </div>
       </div>
-
+    <!--  Legal Mentions -->
     <div class="bg-blue-50">
-      <div class="container mx-auto text-center w-2/3 py-4 px-5">
+      <div class="container mx-auto text-center lg:w-2/3 w-10/12 py-8 sm:py-5 px-5">
         <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-sm xl:text-base">
-          Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha.
+          Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha.  Géode est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
         </span>
-        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-sm xl:text-base">
-          Géode est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
-        </span>
+        <div class="flex justify-center text-sm mt-2">
+          <a href="#" class="mr-5 title-font tracking-widest text-blue-900 hover:text-gray-700 border-b-2 border-indigo-100 hover:border-blue-200">MENTIONS LEGALES</a>
+          <a href="#" class="title-font tracking-widest text-blue-900 hover:text-gray-700 border-b-2 border-indigo-100 hover:border-blue-200">PLAN DE SITE</a>
+        </div>
       </div>
     </div>
+    <!--  Partners Logo -->
     <div class="bg-blue-900">
-      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-blue-50 text-sm text-center sm:text-left">© 2021  Ouest Wax Creation </p>
-        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-blue-50 text-sm">Enamel pin tousled raclette tacos irony</span>
+      <div class="container mx-auto py-8 sm:py-3 px-1 flex flex-wrap flex-col sm:flex-row">
+        <!-- <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-blue-50 text-sm">La Fabrique des Formations</span> -->
+        <p class="my-auto text-center sm:text-left title-font font-medium tracking-widest text-lg">
+          <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="text-blue-50 hover:text-blue-200 ">La Fabrique des Formations</a>
+        </p>
+        <div class="sm:flex flex-wrap justify-center align-middle sm:ml-auto sm:mt-0 mt-6 sm:w-auto w-full text-center">
+          <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="mx-auto my-auto mr-5">
+            <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-10 mx-auto" alt="logo universite de lille">
+          </a>
+          <a href="http://www.isite-ulne.fr/index.php/fr/page-daccueil/" rel="noopener noreferrer" target="_blank">
+            <img src="~/assets/img/logo-i-universite-lillesite.png" class="w-auto h-20 mx-auto" alt="logo universite de lille">
+          </a>
+        </div>
       </div>
     </div>
-</footer>    
+  </footer>    
 </template>
 
 <script>

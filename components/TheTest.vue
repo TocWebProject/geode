@@ -1,8 +1,10 @@
 <template>
     <section class="h-auto bg-blue-50">
-        <h2 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h2>
+        <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h3>
         <div class="pt-20 pb-32 px-10 bg-gray-100 bg-opacity-50 h-full">
+            <!--  Geode Forms -->
             <form id="geodeForm" role="form" v-on:submit.prevent="onSubmit"> 
+                <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
                     <div class="bg-gray-50 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
                         <div class="max-w-sm mx-auto md:w-full md:mx-0">
@@ -347,6 +349,7 @@
                 </button>
             </form>
         </div>
+        <!--  Result Section -->
         <TheResult v-if="showResult" v-on:restart-test="restartTest" />
     </section>  
 </template>
@@ -460,7 +463,6 @@ export default {
                 this.redirect();
             }
 
-            // e.preventDefault();
         },
         
         redirect(){

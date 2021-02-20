@@ -1,15 +1,19 @@
 <template>
+    <!-- Geode Result Text -->
     <section class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-10">
-            <h3 id="result" class="kf-appear-2 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-10 sm:text-3xl md:text-4xl">Résultats</h3>
-            <!-- <p class="text-center mt-10"> {{ geodeData }} </p> -->
+            <h4 id="result" class="kf-appear-2 text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-10 sm:text-3xl md:text-4xl">Résultats</h4>
+            <!-- <p class="text-center mt-10"> {{ geodeData }} </p>
+            <p class="text-center mt-10"> {{ result }} </p> -->
+            <p class="kf-appear-2 mx-auto p-6 md:p-4 md:w-7/12 w-10/12 text-base leading-8 text-justify">
+                L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
+            </p>
+            <!-- Bar Chart -->
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen">
-                <p class="mx-auto p-6 md:p-4 w-full text-base leading-8 text-justify">
-                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
-                </p>
                 <bar-chart-result class="p-3" :data="barChartData" :options="barChartOptions" :height="300"/>
             </div>
-            <div class="kf-appear2 mx-auto md:w-1/2 w-10/12">
+            <!-- Geode Result Text -->
+            <div class="kf-appear2 mx-auto md:w-7/12 w-10/12">
                 <h4 class="text-center mt-8 mb-5 text-3xl text-blue-900">Le degré d'ouverture de votre formation</h4>
                 <p class="text-base leading-8 text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. Nulla pulvinar facilisis justo, eu auctor est fringilla ac. Nulla pulvinar mauris quis dolor accumsan, in eleifend risus posuere. Fusce eleifend consectetur erat, in volutpat est eleifend et. Proin ac orci sit amet sapien feugiat laoreet ut eu quam. Morbi mollis mauris et leo suscipit porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam id varius metus, sed ultricies ipsum. Fusce blandit pulvinar laoreet. Donec eget dui nulla. Etiam in libero sapien. Nullam ut leo a nunc hendrerit efficitur. Vestibulum dolor elit, tincidunt dictum dignissim vel, venenatis sed magna. Curabitur finibus, nibh ac faucibus porta, odio nunc dignissim orci, at congue ex sapien non nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -18,6 +22,7 @@
                     Sed pulvinar commodo metus quis venenatis. In aliquam ante sit amet lacinia vulputate. Suspendisse nec elementum nulla. Phasellus rutrum gravida tempus. Fusce faucibus odio at faucibus feugiat. Donec fringilla lobortis malesuada. Etiam eget justo aliquam, egestas massa vitae, porta arcu. In vehicula id ipsum quis accumsan. Etiam eget ligula eget felis pulvinar mattis a sit amet lorem. Integer nisi odio, ultricies id dapibus quis, tincidunt consectetur ipsum. Phasellus ut dolor sed nisl scelerisque ullamcorper. Duis ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
                 </p>
             </div>
+             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
                 <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 ">
                     Refaire le test
