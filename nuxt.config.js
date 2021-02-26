@@ -5,6 +5,11 @@ export default {
   // Deployment Target: Static Hosting
   target: 'static', 
 
+  // Fallback to the generated 404.html when in SPA mode instead of Netlify's 404 page.
+  generate: {
+    fallback: true
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Géode',
