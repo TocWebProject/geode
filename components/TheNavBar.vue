@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full p-6 mb-2 bg-transparent">
+  <nav class="w-full px-4 py-2 sm:px-5 md:px-10 xl:px-20 2xl:px-40 sm:py-3 mb-1 bg-transparent">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
       <div class="kf-moveInLeft">
@@ -19,11 +19,11 @@
       </div>
       <!-- Navbar -->
       <div class="kf-moveInRight hidden md:block">
-        <ul class="flex mt-4 space-x-7 lg:text-xl sm:text-lg pr-10">
-          <li><NuxtLink to="/" class="hover:text-blue-600">Accueil</NuxtLink></li>
-          <li><NuxtLink to="/documentation" class="hover:text-blue-600">Documentation</NuxtLink></li>
-          <li><NuxtLink to="/references" class="hover:text-blue-600">Références</NuxtLink></li>
-          <li><NuxtLink to="/contact" class="hover:text-blue-600">Contact</NuxtLink></li>
+        <ul class="flex mt-2 space-x-7 lg:text-lg sm:text-base">
+          <li><NuxtLink to="/" class="tracking-wide hover:text-blue-600">Accueil</NuxtLink></li>
+          <li><NuxtLink to="/documentation" class="tracking-wide hover:text-blue-600">Documentation</NuxtLink></li>
+          <li><NuxtLink to="/references" class="tracking-wide hover:text-blue-600">Références</NuxtLink></li>
+          <li><NuxtLink to="/contact" class="tracking-wide hover:text-blue-600">Contact</NuxtLink></li>
         </ul>
       </div>
       <!-- Dark Background Transition -->
@@ -56,15 +56,22 @@
           <Logo />
         </span>
         <ul class="divide-y font-sans">
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/" class="my-4 inline-block">Accueil</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="my-4 inline-block">Documentation</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/references" class="my-4 inline-block">Références</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="my-4 inline-block">Contact</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/" class="tracking-wide my-4 inline-block">Accueil</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/references" class="tracking-wide my-4 inline-block">Références</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="tracking-wide my-4 inline-block">Contact</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded text-white focus:text-blue-50">Débutez le test</NuxtLink></li>
         </ul>
-        <div class="follow">
-          <p class="italic font-sans text-sm">Suivez-nous:</p>
-          <div class="social flex space-x-5 mt-4 ">
+        <div class="follow pt-6">
+          <p class="italic font-sans text-base mb-1">Visitez:</p>
+          <p class="text-left title-font font-medium tracking-widest text-lg">
+            <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-blue-800 hover:text-blue-500 ">La Fabrique des Formations</a>
+          </p>
+          <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="">
+            <img src="~/assets/img/universite-lille-logo-side-nav.svg" class="mt-4 h-10 w-26" alt="logo université de lille">
+          </a>
+          <p class="italic font-sans text-base mt-4">Suivez-nous:</p>
+          <div class="social flex space-x-5 mt-2">
             <a href="#">
               <svg 
                 aria-hidden="true" focusable="false" 

@@ -89,9 +89,8 @@
     <!--  Partners Logo -->
     <div class="bg-blue-900">
       <div class="container mx-auto py-8 sm:py-3 px-1 flex flex-wrap flex-col sm:flex-row">
-        <!-- <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-blue-50 text-sm">La Fabrique des Formations</span> -->
         <p class="my-auto text-center sm:text-left title-font font-medium tracking-widest text-lg">
-          <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="text-blue-50 hover:text-blue-200 ">La Fabrique des Formations</a>
+          <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-blue-50 hover:text-blue-200 ">La Fabrique des Formations</a>
         </p>
         <div class="sm:flex flex-wrap justify-center align-middle sm:ml-auto sm:mt-0 mt-6 sm:w-auto w-full text-center">
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="mx-auto my-auto mr-5">

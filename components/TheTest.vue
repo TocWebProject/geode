@@ -1,12 +1,13 @@
 <template>
     <section class="h-auto bg-blue-50">
         <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h3>
-        <div class="pt-20 pb-32 px-10 bg-gray-100 bg-opacity-50 h-full">
+        <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-1/2 sm:w-1/4 lg:w-1/5 pt-10 pl-10 xl:pl-20" alt="illustration de livres">
+        <div class="pb-28 px-10 bg-gray-100 bg-opacity-50 h-full">
             <!--  Geode Forms -->
             <form id="geodeForm" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
-                <div class="mx-auto container max-w-3xl md:w-3/4 shadow-md">
-                    <div class="bg-gray-50 p-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
+                <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
+                    <div class="bg-gray-50 px-3 py-2 border-t-2 bg-opacity-5 border-blue-400 rounded-t">
                         <div class="max-w-sm mx-auto md:w-full md:mx-0">
                             <div class="inline-flex items-center space-x-4 mb-2">
                                 <img
@@ -344,7 +345,7 @@
                     </div>
                 </div>
                 <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 red-alert-error-pattern mx-auto p-5 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
-                <button v-if="!showResult" type="submit" class="w-60 mx-auto mt-10 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
+                <button v-if="!showResult" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
             </form>
