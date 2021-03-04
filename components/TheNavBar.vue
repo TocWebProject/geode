@@ -68,7 +68,7 @@
             <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-blue-800 hover:text-blue-500 ">La Fabrique des Formations</a>
           </p>
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="">
-            <img src="~/assets/img/universite-lille-logo-side-nav.svg" class="mt-4 h-10 w-26" alt="logo université de lille">
+            <img src="~/assets/img/universite-lille-logo-side-nav.svg" class="inline-block mt-4 h-10 w-26" alt="logo université de lille">
           </a>
           <p class="italic font-sans text-base mt-4">Suivez-nous:</p>
           <div class="social flex space-x-5 mt-2">

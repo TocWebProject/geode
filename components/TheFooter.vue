@@ -59,7 +59,7 @@
     </div>
     <!--  Call to actions -->
     <div class="border-top border-gray-200">
-        <div class="container bg-blue-100 flex flex-wrap mx-auto justify-center mt-6 mb-3 px-3">
+        <div class="container flex flex-wrap mx-auto justify-center mt-6 mb-3 px-3">
           <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
               Débutez le test
           </NuxtLink>
@@ -88,16 +88,16 @@
     </div>
     <!--  Partners Logo -->
     <div class="bg-blue-900">
-      <div class="container mx-auto py-8 sm:py-3 px-1 flex flex-wrap flex-col sm:flex-row">
-        <p class="my-auto text-center sm:text-left title-font font-medium tracking-widest text-lg">
+      <div class="container mx-auto py-8 sm:py-3 px-2 flex flex-wrap flex-col md:flex-row">
+        <p class="my-auto text-center title-font font-medium tracking-widest text-xl">
           <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-blue-50 hover:text-blue-200 ">La Fabrique des Formations</a>
         </p>
-        <div class="sm:flex flex-wrap justify-center align-middle sm:ml-auto sm:mt-0 mt-6 sm:w-auto w-full text-center">
+        <div class="md:flex flex-wrap justify-center align-middle md:ml-auto md:mt-0 mt-6 md:w-auto w-2/3 text-center mx-auto md:mx-px">
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="mx-auto my-auto mr-5">
-            <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-10 mx-auto" alt="logo universite de lille">
+            <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-14 mx-auto" alt="logo universite de lille">
           </a>
           <a href="http://www.isite-ulne.fr/index.php/fr/page-daccueil/" rel="noopener noreferrer" target="_blank">
-            <img src="~/assets/img/logo-i-universite-lillesite.png" class="w-auto h-20 mx-auto" alt="logo universite de lille">
+            <img src="~/assets/img/logo-i-universite-lille-site.png" class="w-auto h-28 sm:h-20 mx-auto" alt="logo universite de lille">
           </a>
         </div>
       </div>

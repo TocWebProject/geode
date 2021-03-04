@@ -26,7 +26,7 @@
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen mt-5">
                 <bar-chart-result class="p-1 sm:p-4" :data="barChartData" :options="barChartOptions" :height="300"/>
             </div>
-             <!-- Btn restart Geode test -->
+            <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
                 <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 ">
                     Refaire le test

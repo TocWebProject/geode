@@ -15,7 +15,7 @@
                                     alt="Logo Geode"
                                     src="~/assets/img/bar-chart.png"
                                 />
-                                <h3 class="text-3xl pt-4 text-blue-700">La Grille Géode</h3>
+                                <h3 class="text-3xl pt-4 text-blue-700">Le questionnaire Géode</h3>
                             </div>
                         </div>
                     </div>
