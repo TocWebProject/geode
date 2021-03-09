@@ -20,10 +20,10 @@
       <!-- Navbar -->
       <div class="kf-moveInRight hidden md:block">
         <ul class="flex mt-2 space-x-7 lg:text-lg sm:text-base">
-          <li><NuxtLink to="/" class="tracking-wide hover:text-blue-600">Accueil</NuxtLink></li>
-          <li><NuxtLink to="/documentation" class="tracking-wide hover:text-blue-600">Documentation</NuxtLink></li>
-          <li><NuxtLink to="/references" class="tracking-wide hover:text-blue-600">Références</NuxtLink></li>
-          <li><NuxtLink to="/contact" class="tracking-wide hover:text-blue-600">Contact</NuxtLink></li>
+          <li><NuxtLink to="/" class="nav-link tracking-wide hover:text-blue-800">Accueil</NuxtLink></li>
+          <li><NuxtLink to="/documentation" class="nav-link tracking-wide hover:text-blue-800">Documentation</NuxtLink></li>
+          <li><NuxtLink to="/references" class="nav-link tracking-wide hover:text-blue-800">Références</NuxtLink></li>
+          <li><NuxtLink to="/contact" class="nav-link tracking-wide hover:text-blue-800">Contact</NuxtLink></li>
         </ul>
       </div>
       <!-- Dark Background Transition -->
@@ -56,10 +56,10 @@
           <Logo />
         </span>
         <ul class="divide-y font-sans">
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/" class="tracking-wide my-4 inline-block">Accueil</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/references" class="tracking-wide my-4 inline-block">Références</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="tracking-wide my-4 inline-block">Contact</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/" class="nav-link tracking-wide my-4 inline-block">Accueil</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="nav-link tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/references" class="nav-link tracking-wide my-4 inline-block">Références</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="nav-link tracking-wide my-4 inline-block">Contact</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded text-white focus:text-blue-50">Débutez le test</NuxtLink></li>
         </ul>
         <div class="follow pt-6">
@@ -151,14 +151,53 @@ export default {
 </script>
 
 <style scoped>  
+/*  Nav link w/::after & hover bottom border */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #bfdbfe;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 280ms ease-in;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+/* Active Nav Link w/::after bottom border*/
 .nuxt-link-exact-active {
-    color: #1e3a8a;
-    font-weight: 600;
-    border-bottom: #bfdbfe 2px solid;
+  position: relative;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.nuxt-link-exact-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #93c5fd;
+
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .nuxt-link-active:hover {
-    color: #3b82f6;
+    color: #1e40af;
 }
 
 .call-to-test{
