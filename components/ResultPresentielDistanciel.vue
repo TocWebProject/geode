@@ -1,9 +1,9 @@
 <template>
     <!-- Geode Result Text -->
-    <section id="result" class="h-auto bg-white">
+    <section id="resultPresentielDistanciel" class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-10">
-            <h4 class="kf-moveInDown text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Résultats</h4>
-            <!-- <p class="text-center mt-10"> {{ geodeData }} </p>
+            <h4 class="kf-moveInDown text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Résultats Présentiel et Distanciel</h4>
+            <!-- <p class="text-center mt-10"> {{ geodeDataDistanciel }} </p>
             <p class="text-center mt-10"> {{ result }} </p> -->
             <p class="kf-appear-2 mx-auto md:w-7/12 w-10/12 text-base leading-8 text-justify">
                 L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
@@ -39,9 +39,9 @@
 <script>
 
 export default {
-    name: 'TheResult',
+    name: 'ResultPresentielDistanciel',
     layout: 'default',
-    inject: ['geodeData'], 
+    inject: ['geodeDataDistanciel'], 
     data() {
         return{
             // TEST RESULT
@@ -222,24 +222,24 @@ export default {
         // Calcul du résultat par catégorie et modalités
 
         // Acces
-        this.result.accesPresentiel = this.modalite.presentiel * this.geodeData.acces;
-        this.result.accesADistance = this.modalite.aDistance * this.geodeData.acces;
-        this.result.accesAutre = this.modalite.autre * this.geodeData.acces;
+        this.result.accesPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.acces;
+        this.result.accesADistance = this.modalite.aDistance * this.geodeDataDistanciel.acces;
+        this.result.accesAutre = this.modalite.autre * this.geodeDataDistanciel.acces;
 
         //Lieu
-        this.result.lieuPresentiel = this.modalite.presentiel * this.geodeData.lieu;
-        this.result.lieuADistance = this.modalite.aDistance * this.geodeData.lieu;
-        this.result.lieuAutre = this.modalite.autre * this.geodeData.lieu;
+        this.result.lieuPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.lieu;
+        this.result.lieuADistance = this.modalite.aDistance * this.geodeDataDistanciel.lieu;
+        this.result.lieuAutre = this.modalite.autre * this.geodeDataDistanciel.lieu;
 
         //Temps
-        this.result.tempsPresentiel = this.modalite.presentiel * this.geodeData.temps;
-        this.result.tempsADistance = this.modalite.aDistance * this.geodeData.temps;
-        this.result.tempsAutre = this.modalite.autre * this.geodeData.temps;
+        this.result.tempsPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.temps;
+        this.result.tempsADistance = this.modalite.aDistance * this.geodeDataDistanciel.temps;
+        this.result.tempsAutre = this.modalite.autre * this.geodeDataDistanciel.temps;
 
         //Rythme
-        this.result.rythmePresentiel = this.modalite.presentiel * this.geodeData.rythme;
-        this.result.rythmeADistance = this.modalite.aDistance * this.geodeData.rythme;
-        this.result.rythmeAutre = this.modalite.autre * this.geodeData.rythme;
+        this.result.rythmePresentiel = this.modalite.presentiel * this.geodeDataDistanciel.rythme;
+        this.result.rythmeADistance = this.modalite.aDistance * this.geodeDataDistanciel.rythme;
+        this.result.rythmeAutre = this.modalite.autre * this.geodeDataDistanciel.rythme;
 
     }
 }

@@ -108,5 +108,6 @@
 <script>
 export default {
     name: 'TheFooter',
+    layout: 'default',
 }
 </script>
