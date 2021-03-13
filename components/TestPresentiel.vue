@@ -1,6 +1,6 @@
 <template>
     <div>   
-        <div class="pb-28 px-10 bg-gray-100 bg-opacity-50 h-full">
+        <div class="pb-32 px-7 bg-gray-100 bg-opacity-50 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormPresentiel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
@@ -30,7 +30,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-yellow-200">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les Composantes <span class="text-yellow-600">Saptio Temporelles</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les Composantes <span class="text-indigo-600">Pédagogiques</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes <span class="text-indigo-600">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +295,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-green-200">
                             <div class="max-w-2xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les Composantes de la <span class="text-green-600">Communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes de la <span class="text-green-600">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>

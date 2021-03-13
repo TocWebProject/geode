@@ -1,5 +1,5 @@
 <template>
-<div class="px-10 pb-20">
+<div class="px-7 pb-20">
     <!-- Title -->
     <div class="container flex justify-center mx-auto max-w-3xl md:w-3/4 px-10 sm:px-6 md:px-8 lg:px-0 border-t-2 border-blue-400 rounded-t shadow-md">
         <div class="bg-gray-50 py-2 border-t-2 bg-opacity-5">

@@ -1,7 +1,7 @@
 <template>
     <!-- Geode Result Text -->
     <section id="resultPresentiel" class="h-auto bg-white">
-        <div  class="relative overflow-hidden pb-10">
+        <div  class="relative overflow-hidden pb-32">
             <h3 class="kf-moveInDown text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats Géode en présentiel</h3>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
             <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-blue-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
