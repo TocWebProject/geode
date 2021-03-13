@@ -6,14 +6,14 @@
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
                     <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-t-2 bg-opacity-5 border-blue-400 rounded-t relative">
-                        <div class="max-w-md mx-auto md:w-full md:mx-0">
-                            <div class="inline-flex items-start space-x-4 mb-2 mt-2">
+                        <div class="max-w-md md:w-full md:mx-0">
+                            <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                 <img
-                                    class="w-8 h-8 sm:w-10 sm:h-10 mt-2 object-cover rounded"
+                                    class="w-9 h-9 sm:w-12 sm:h-12 mt-3 object-cover rounded"
                                     alt="Logo Geode"
                                     src="~/assets/img/bar-chart.png"
                                 />
-                                <h3 class="text-xl sm:text-3xl text-blue-700">Le questionnaire Géode en <span class="text-blue-600">distanciel</span></h3>
+                                <h3 class="text-xl sm:text-3xl text-blue-700 mt-5">Géode en <span class="text-blue-600">distanciel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
                                 <svg 

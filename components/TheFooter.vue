@@ -97,7 +97,7 @@
             <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-14 mx-auto" alt="logo universite de lille">
           </a>
           <a href="http://www.isite-ulne.fr/index.php/fr/page-daccueil/" rel="noopener noreferrer" target="_blank">
-            <img src="~/assets/img/logo-i-universite-lille-site.png" class="w-auto h-28 sm:h-20 mx-auto" alt="logo universite de lille">
+            <img src="~/assets/img/logo-i-universite-lille-site.png" class="w-auto h-20 mx-auto" alt="logo universite de lille">
           </a>
         </div>
       </div>

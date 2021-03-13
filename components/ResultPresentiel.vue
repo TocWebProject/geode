@@ -99,7 +99,7 @@
                     <p>Composantes Pédagogiques:</p>
                     <p class="text-xl">{{ this.degreOuvertureCategories.composantesPedagogiquesPresentiel }}%</p>
                 </div>
-                <div class="rounded-lg font-semibold text-center bg-gray-200 hover:bg-gray-300 py-1 px-7 my-2 shadow">
+                <div class="rounded-lg font-semibold text-center bg-green-200 hover:bg-green-300 py-1 px-7 my-2 shadow">
                     <p>Composantes Communication:</p>
                     <p class="text-xl">{{ this.degreOuvertureCategories.composantesCommunicationEducativePresentiel }}%</p>
                 </div>
@@ -148,8 +148,8 @@ export default {
                 methodes: 2.8,
                 format: 2.9,
                 contenus: 1.6,
-                supports: 3,
                 evaluation: 1.8,
+                supports: 3,
                 communication: 2.8,
                 ressources: 3.2
             },
@@ -165,8 +165,8 @@ export default {
                 methodesPresentiel: 11.2,
                 formatPresentiel: 11.6,
                 contenusPresentiel: 6.4,
-                supportsPresentiel: 12,
                 evaluationPresentiel: 7.2,
+                supportsPresentiel: 12,
                 communicationPresentiel: 11.2,
                 ressourcesPresentiel: 12.8,
             },
@@ -182,8 +182,8 @@ export default {
                 methodesPresentiel: null,
                 formatPresentiel: null,
                 contenusPresentiel: null,
-                supportsPresentiel: null,
                 evaluationPresentiel: null,
+                supportsPresentiel: null,
                 communicationPresentiel: null,
                 ressourcesPresentiel: null,
             },
@@ -199,8 +199,8 @@ export default {
                 methodesPresentiel: null,
                 formatPresentiel: null,
                 contenusPresentiel: null,
-                supportsPresentiel: null,
                 evaluationPresentiel: null,
+                supportsPresentiel: null,
                 communicationPresentiel: null,
                 ressourcesPresentiel: null,
             },
@@ -404,8 +404,8 @@ export default {
                 this.score.methodesPresentiel +
                 this.score.formatPresentiel +
                 this.score.contenusPresentiel +
-                this.score.supportsPresentiel +
                 this.score.evaluationPresentiel +
+                this.score.supportsPresentiel +
                 this.score.communicationPresentiel +
                 this.score.ressourcesPresentiel 
             ) / 157.6 ) * 100)
@@ -472,9 +472,9 @@ export default {
                         backgroundColor: '#c7d2fe'
                     },
                     {
-                        label: 'Composantes Communication éducative médiatisée',
+                        label: 'Composantes de la Communication éducative médiatisée',
                         data: [this.degreOuvertureCategories.composantesCommunicationEducativePresentiel],
-                        backgroundColor: '#d1d5db'
+                        backgroundColor: '#a7f3d0'
                     }
                 ]
             }
