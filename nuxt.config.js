@@ -41,6 +41,11 @@ export default {
     background: '#dbeafe'
   },
 
+  // Tailwind Just-In-Time
+  tailwindcss: {
+    jit: true
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
