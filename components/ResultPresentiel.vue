@@ -14,7 +14,7 @@
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
                 <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
             </div>
-            <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-6">
+            <!-- <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-6">
                 <table class="rounded-lg m-5 w-5/6 mx-auto bg-blue-100 text-blue-800 shadow">
                     <tr class="text-center border-b-2 border-blue-300">
                         <td class="px-4 py-2">Composantes</td>
@@ -78,8 +78,8 @@
                         <th class="px-4 py-1">{{this.degreOuverture.ressourcesPresentiel}}%</th>
                     </tr> 
                 </table>        
-            </div>
-            <p class="kf-appear-2 mx-auto md:w-9/12 w-10/12 text-base leading-8 text-justify">
+            </div> -->
+            <p class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-3 text-base leading-8 text-justify">
                 L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
             </p>
             <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
@@ -488,6 +488,9 @@ export default {
         this.degreOuvertureEnvironnementEtudie();
 
         this.fillDataResult();
+        
+        this.$router.push('/#resultPresentiel'); 
+
         console.log(this.score.ressourcesPresentiel);
         console.log(this.degreOuverture.ressourcesPresentiel);
         console.log(this.degreOuvertureCategories.composantesSpatioTemporellesPresentiel);

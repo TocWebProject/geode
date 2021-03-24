@@ -80,9 +80,9 @@ html {
 
 /* ---------------- Home Page ---------------- */
 
-/* Form */
-select:focus{
-    outline: none;
+/* -- Form -- */
+form select option{
+    overflow: auto;
 }
 
 .red-alert-error-pattern {

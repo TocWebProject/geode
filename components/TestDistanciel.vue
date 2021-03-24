@@ -440,8 +440,7 @@ export default {
 		},
 	},
     methods: {
-        onSubmit() {
-            
+        onSubmit() {  
 			this.attemptSubmit = true;
 			if (
 				this.missingAcces||
@@ -465,21 +464,10 @@ export default {
                 this.showResultDistanciel = true,
                 this.dataMissing = false,
                 console.log("There is some data !");
-                console.log(this.geodeDataDistanciel)
-                
+                console.log(this.geodeDataDistanciel)  
             } 
-
-            if (this.dataMissing === false && this.showResultDistanciel === true) {
-
-                this.redirect();
-            }
-
         },
         
-        redirect(){
-            this.$router.push('/#resultDistanciel'); 
-        },
-
         restartTest() {   
             console.log('starting restart')
             this.geodeDataDistanciel.acces === '';

@@ -241,6 +241,8 @@ export default {
         this.result.rythmeADistance = this.modalite.aDistance * this.geodeDataDistanciel.rythme;
         this.result.rythmeAutre = this.modalite.autre * this.geodeDataDistanciel.rythme;
 
+
+         this.$router.push('/#resultDistanciel'); 
     }
 }
 

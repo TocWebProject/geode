@@ -240,7 +240,8 @@ export default {
         this.result.rythmePresentiel = this.modalite.presentiel * this.geodeDataDistanciel.rythme;
         this.result.rythmeADistance = this.modalite.aDistance * this.geodeDataDistanciel.rythme;
         this.result.rythmeAutre = this.modalite.autre * this.geodeDataDistanciel.rythme;
-
+        
+         this.$router.push('/#resultPresentielDistanciel'); 
     }
 }
 

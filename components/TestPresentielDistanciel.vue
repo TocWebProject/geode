@@ -468,18 +468,8 @@ export default {
                 console.log(this.geodeDataDistanciel)
                 
             } 
-
-            if (this.dataMissing === false && this.showResultPresentielDistanciel === true) {
-
-                this.redirect();
-            }
-
         },
         
-        redirect(){
-            this.$router.push('/#resultPresentielDistanciel'); 
-        },
-
         restartTest() {   
             console.log('starting restart')
             this.geodeDataDistanciel.acces === '';
