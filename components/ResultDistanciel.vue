@@ -1,30 +1,57 @@
 <template>
     <!-- Geode Result Text -->
     <section id="resultDistanciel" class="h-auto bg-white">
-        <div  class="relative overflow-hidden pb-10">
-            <h4 class="kf-moveInDown text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 pb-5 sm:text-3xl md:text-4xl">Résultats Distanciel</h4>
-            <!-- <p class="text-center mt-10"> {{ geodeDataDistanciel }} </p>
-            <p class="text-center mt-10"> {{ result }} </p> -->
-            <p class="kf-appear-2 mx-auto md:w-7/12 w-10/12 text-base leading-8 text-justify">
-                L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
-            </p>
-            <!-- Radar Chart -->
-            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen mt-5">
-                <radar-chart-result class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
-            </div>
-            <!-- Geode Result Text -->
-            <div class="kf-appear2 mx-auto md:w-7/12 w-10/12">
-                <h4 class="text-center mt-8 mb-5 text-3xl text-blue-900">Le degré d'ouverture de votre formation</h4>
+        <div  class="relative overflow-hidden pb-32">
+            <h3 class="kf-moveInDown text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats Géode en distanciel</h3>
+            <!-- Degré d’ouverture en % de chacune des 14 composantes -->
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-blue-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
+            <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. Nulla pulvinar facilisis justo, eu auctor est fringilla ac. Nulla pulvinar mauris quis dolor accumsan, in eleifend risus posuere. Fusce eleifend consectetur erat, in volutpat est eleifend et. Proin ac orci sit amet sapien feugiat laoreet ut eu quam. Morbi mollis mauris et leo suscipit porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam id varius metus, sed ultricies ipsum. Fusce blandit pulvinar laoreet. Donec eget dui nulla. Etiam in libero sapien. Nullam ut leo a nunc hendrerit efficitur. Vestibulum dolor elit, tincidunt dictum dignissim vel, venenatis sed magna. Curabitur finibus, nibh ac faucibus porta, odio nunc dignissim orci, at congue ex sapien non nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Cras condimentum posuere magna, eu tincidunt magna rhoncus eu. Sed mattis metus eu tortor feugiat, nec lobortis elit pulvinar. Nam laoreet ligula augue, id porttitor elit condimentum ut. Duis commodo laoreet tortor. Phasellus pharetra mi sapien, et luctus turpis ornare a. In a enim eget ante placerat efficitur eget a lacus. Nam eget lacus accumsan, pellentesque justo et, tempus sapien. Cras eget quam auctor, interdum nisi sit amet, congue orci. In sit amet nibh non magna rutrum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a mollis elit, vitae tempor erat. Phasellus mattis metus non lorem pellentesque, sit amet tempus mi fermentum.
-                    Proin egestas metus in lectus lobortis ultricies. Duis non purus ac enim elementum ullamcorper eget sit amet dui. Nullam at sapien vitae purus mollis tristique nec in justo. Quisque porttitor ex efficitur risus iaculis, id commodo odio vestibulum. Vivamus fermentum neque vel nunc vulputate, et malesuada ligula cursus. Suspendisse elit erat, cursus vel ultrices nec, faucibus a lacus. Donec eu metus laoreet, auctor purus vitae, dictum diam. Integer vel nulla lorem. Nullam sollicitudin lobortis orci, at maximus justo bibendum nec. Duis bibendum enim at suscipit condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quis accumsan turpis. Aliquam ultricies quam non nibh euismod ultrices. Morbi porttitor vestibulum velit id malesuada. Phasellus fermentum ornare nibh, id feugiat eros aliquam vel.
-                    Sed pulvinar commodo metus quis venenatis. In aliquam ante sit amet lacinia vulputate. Suspendisse nec elementum nulla. Phasellus rutrum gravida tempus. Fusce faucibus odio at faucibus feugiat. Donec fringilla lobortis malesuada. Etiam eget justo aliquam, egestas massa vitae, porta arcu. In vehicula id ipsum quis accumsan. Etiam eget ligula eget felis pulvinar mattis a sit amet lorem. Integer nisi odio, ultricies id dapibus quis, tincidunt consectetur ipsum. Phasellus ut dolor sed nisl scelerisque ullamcorper. Duis ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
+                   L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
                 </p>
             </div>
+            <!-- Radar Chart -->
+            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
+                <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
+            </div>   
+            <p class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-3 text-base leading-8 text-justify">
+                L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
+            </p>
+            <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
+            <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
+                <p class="text-base leading-8 text-justify">
+                   L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
+                </p>
+            </div>
+            <!-- Pills Composantes -->
+            <div class="mx-auto max-w-4xl flex flex-col lg:flex-row  items-center justify-around mt-5">
+                <div class="rounded-lg font-semibold text-center bg-yellow-200 hover:bg-yellow-300 py-1 px-7 my-2 shadow">
+                    <p class="">Composantes Saptio Temporelles:</p>
+                    <p class="text-xl">{{ this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel }}%</p>
+                </div>
+                <div class="rounded-lg font-semibold text-center bg-indigo-200 hover:bg-indigo-300 py-1 px-7 my-2 shadow">
+                    <p>Composantes Pédagogiques:</p>
+                    <p class="text-xl">{{ this.degreOuvertureCategories.composantesPedagogiquesDistanciel }}%</p>
+                </div>
+                <div class="rounded-lg font-semibold text-center bg-green-200 hover:bg-green-300 py-1 px-7 my-2 shadow">
+                    <p>Composantes Communication:</p>
+                    <p class="text-xl">{{ this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel }}%</p>
+                </div>
+            </div>
             <!-- Bar Chart -->
-            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen mt-5">
-                <bar-chart-result class="p-1 sm:p-4" :data="barChartData" :options="barChartOptions" :height="300"/>
+            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl mt-5">
+                <bar-chart-result v-if="barChartData" class="p-1 sm:p-4" :data="barChartData" :options="barChartOptions" :height="300"/>
+            </div>
+            <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
+            <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
+                <p class="text-base leading-8 text-justify">
+                   L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
+                </p>
+            </div>
+            <div class="mx-auto rounded-full bg-blue-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-blue-200 border-4 mt-10 shadow-md">
+                <h4 class="text-5xl text-blue-900 font-semibold"> {{ this.degreOuvertureEnvironnementDistanciel }} %</h4>
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
@@ -44,61 +71,112 @@ export default {
     inject: ['geodeDataDistanciel'], 
     data() {
         return{
-            // TEST RESULT
-            modalite: {
-                presentiel: 12,
-                aDistance: 16,
-                autre: 22,
+            // Coefficient de pondération 
+            coefficientPonderation: {
+                acces: 3.5,
+                lieu: 3.4,
+                temps: 3.2,
+                rythme: 3.2,
+                objectifs: 2.8,
+                cheminement: 3.2,
+                sequence: 2,
+                methodes: 2.8,
+                format: 2.9,
+                contenus: 1.6,
+                evaluation: 1.8,
+                supports: 3,
+                communication: 2.8,
+                ressources: 3.2
             },
-            result: {
-                accesPresentiel: '',
-                accesADistance:  '',
-                accesAutre: '', 
-                lieuPresentiel: '',
-                lieuADistance: '',
-                lieuAutre: '', 
-                tempsPresentiel: '',
-                tempsADistance: '',
-                tempsAutre: '',  
-                rythmePresentiel: '',
-                rythmeADistance: '',
-                rythmeAutre: '',          
+            // Score Maximum possible pour chacune des 14 composantes. (Coef Pondération * 4)
+            scoreMax: {
+                accesDistanciel: 14,
+                lieuDistanciel: 13.6,
+                tempsDistanciel: 12.8,
+                rythmeDistanciel: 12.8,
+                objectifsDistanciel: 11.2,
+                cheminementDistanciel: 12.8,
+                sequenceDistanciel: 8,
+                methodesDistanciel: 11.2,
+                formatDistanciel: 11.6,
+                contenusDistanciel: 6.4,
+                evaluationDistanciel: 7.2,
+                supportsDistanciel: 12,
+                communicationDistanciel: 11.2,
+                ressourcesDistanciel: 12.8,
             },
-            // BAR CHARTS.JS
-            barChartData: {
-                labels: [
-                    'Acces',
-                    'Lieu',
-                    'Temps',
-                    'Rythme',
-                    'Objectifs',
-                    'Cheminement',
-                    'Sequence',
-                    'Méthodes',
-                    'Format',
-                    'Contenus',
-                    'Evaluation',
-                    'Communication',
-                    'Ressources'
-                ],
-                datasets: [
-                    {
-                        label: 'Présentiel',
-                        data: [10, 15, 20, 30, 40, 50, 60, 70, 34, 75, 11, 78, 45],
-                        backgroundColor: '#1d4ed8'
-                    },
-                    {
-                        label: 'A distance',
-                        data: [30, 24, 57, 23, 68, 72, 25, 64, 100, 43, 65, 33, 56],
-                        backgroundColor: '#6b7280'
-                    },
-                    {
-                        label: 'Autre',
-                        data: [45, 65, 30, 53, 34, 35, 26, 37, 34, 45, 67, 87, 98],
-                        backgroundColor: '#60a5fa'
-                    }
-                ]
+            //Score GEODE de chacune des 14 composantes de l’environnement éducatif du test. Calculer en mounted().
+            score: {
+                accesDistanciel: null,
+                lieuDistanciel: null,
+                tempsDistanciel: null,
+                rythmeDistanciel: null,
+                objectifsDistanciel: null,
+                cheminementDistanciel: null,
+                sequenceDistanciel: null,
+                methodesDistanciel: null,
+                formatDistanciel: null,
+                contenusDistanciel: null,
+                evaluationDistanciel: null,
+                supportsDistanciel: null,
+                communicationDistanciel: null,
+                ressourcesDistanciel: null,
             },
+            // Degré d’ouverture en % de chacune des 14 composantes. Calculer en mounted().
+            degreOuverture: {
+                accesDistanciel: null,
+                lieuDistanciel: null,
+                tempsDistanciel: null,
+                rythmeDistanciel: null,
+                objectifsDistanciel: null,
+                cheminementDistanciel: null,
+                sequenceDistanciel: null,
+                methodesDistanciel: null,
+                formatDistanciel: null,
+                contenusDistanciel: null,
+                evaluationDistanciel: null,
+                supportsDistanciel: null,
+                communicationDistanciel: null,
+                ressourcesDistanciel: null,
+            },
+            //  Degré d’ouverture en % de chacune des trois catégories de composantes. Calculer en mounted().
+            degreOuvertureCategories: {
+                composantesSpatioTemporellesDistanciel: null,
+                composantesPedagogiquesDistanciel: null,
+                composantesCommunicationEducativeDistanciel: null,
+            },
+            // Degré d’ouverture en % de l’environnement étudié
+            degreOuvertureEnvironnementDistanciel: null,
+            // RADAR CHARTS.JS -> radarChartData renvoyé en mounted() par fillData() passé en props à <radar-chart-result>
+            radarChartData: null,
+            radarChartOptions: {
+                responsive: true,
+                responsiveAnimationDuration: 500,                
+                animation : {
+                    duration: 2200,
+                    easing: 'easeInOutExpo',
+                },
+                legend: {
+                    position: 'bottom',
+                },
+                title: {
+                    display: false,
+                    text: 'Résultat Géode Radar',
+                    fontSize: 24,
+                    fontColor: '#6b7280'
+                },
+                tooltips: {
+                    backgroundColor: '#1f2911'
+                },
+                scale: {
+                    ticks: {
+                        beginAtZero: true,
+                        max: 100,
+					}
+				}
+            },
+            // BAR CHARTS.JS -> barChartData passé en props à <bar-chart-result>
+            barChartData: null,
             barChartOptions: {
                 responsive: true,
                 responsiveAnimationDuration: 500,                
@@ -110,13 +188,14 @@ export default {
                     position: 'bottom',
                 },
                 title: {
-                    display: true,
+                    display: false,
                     text: 'Résultat Geode Bar',
                     fontSize: 24,
                     fontColor: '#6b7280'
                 },
                 tooltips: {
-                backgroundColor: '#1f2937'
+                    backgroundColor: '#1f2937'
+
                 },
                 scales: {
                     xAxes: [
@@ -139,9 +218,136 @@ export default {
                     ]
                 }
             },
+        }
+    },
 
-            // RADAR CHART.JS
-            radarChartData: {
+    methods: {
+        restart() {
+            this.$emit('restart-test');
+        },
+
+        scoreComposantesDistanciel() {
+            // Calcul du score GEODE de chacune des 14 composantes de l’environnement éducatif arrondi au 0,1 supérieur
+
+            // Acces
+            this.score.accesDistanciel = Number((this.coefficientPonderation.acces * this.geodeDataDistanciel.acces).toFixed(1));
+
+            //Lieu
+            this.score.lieuDistanciel = Number((this.coefficientPonderation.lieu * this.geodeDataDistanciel.lieu).toFixed(1));
+
+            //Temps
+            this.score.tempsDistanciel = Number((this.coefficientPonderation.temps * this.geodeDataDistanciel.temps).toFixed(1));
+            
+            //Rythme
+            this.score.rythmeDistanciel = Number((this.coefficientPonderation.rythme * this.geodeDataDistanciel.rythme).toFixed(1));
+
+            //Objectifs
+            this.score.objectifsDistanciel = Number((this.coefficientPonderation.objectifs * this.geodeDataDistanciel.objectifs).toFixed(1));
+            
+            //Cheminement
+            this.score.cheminementDistanciel = Number((this.coefficientPonderation.cheminement * this.geodeDataDistanciel.cheminement).toFixed(1));
+
+            //Sequence
+            this.score.sequenceDistanciel = Number((this.coefficientPonderation.sequence * this.geodeDataDistanciel.sequence).toFixed(1));
+
+            //Methodes
+            this.score.methodesDistanciel = Number((this.coefficientPonderation.methodes * this.geodeDataDistanciel.methodes).toFixed(1));
+
+            //Format
+            this.score.formatDistanciel = Number((this.coefficientPonderation.format * this.geodeDataDistanciel.format).toFixed(1));
+
+            //Contenus
+            this.score.contenusDistanciel = Number((this.coefficientPonderation.contenus * this.geodeDataDistanciel.contenus).toFixed(1));
+
+            //Evaluation
+            this.score.evaluationDistanciel = Number((this.coefficientPonderation.evaluation * this.geodeDataDistanciel.evaluation).toFixed(1));
+
+            //Supports
+            this.score.supportsDistanciel = Number((this.coefficientPonderation.supports * this.geodeDataDistanciel.supports).toFixed(1));
+
+            //Communication
+            this.score.communicationDistanciel = Number((this.coefficientPonderation.communication * this.geodeDataDistanciel.communication).toFixed(1));
+
+            //Ressources
+            this.score.ressourcesDistanciel = Number((this.coefficientPonderation.ressources * this.geodeDataDistanciel.ressources).toFixed(1));
+        },
+        
+        degreOuvertureDistanciel(){
+            // Calcul du degré d’ouverture en % de chacune des 14 composantes arrondi au 0,1 supérieur
+
+            // Acces
+            this.degreOuverture.accesDistanciel = Number(((this.score.accesDistanciel / this.scoreMax.accesDistanciel ) * 100).toFixed(1));
+
+            //Lieu
+            this.degreOuverture.lieuDistanciel = Number(((this.score.lieuDistanciel / this.scoreMax.lieuDistanciel ) * 100).toFixed(1));
+        
+            //Temps
+            this.degreOuverture.tempsDistanciel = Number(((this.score.tempsDistanciel / this.scoreMax.tempsDistanciel ) * 100).toFixed(1));
+            
+            //Rythme
+            this.degreOuverture.rythmeDistanciel = Number(((this.score.rythmeDistanciel / this.scoreMax.rythmeDistanciel ) * 100).toFixed(1));
+
+            //Objectifs
+            this.degreOuverture.objectifsDistanciel = Number(((this.score.objectifsDistanciel / this.scoreMax.objectifsDistanciel ) * 100).toFixed(1));
+            
+            //Cheminement
+            this.degreOuverture.cheminementDistanciel = Number(((this.score.cheminementDistanciel / this.scoreMax.cheminementDistanciel ) * 100).toFixed(1));
+
+            //Sequence
+            this.degreOuverture.sequenceDistanciel = Number(((this.score.sequenceDistanciel / this.scoreMax.sequenceDistanciel ) * 100).toFixed(1));
+
+            //Methodes
+            this.degreOuverture.methodesDistanciel = Number(((this.score.methodesDistanciel / this.scoreMax.methodesDistanciel ) * 100).toFixed(1));
+
+            //Format
+            this.degreOuverture.formatDistanciel = Number(((this.score.formatDistanciel / this.scoreMax.formatDistanciel ) * 100).toFixed(1));
+
+            //Contenus
+            this.degreOuverture.contenusDistanciel = Number(((this.score.contenusDistanciel / this.scoreMax.contenusDistanciel ) * 100).toFixed(1));
+            
+            //Evaluation
+            this.degreOuverture.evaluationDistanciel  = Number(((this.score.evaluationDistanciel / this.scoreMax.evaluationDistanciel ) * 100).toFixed(1));
+
+            //Supports
+            this.degreOuverture.supportsDistanciel = Number(((this.score.supportsDistanciel / this.scoreMax.supportsDistanciel ) * 100).toFixed(1));
+
+            //Communication
+            this.degreOuverture.communicationDistanciel = Number(((this.score.communicationDistanciel / this.scoreMax.communicationDistanciel ) * 100).toFixed(1));
+
+            //Ressources
+            this.degreOuverture.ressourcesDistanciel = Number(((this.score.ressourcesDistanciel / this.scoreMax.ressourcesDistanciel ) * 100).toFixed(1));
+        },
+        degreOuvertureParCategories() {
+            // Calcul du degré d’ouverture en % de chacune des trois catégories de composantes: 
+            // Composantes Saptio Temporelles arrondi au 0,1 supérieur
+            this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel = Number((((this.score.accesDistanciel + this.score.lieuDistanciel + this.score.tempsDistanciel + this.score.rythmeDistanciel) / (this.scoreMax.accesDistanciel + this.scoreMax.lieuDistanciel + this.scoreMax.tempsDistanciel + this.scoreMax.rythmeDistanciel)) * 100).toFixed(1));
+            // Composantes Pédagogiques arrondi au 0,1 supérieur
+            this.degreOuvertureCategories.composantesPedagogiquesDistanciel = Number((((this.score.objectifsDistanciel + this.score.cheminementDistanciel + this.score.sequenceDistanciel + this.score.methodesDistanciel + this.score.formatDistanciel + this.score.contenusDistanciel + this.score.evaluationDistanciel) / (this.scoreMax.objectifsDistanciel + this.scoreMax.cheminementDistanciel + this.scoreMax.sequenceDistanciel + this.scoreMax.methodesDistanciel + this.scoreMax.formatDistanciel + this.scoreMax.contenusDistanciel + this.scoreMax.evaluationDistanciel)) * 100).toFixed(1));
+            // Composantes Communication éducative médiatisée arrondi au 0,1 supérieur
+            this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel = Number((((this.score.supportsDistanciel + this.score.communicationDistanciel + this.score.ressourcesDistanciel) / (this.scoreMax.supportsDistanciel + this.scoreMax.communicationDistanciel + this.scoreMax.ressourcesDistanciel)) * 100).toFixed(1));
+        },
+        degreOuvertureEnvironnementEtudie(){
+            // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur
+            this.degreOuvertureEnvironnementDistanciel = Math.ceil(((
+                this.score.accesDistanciel +
+                this.score.lieuDistanciel +
+                this.score.tempsDistanciel +
+                this.score.rythmeDistanciel +
+                this.score.objectifsDistanciel +
+                this.score.cheminementDistanciel +
+                this.score.sequenceDistanciel +
+                this.score.methodesDistanciel +
+                this.score.formatDistanciel +
+                this.score.contenusDistanciel +
+                this.score.evaluationDistanciel +
+                this.score.supportsDistanciel +
+                this.score.communicationDistanciel +
+                this.score.ressourcesDistanciel 
+            ) / 157.6 ) * 100)
+        },
+
+        fillDataResult() {
+            this.radarChartData = {
                 labels: [
                     'Acces',
                     'Lieu',
@@ -153,96 +359,79 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
+                    'Supports',
                     'Evaluation',
                     'Communication',
-                    'Ressources'
+                    'Ressources',
                 ],
                 datasets: [
                     {
-                        label: 'Présentiel',
+                        label: 'Distanciel',
                         color: '#1d4ed8',
                         backgroundColor: 'rgba(29, 78, 216, 0.5)',
                         borderColor: '#1d4ed8',
                         pointBackgroundColor: '#173fab',
-                        data: [30, 15, 20, 30, 40, 50, 60, 70, 34, 85, 39, 78, 69],
-				    },
-                    {
-                        label: 'A distance',
-                        color: '#6b7280',
-                        backgroundColor: 'rgba(107, 114, 128, 0.5)',
-                        borderColor: '#6b7280',
-                        pointBackgroundColor: '#525967',
-                        data: [78, 24, 57, 23, 68, 72, 25, 64, 100, 43, 65, 33, 56],
-				    },
-                    {
-                        label: 'Autre',
-                        color: '#60a5fa',
-                        backgroundColor: 'rgba(92, 165, 255, 0.36)',
-                        borderColor: '#60a5fa',
-                        pointBackgroundColor: '#478CE1',
-                        data: [45, 65, 30, 53, 34, 35, 26, 37, 54, 20, 67, 87, 98],
-				    },
+                        data: [
+                                this.degreOuverture.accesDistanciel,
+                                this.degreOuverture.lieuDistanciel,
+                                this.degreOuverture.tempsDistanciel,
+                                this.degreOuverture.rythmeDistanciel,
+                                this.degreOuverture.objectifsDistanciel,
+                                this.degreOuverture.cheminementDistanciel,
+                                this.degreOuverture.sequenceDistanciel,
+                                this.degreOuverture.methodesDistanciel,
+                                this.degreOuverture.formatDistanciel,
+                                this.degreOuverture.contenusDistanciel,
+                                this.degreOuverture.supportsDistanciel,
+                                this.degreOuverture.evaluationDistanciel,
+                                this.degreOuverture.communicationDistanciel,
+                                this.degreOuverture.ressourcesDistanciel
+                        ]
+                    }
+                ]
+            },
+
+            this.barChartData = {
+                labels: [
+                    'Distanciel',
                 ],
-            },
-            radarChartOptions: {
-                responsive: true,
-                responsiveAnimationDuration: 500,                
-                animation : {
-                    duration: 2200,
-                    easing: 'easeInOutExpo',
-                },
-                legend: {
-                    position: 'bottom',
-                },
-                title: {
-                    display: true,
-                    text: 'Résultat Géode Radar',
-                    fontSize: 24,
-                    fontColor: '#6b7280'
-                },
-                tooltips: {
-                    backgroundColor: '#1f2911'
-                },
-                scale: {
-					ticks: {
-						beginAtZero: true,
-                        max: 100,
-					}
-				}
-            },
+                datasets: [
+                    {
+                        label: 'Composantes Saptio Temporelles',
+                        data: [this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel],
+                        backgroundColor: '#fde68a'
+                    },
+                    {
+                        label: 'Composantes Pédagogiques',
+                        data: [this.degreOuvertureCategories.composantesPedagogiquesDistanciel],
+                        backgroundColor: '#c7d2fe'
+                    },
+                    {
+                        label: 'Composantes de la Communication éducative médiatisée',
+                        data: [this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel],
+                        backgroundColor: '#a7f3d0'
+                    }
+                ]
+            }
         }
     },
 
-    methods: {
-        restart() {
-            this.$emit('restart-test');
-        }
-    },
     mounted() {
-        // Calcul du résultat par catégorie et modalités
+        this.scoreComposantesDistanciel();
+        this.degreOuvertureDistanciel();
+        this.degreOuvertureParCategories();
+        this.degreOuvertureEnvironnementEtudie();
 
-        // Acces
-        this.result.accesPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.acces;
-        this.result.accesADistance = this.modalite.aDistance * this.geodeDataDistanciel.acces;
-        this.result.accesAutre = this.modalite.autre * this.geodeDataDistanciel.acces;
+        this.fillDataResult();
+        
+        this.$router.push('/#resultDistanciel'); 
 
-        //Lieu
-        this.result.lieuPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.lieu;
-        this.result.lieuADistance = this.modalite.aDistance * this.geodeDataDistanciel.lieu;
-        this.result.lieuAutre = this.modalite.autre * this.geodeDataDistanciel.lieu;
-
-        //Temps
-        this.result.tempsPresentiel = this.modalite.presentiel * this.geodeDataDistanciel.temps;
-        this.result.tempsADistance = this.modalite.aDistance * this.geodeDataDistanciel.temps;
-        this.result.tempsAutre = this.modalite.autre * this.geodeDataDistanciel.temps;
-
-        //Rythme
-        this.result.rythmePresentiel = this.modalite.presentiel * this.geodeDataDistanciel.rythme;
-        this.result.rythmeADistance = this.modalite.aDistance * this.geodeDataDistanciel.rythme;
-        this.result.rythmeAutre = this.modalite.autre * this.geodeDataDistanciel.rythme;
-
-
-         this.$router.push('/#resultDistanciel'); 
+        console.log(this.score.ressourcesDistanciel);
+        console.log(this.degreOuverture.ressourcesDistanciel);
+        console.log(this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel);
+        console.log(this.degreOuvertureCategories.composantesPedagogiquesDistanciel);
+        console.log(this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel);
+        console.log(this.degreOuvertureEnvironnementDistanciel);
     }
 }
 
