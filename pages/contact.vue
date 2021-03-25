@@ -1,7 +1,7 @@
 <template>
     <!-- Page Contact-->
     <div class="bg-white overflow-hidden">
-        <h2 class="kf-moveInDown text-4xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 pb-8">Contact</h2>
+        <h2 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 pb-8">Contact</h2>
         <!-- Card Contact -->
         <div class="kf-appear-2 container-contact">
             <div class="lg:py-4 lg:pb-32 lg:flex lg:justify-center">

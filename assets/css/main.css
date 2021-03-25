@@ -98,6 +98,13 @@ form select option{
     margin-bottom: 10px;
 }
 
+/* ---------------- Mentions Légales Page ---------------- */
+.hr-mentions {
+    border: 2px solid rgb(239, 246, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1024px) {
     .geode-link-desktop {
         display: none;
