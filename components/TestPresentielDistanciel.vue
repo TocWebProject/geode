@@ -42,9 +42,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingAcces">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -65,9 +62,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingLieu">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -88,9 +82,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingTemps">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -111,9 +102,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingRythme">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -134,9 +122,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingObjectifs">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -157,9 +142,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingCheminement">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,9 +162,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingSequence">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -203,9 +182,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingMethodes">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -226,9 +202,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingFormat">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -249,9 +222,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingContenus">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -272,9 +242,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingSupports">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -295,9 +262,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingEvaluation">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -318,9 +282,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingCommunication">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -341,9 +302,6 @@
                                             <option value="4">Tout à fait libre</option>
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingRessources">Veuillez choisir une réponse</p>
-                                        <div class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
