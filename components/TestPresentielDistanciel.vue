@@ -5,7 +5,7 @@
             <form id="geodeFormDistanciel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
-                    <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-t-2 bg-opacity-5 border-blue-400 rounded-t relative">
+                    <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-t-2 bg-opacity-5 border-pink-400 rounded-t relative">
                         <div class="max-w-md md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                 <img
@@ -13,7 +13,7 @@
                                     alt="Logo Geode"
                                     src="~/assets/img/bar-chart.png"
                                 />
-                                <h3 class="text-xl sm:text-3xl text-blue-700 mt-2 sm:mt-1">Géode en <span class="text-blue-600">présentiel</span> et <span class="text-blue-600">distanciel</span></h3>
+                                <h3 class="text-xl sm:text-3xl text-pink-700 mt-2 sm:mt-1">Géode en <span class="text-pink-600">présentiel</span> et <span class="text-pink-600">distanciel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
                                 <svg 
@@ -30,10 +30,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre d’accéder à la formation au moment qui lui convient le mieux ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="acces">L'accès</label>
+                                <label class="text-sm text-pink-600" for="acces">L'accès</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="acces" id="acces" v-model.number="geodeDataDistanciel.acces" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="acces" id="acces" v-model.number="geodeDataDistanciel.acces" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -50,10 +50,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le (les) lieu(x) les plus adaptés à ses possibilités pour se former ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="lieu">Le lieu</label>
+                                <label class="text-sm text-pink-600" for="lieu">Le lieu</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="lieu" id="lieu" v-model.number="geodeDataDistanciel.lieu" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="lieu" id="lieu" v-model.number="geodeDataDistanciel.lieu" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -70,10 +70,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="temps">Le temps</label>    
+                                <label class="text-sm text-pink-600" for="temps">Le temps</label>    
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="temps" id="temps" v-model.number="geodeDataDistanciel.temps" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="temps" id="temps" v-model.number="geodeDataDistanciel.temps" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -90,10 +90,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le rythme qui lui convient le mieux pour se former ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="rythme">Le rythme</label>
+                                <label class="text-sm text-pink-600" for="rythme">Le rythme</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="rythme" id="rythme" v-model.number="geodeDataDistanciel.rythme" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="rythme" id="rythme" v-model.number="geodeDataDistanciel.rythme" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -110,10 +110,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les objectifs à atteindre au travers de sa formation et de ses apprentissages ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="objectifs">Les objectifs</label>    
+                                <label class="text-sm text-pink-600" for="objectifs">Les objectifs</label>    
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="objectifs" id="objectifs" v-model.number="geodeDataDistanciel.objectifs" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="objectifs" id="objectifs" v-model.number="geodeDataDistanciel.objectifs" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -130,10 +130,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le cheminement d’apprentissage qui lui convient le mieux ? </p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="cheminement">Le cheminement</label>
+                                <label class="text-sm text-pink-600" for="cheminement">Le cheminement</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="cheminement" id="cheminement" v-model.number="geodeDataDistanciel.cheminement" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="cheminement" id="cheminement" v-model.number="geodeDataDistanciel.cheminement" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -150,10 +150,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le séquencement ou l’ordre de succession des activités pédagogiques ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="sequence">La séquence</label>
+                                <label class="text-sm text-pink-600" for="sequence">La séquence</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="sequence" id="sequence" v-model.number="geodeDataDistanciel.sequence" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="sequence" id="sequence" v-model.number="geodeDataDistanciel.sequence" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -170,10 +170,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les méthodes pédagogiques qui lui conviennent le mieux  (conventionnelles, actives, etc.) ? </p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="methodes">Les méthodes</label>
+                                <label class="text-sm text-pink-600" for="methodes">Les méthodes</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="methodes" id="methodes" v-model.number="geodeDataDistanciel.methodes" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="methodes" id="methodes" v-model.number="geodeDataDistanciel.methodes" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -190,10 +190,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir de travailler seul,  à deux ou en groupe ?  </p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="format">Le format</label>
+                                <label class="text-sm text-pink-600" for="format">Le format</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="format" id="format" v-model.number="geodeDataDistanciel.format" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="format" id="format" v-model.number="geodeDataDistanciel.format" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -210,10 +210,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les contenus théoriques et/ou pratiques qui lui conviennent le mieux ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="contenus">Les contenus</label>
+                                <label class="text-sm text-pink-600" for="contenus">Les contenus</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="contenus" id="contenus" v-model.number="geodeDataDistanciel.contenus" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="contenus" id="contenus" v-model.number="geodeDataDistanciel.contenus" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -230,10 +230,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les supports d’apprentissage qui lui conviennent le mieux  (polycopiés, ouvrages, textes numérisés, vidéo et/ou audio en ligne ou non, etc.) ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="supports">Les supports</label>
+                                <label class="text-sm text-pink-600" for="supports">Les supports</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="supports" id="supports" v-model.number="geodeDataDistanciel.supports" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="supports" id="supports" v-model.number="geodeDataDistanciel.supports" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -250,10 +250,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les modalités d’évaluation de sa formation et de ses apprentissages ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="evaluation">L'évaluation</label>
+                                <label class="text-sm text-pink-600" for="evaluation">L'évaluation</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="evaluation" id="evaluation" v-model.number="geodeDataDistanciel.evaluation" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="evaluation" id="evaluation" v-model.number="geodeDataDistanciel.evaluation" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -270,10 +270,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="communication">Outils de communication</label>
+                                <label class="text-sm text-pink-600" for="communication">Outils de communication</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="communication" id="communication" v-model.number="geodeDataDistanciel.communication" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="communication" id="communication" v-model.number="geodeDataDistanciel.communication" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -290,10 +290,10 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="md:w-5/12 max-w-sm mx-6">
-                                <label class="text-sm text-blue-600" for="ressources">Les personnes ressources</label>
+                                <label class="text-sm text-pink-600" for="ressources">Les personnes ressources</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="ressources" id="ressources" v-model.number="geodeDataDistanciel.ressources" class="block appearance-none w-full bg-grey-lighter hover:bg-blue-50 focus:ring-2 focus:ring-blue-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
+                                        <select form="geode" name="ressources" id="ressources" v-model.number="geodeDataDistanciel.ressources" class="block appearance-none w-full bg-grey-lighter hover:bg-pink-50 focus:ring-2 focus:ring-pink-100 border border-grey-lighter text-grey-darker py-2 px-2 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -310,10 +310,10 @@
                     </div>
                 </div>
                 <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 red-alert-error-pattern mx-auto p-5 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
-                <button v-if="!showResultPresentielDistanciel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
+                <button v-if="!showResultPresentielDistanciel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
-                <a v-if="showResultPresentielDistanciel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
+                <a v-if="showResultPresentielDistanciel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg">
                     Refaire le test
                 </a>
             </form>

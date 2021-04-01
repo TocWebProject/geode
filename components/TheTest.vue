@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-screen bg-blue-50">
+    <section class="min-h-screen bg-gray-50">
         <h3 id="geode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-5xl md:text-6xl">Débutez le test</h3>
         <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-5/12 sm:w-1/4 lg:w-1/6 pt-10 pl-10 xl:pl-20" alt="illustration de livres">
             <!--  Choix de la modalité de la formation, elle se déroule en -> Distanciel? / Présentiel? / Présentiel et Distanciel? -->

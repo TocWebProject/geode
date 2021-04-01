@@ -14,7 +14,7 @@
             </div>
             <!-- Geode Result Text -->
             <div class="kf-appear2 mx-auto md:w-7/12 w-10/12">
-                <h4 class="text-center mt-8 mb-5 text-3xl text-blue-900">Le degré d'ouverture de votre formation</h4>
+                <h4 class="text-center mt-8 mb-5 text-3xl text-pink-900">Le degré d'ouverture de votre formation</h4>
                 <p class="text-base leading-8 text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. Nulla pulvinar facilisis justo, eu auctor est fringilla ac. Nulla pulvinar mauris quis dolor accumsan, in eleifend risus posuere. Fusce eleifend consectetur erat, in volutpat est eleifend et. Proin ac orci sit amet sapien feugiat laoreet ut eu quam. Morbi mollis mauris et leo suscipit porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam id varius metus, sed ultricies ipsum. Fusce blandit pulvinar laoreet. Donec eget dui nulla. Etiam in libero sapien. Nullam ut leo a nunc hendrerit efficitur. Vestibulum dolor elit, tincidunt dictum dignissim vel, venenatis sed magna. Curabitur finibus, nibh ac faucibus porta, odio nunc dignissim orci, at congue ex sapien non nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     Cras condimentum posuere magna, eu tincidunt magna rhoncus eu. Sed mattis metus eu tortor feugiat, nec lobortis elit pulvinar. Nam laoreet ligula augue, id porttitor elit condimentum ut. Duis commodo laoreet tortor. Phasellus pharetra mi sapien, et luctus turpis ornare a. In a enim eget ante placerat efficitur eget a lacus. Nam eget lacus accumsan, pellentesque justo et, tempus sapien. Cras eget quam auctor, interdum nisi sit amet, congue orci. In sit amet nibh non magna rutrum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a mollis elit, vitae tempor erat. Phasellus mattis metus non lorem pellentesque, sit amet tempus mi fermentum.
@@ -28,7 +28,7 @@
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
-                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 ">
+                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700  bg-pink-100 hover:bg-pink-200 ">
                     Refaire le test
                 </a>         
             </div>

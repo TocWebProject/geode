@@ -5,7 +5,7 @@
             <form id="geodeFormPresentiel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
-                    <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-4 border-t-2 bg-opacity-5 border-blue-400 rounded-t relative">
+                    <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-4 border-t-2 bg-opacity-5 border-pink-400 rounded-t relative">
                         <div class="max-w-md md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-3 sm:mb-2">
                                 <img
@@ -13,7 +13,7 @@
                                     alt="Logo Geode"
                                     src="~/assets/img/bar-chart.png"
                                 />
-                                <h3 class="text-2xl sm:text-3xl text-blue-700 mt-5">Géode en <span class="text-blue-600">présentiel</span></h3>
+                                <h3 class="text-2xl sm:text-3xl text-pink-700 mt-5">Géode en <span class="text-pink-600">présentiel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
                                 <svg 
@@ -30,7 +30,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-yellow-200">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="acces">L'accès</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="acces" id="acces" v-model.number="geodeDataPresentiel.acces" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="acces" id="acces" v-model.number="geodeDataPresentiel.acces" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -60,7 +60,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="lieu">Le lieu</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="lieu" id="lieu" v-model.number="geodeDataPresentiel.lieu" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="lieu" id="lieu" v-model.number="geodeDataPresentiel.lieu" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -80,7 +80,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Le temps</label>    
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="temps" id="temps" v-model.number="geodeDataPresentiel.temps" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="temps" id="temps" v-model.number="geodeDataPresentiel.temps" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -100,7 +100,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="rythme">Le rythme</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="rythme" id="rythme" v-model.number="geodeDataPresentiel.rythme" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="rythme" id="rythme" v-model.number="geodeDataPresentiel.rythme" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -116,7 +116,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes <span class="text-indigo-600">pédagogiques</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-indigo-600">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="objectifs">Les objectifs</label>    
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="objectifs" id="objectifs" v-model.number="geodeDataPresentiel.objectifs" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="objectifs" id="objectifs" v-model.number="geodeDataPresentiel.objectifs" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -146,7 +146,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="cheminement">Le cheminement</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="cheminement" id="cheminement" v-model.number="geodeDataPresentiel.cheminement" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="cheminement" id="cheminement" v-model.number="geodeDataPresentiel.cheminement" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -166,7 +166,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="sequence">La séquence</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="sequence" id="sequence" v-model.number="geodeDataPresentiel.sequence" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="sequence" id="sequence" v-model.number="geodeDataPresentiel.sequence" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -186,7 +186,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="methodes">Les méthodes</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="methodes" id="methodes" v-model.number="geodeDataPresentiel.methodes" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="methodes" id="methodes" v-model.number="geodeDataPresentiel.methodes" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -206,7 +206,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="format">Le format</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="format" id="format" v-model.number="geodeDataPresentiel.format" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="format" id="format" v-model.number="geodeDataPresentiel.format" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -226,7 +226,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="contenus">Les contenus</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="contenus" id="contenus" v-model.number="geodeDataPresentiel.contenus" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="contenus" id="contenus" v-model.number="geodeDataPresentiel.contenus" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -246,7 +246,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="evaluation">L'évaluation</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="evaluation" id="evaluation" v-model.number="geodeDataPresentiel.evaluation" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="evaluation" id="evaluation" v-model.number="geodeDataPresentiel.evaluation" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -262,7 +262,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-green-200">
                             <div class="max-w-2xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant les composantes de la <span class="text-green-600">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes de la <span class="text-green-600">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="supports">Les supports</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="supports" id="supports" v-model.number="geodeDataPresentiel.supports" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="supports" id="supports" v-model.number="geodeDataPresentiel.supports" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -292,7 +292,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="communication">Outils de communication</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="communication" id="communication" v-model.number="geodeDataPresentiel.communication" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="communication" id="communication" v-model.number="geodeDataPresentiel.communication" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -312,7 +312,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="ressources">Les personnes ressources</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geode" name="ressources" id="ressources" v-model.number="geodeDataPresentiel.ressources" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geode" name="ressources" id="ressources" v-model.number="geodeDataPresentiel.ressources" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -329,10 +329,10 @@
                     </div>
                 </div>
                 <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 red-alert-error-pattern mx-auto p-5 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
-                <button v-if="!showResultPresentiel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg">
+                <button v-if="!showResultPresentiel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
-                <a v-if="showResultPresentiel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-blue-800 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg">
+                <a v-if="showResultPresentiel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-pink-800 bg-pink-100 hover:bg-pink-200 md:py-4 md:text-lg">
                     Refaire le test
                 </a>
             </form>

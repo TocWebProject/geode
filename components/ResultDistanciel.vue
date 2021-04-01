@@ -4,7 +4,7 @@
         <div  class="relative overflow-hidden pb-32">
             <h3 class="kf-moveInDown text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats Géode en distanciel</h3>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-blue-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-pink-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
@@ -18,7 +18,7 @@
                 L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
             </p>
             <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-pink-900">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
@@ -44,18 +44,18 @@
                 <bar-chart-result v-if="barChartData" class="p-1 sm:p-4" :data="barChartData" :options="barChartOptions" :height="300"/>
             </div>
             <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-pink-900">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
                 </p>
             </div>
-            <div class="mx-auto rounded-full bg-blue-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-blue-200 border-4 mt-10 shadow-md">
-                <h4 class="text-5xl text-blue-900 font-semibold"> {{ this.degreOuvertureEnvironnementDistanciel }} %</h4>
+            <div class="mx-auto rounded-full bg-pink-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-pink-200 border-4 mt-10 shadow-md">
+                <h4 class="text-5xl text-pink-900 font-semibold"> {{ this.degreOuvertureEnvironnementDistanciel }} %</h4>
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
-                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 ">
+                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700  bg-pink-100 hover:bg-pink-200 ">
                     Refaire le test
                 </a>         
             </div>

@@ -37,8 +37,8 @@ export default {
   // Loading Indicator
   loadingIndicator: {
     name: 'folding-cube',
-    color: '#1d4ed8',
-    background: '#dbeafe'
+    color: '#ad2472',
+    background: '#f3f4f6'
   },
 
   // Tailwind Just-In-Time

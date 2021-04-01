@@ -81,6 +81,10 @@ html {
 /* ---------------- Home Page ---------------- */
 
 /* -- Form -- */
+button:focus {
+    outline-color:#fdf2f8 !important;
+} 
+
 form select option{
     overflow: auto;
 }
@@ -93,7 +97,7 @@ form select option{
 /* ---------------- Documentation Page ---------------- */
 .hr-sommaire {
     width: 70px;
-    border: 2px solid rgb(239, 246, 255);
+    border: 2px solid #fdf2f8;
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -105,7 +109,7 @@ form select option{
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background-color: #2563eb;
+    background-color:  #AD2472;
     cursor: pointer;
 }
 
@@ -129,7 +133,7 @@ form select option{
 }
 /* ---------------- Mentions Légales Page ---------------- */
 .hr-mentions {
-    border: 2px solid rgb(239, 246, 255);
+    border: 2px solid #fdf2f8;
     border-radius: 5px;
     margin-bottom: 10px;
 }

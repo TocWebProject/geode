@@ -4,7 +4,7 @@
         <div  class="relative overflow-hidden pb-32">
             <h3 class="kf-moveInDown text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats Géode en présentiel</h3>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-blue-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-pink-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
@@ -15,65 +15,65 @@
                 <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
             </div>
             <!-- <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-6">
-                <table class="rounded-lg m-5 w-5/6 mx-auto bg-blue-100 text-blue-800 shadow">
-                    <tr class="text-center border-b-2 border-blue-300">
+                <table class="rounded-lg m-5 w-5/6 mx-auto bg-pink-100 text-pink-800 shadow">
+                    <tr class="text-center border-b-2 border-pink-300">
                         <td class="px-4 py-2">Composantes</td>
                         <td class="px-4 py-2">Degré d’ouverture</td>
                     </tr>
                     
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Accès</th>
                         <th class="px-4 py-1">{{this.degreOuverture.accesPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Lieu</th>
                         <th class="px-4 py-1">{{this.degreOuverture.lieuPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Temps</th>
                         <th class="px-4 py-1">{{this.degreOuverture.tempsPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Rythme</th>
                         <th class="px-4 py-1">{{this.degreOuverture.rythmePresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Objectifs</th>
                         <th class="px-4 py-1">{{this.degreOuverture.objectifsPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Cheminement</th>
                         <th class="px-4 py-1">{{this.degreOuverture.cheminementPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Sequence</th>
                         <th class="px-4 py-1">{{this.degreOuverture.sequencePresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Méthodes</th>
                         <th class="px-4 py-1">{{this.degreOuverture.methodesPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Format</th>
                         <th class="px-4 py-1">{{this.degreOuverture.formatPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Contenus</th>
                         <th class="px-4 py-1">{{this.degreOuverture.contenusPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Supports</th>
                         <th class="px-4 py-1">{{this.degreOuverture.supportsPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Evaluation</th>
                         <th class="px-4 py-1">{{this.degreOuverture.evaluationPresentiel}}%</th>
                     </tr> 
-                    <tr class="text-center bg-blue-50 border-b border-blue-100">
+                    <tr class="text-center bg-pink-50 border-b border-pink-100">
                         <th class="px-4 py-1">Communication</th>
                         <th class="px-4 py-1">{{this.degreOuverture.communicationPresentiel}}%</th>
                     </tr> 
-                    <tr class="bg-blue-50 border-b border-blue-100 rounded-b-lg">
+                    <tr class="bg-pink-50 border-b border-pink-100 rounded-b-lg">
                         <th class="px-4 py-1">Ressources</th>
                         <th class="px-4 py-1">{{this.degreOuverture.ressourcesPresentiel}}%</th>
                     </tr> 
@@ -83,7 +83,7 @@
                 L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
             </p>
             <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-pink-900">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
@@ -109,18 +109,18 @@
                 <bar-chart-result v-if="barChartData" class="p-1 sm:p-4" :data="barChartData" :options="barChartOptions" :height="300"/>
             </div>
             <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-blue-900">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
+            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-5 text-2xl text-pink-900">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-base leading-8 text-justify">
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
                 </p>
             </div>
-            <div class="mx-auto rounded-full bg-blue-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-blue-200 border-4 mt-10 shadow-md">
-                <h4 class="text-5xl text-blue-900 font-semibold"> {{ this.degreOuvertureEnvironnementPresentiel }} %</h4>
+            <div class="mx-auto rounded-full bg-pink-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-pink-200 border-4 mt-10 shadow-md">
+                <h4 class="text-5xl text-pink-900 font-semibold"> {{ this.degreOuvertureEnvironnementPresentiel }} %</h4>
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
-                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700  bg-blue-100 hover:bg-blue-200 ">
+                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700  bg-pink-100 hover:bg-pink-200 ">
                     Refaire le test
                 </a>         
             </div>

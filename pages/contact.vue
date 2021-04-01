@@ -13,8 +13,8 @@
                             <img class="kf-moveInLeft h-48 w-full sm:h-60 md:h-64 lg:h-full lg:rounded-lg" src="~/assets/img/undraw_Work_time_re_hdyv.svg" alt="Photographie du dôme en verre d'un batiment moderne">
                         </picture> 
                     </div>
-                    <div class="bg-blue-50 hover:bg-opacity-80 mx-auto my-auto py-12 px-10 max-w-xl lg:max-w-5xl lg:w-1/2">
-                        <h2 class="lg:mt-5 text-2xl text-gray-800 font-bold">Partagez nous votre<span class="text-blue-600"> expérience</span></h2>
+                    <div class="bg-pink-50 hover:bg-opacity-80 mx-auto my-auto py-12 px-10 max-w-xl lg:max-w-5xl lg:w-1/2">
+                        <h2 class="lg:mt-5 text-2xl text-gray-800 font-bold">Partagez nous votre<span class="text-pink-800"> expérience</span></h2>
                         <p class="mt-4 text-gray-600">Temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
                         <div class="mt-8 mb-16">
                             <p class="text-xl">Mail: geode@geode.com</p>

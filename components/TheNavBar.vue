@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full px-4 py-2 sm:px-5 md:px-10 xl:px-20 2xl:px-40 sm:py-3 mb-1 bg-transparent">
+  <nav class="w-full px-4 py-2 sm:px-5 md:px-10 xl:px-20 2xl:px-40 sm:py-3 mb-1 bg-gray-100">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
       <div class="kf-moveInLeft">
@@ -9,7 +9,7 @@
       <div class="kf-moveInRight md:hidden">
         <button @click="drawer" class="mt-5" aria-label="open menu">
           <svg 
-            class="h-8 w-8 fill-current text-blue-900"
+            class="h-8 w-8 fill-current text-pink-900"
             fill="none" stroke-linecap="round" 
             stroke-linejoin="round" stroke-width="2" 
             viewBox="0 0 24 24" stroke="currentColor">
@@ -20,10 +20,10 @@
       <!-- Navbar -->
       <div class="kf-moveInRight hidden md:block">
         <ul class="flex mt-2 space-x-7 lg:text-lg sm:text-base">
-          <li><NuxtLink to="/" class="nav-link tracking-wide hover:text-blue-800">Accueil</NuxtLink></li>
-          <li><NuxtLink to="/documentation" class="nav-link tracking-wide hover:text-blue-800">Documentation</NuxtLink></li>
-          <li><NuxtLink to="/partenaires" class="nav-link tracking-wide hover:text-blue-800">Partenaires</NuxtLink></li>
-          <li><NuxtLink to="/contact" class="nav-link tracking-wide hover:text-blue-800">Contact</NuxtLink></li>
+          <li><NuxtLink to="/" class="nav-link tracking-wide hover:text-pink-800">Accueil</NuxtLink></li>
+          <li><NuxtLink to="/documentation" class="nav-link tracking-wide hover:text-pink-800">Documentation</NuxtLink></li>
+          <li><NuxtLink to="/partenaires" class="nav-link tracking-wide hover:text-pink-800">Partenaires</NuxtLink></li>
+          <li><NuxtLink to="/contact" class="nav-link tracking-wide hover:text-pink-800">Contact</NuxtLink></li>
         </ul>
       </div>
       <!-- Dark Background Transition -->
@@ -60,12 +60,12 @@
           <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="nav-link tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/partenaires" class="nav-link tracking-wide my-4 inline-block">Partenaires</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="nav-link tracking-wide my-4 inline-block">Contact</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded text-white focus:text-blue-50">Débutez le test</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-pink-800 hover:bg-pink-700 px-3 py-2 rounded text-white focus:text-pink-50">Débutez le test</NuxtLink></li>
         </ul>
         <div class="follow pt-6">
           <p class="italic font-sans text-base mb-1">Visitez:</p>
           <p class="text-left title-font font-medium tracking-widest text-lg">
-            <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-blue-800 hover:text-blue-500 ">La Fabrique des Formations</a>
+            <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-pink-800 hover:text-pink-500 ">La Fabrique des Formations</a>
           </p>
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="">
             <img src="~/assets/img/universite-lille-logo-side-nav.svg" class="inline-block mt-4 h-10 w-26" alt="logo université de lille">
@@ -167,7 +167,7 @@ export default {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #bfdbfe;
+  background: #f7dceb;
 
   transform: scaleX(0);
   transform-origin: right;
@@ -183,7 +183,7 @@ export default {
 /* Active Nav Link w/::after bottom border*/
 .nuxt-link-exact-active {
   position: relative;
-  color: #1e3a8a;
+  color: #9d174d;
   font-weight: 600;
 }
 
@@ -194,14 +194,14 @@ export default {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #93c5fd;
+  background: #fbcfe8;
 
   transform: scaleX(1);
   transform-origin: left;
 }
 
 .nuxt-link-active:hover {
-    color: #1e40af;
+    color: #9d174d;
 }
 
 .call-to-test{
