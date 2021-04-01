@@ -8,11 +8,11 @@
                     <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-t-2 bg-opacity-5 border-pink-400 rounded-t relative">
                         <div class="max-w-md md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                <img
+                                <!-- <img
                                     class="w-9 h-9 sm:w-12 sm:h-12 mt-4 sm:mt-3 object-cover rounded"
                                     alt="Logo Geode"
                                     src="~/assets/img/bar-chart.png"
-                                />
+                                /> -->
                                 <h3 class="text-xl sm:text-3xl text-pink-700 mt-2 sm:mt-1">Géode en <span class="text-pink-600">présentiel</span> et <span class="text-pink-600">distanciel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
@@ -20,7 +20,7 @@
                                 class="w-4 h-4 sm:w-6 sm:h-6"
                                 fill="none" stroke-linecap="round" 
                                 stroke-linejoin="round" stroke-width="2"
-                                viewBox="0 0 24 24" stroke="#1e40af">
+                                viewBox="0 0 24 24" stroke="#831843">
                                 <path d="M6 18L18 6M6 6l12 12"></path>
                                 </svg>
                             </button>
