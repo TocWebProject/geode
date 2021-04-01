@@ -1,6 +1,6 @@
 <template>
     <!-- Page Documentation -->
-    <div id="topDocumentation" class="bg-white h-full overflow-hidden pb-10">
+    <section id="topDocumentation" class="bg-white h-full overflow-hidden pb-10">
         <h2 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 mb-8 lg:mb-0">Documentation</h2>
         <div class="min-w-11/12 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
             <!-- Menu Documentation -->
@@ -202,7 +202,7 @@
                 <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
             </svg>
         </a>
-    </div>
+    </section>
 </template>
 
 <script>

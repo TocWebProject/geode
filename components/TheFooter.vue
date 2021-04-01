@@ -9,8 +9,8 @@
           <NuxtLink to='/documentation' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-blue-700  bg-white hover:bg-blue-200 md:text-lg">
             Documentation
           </NuxtLink>
-          <NuxtLink to='/references' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-blue-700  bg-white hover:bg-blue-200 md:text-lg ">
-            Références
+          <NuxtLink to='/partenaires' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-blue-700  bg-white hover:bg-blue-200 md:text-lg ">
+            Partenaires
           </NuxtLink>
           <NuxtLink to='/contact' class="w-auto flex mb-2 items-center justify-center px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-md text-blue-700  bg-white hover:bg-blue-200 md:text-lg">
             Contact

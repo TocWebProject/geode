@@ -22,7 +22,7 @@
         <ul class="flex mt-2 space-x-7 lg:text-lg sm:text-base">
           <li><NuxtLink to="/" class="nav-link tracking-wide hover:text-blue-800">Accueil</NuxtLink></li>
           <li><NuxtLink to="/documentation" class="nav-link tracking-wide hover:text-blue-800">Documentation</NuxtLink></li>
-          <li><NuxtLink to="/references" class="nav-link tracking-wide hover:text-blue-800">Références</NuxtLink></li>
+          <li><NuxtLink to="/partenaires" class="nav-link tracking-wide hover:text-blue-800">Partenaires</NuxtLink></li>
           <li><NuxtLink to="/contact" class="nav-link tracking-wide hover:text-blue-800">Contact</NuxtLink></li>
         </ul>
       </div>
@@ -58,7 +58,7 @@
         <ul class="divide-y font-sans">
           <li><NuxtLink @click.native="menuIsOpen = false" to="/" class="nav-link tracking-wide my-4 inline-block">Accueil</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="nav-link tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/references" class="nav-link tracking-wide my-4 inline-block">Références</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/partenaires" class="nav-link tracking-wide my-4 inline-block">Partenaires</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="nav-link tracking-wide my-4 inline-block">Contact</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded text-white focus:text-blue-50">Débutez le test</NuxtLink></li>
         </ul>
