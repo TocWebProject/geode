@@ -1,6 +1,6 @@
 <template>
     <div>   
-        <div class="pb-32 px-7 bg-gray-100 bg-opacity-50 h-full">
+        <div class="pb-32 px-7 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormDistanciel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->

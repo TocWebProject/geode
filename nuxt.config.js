@@ -57,6 +57,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'vue-scrollto/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

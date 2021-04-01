@@ -98,6 +98,35 @@ form select option{
     margin-bottom: 10px;
 }
 
+.bottom-left-arrow {
+    position: fixed !important;
+    bottom:60px;
+    left: 2%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #2563eb;
+    cursor: pointer;
+}
+
+.bottom-left-arrow svg {
+    width: 20px;
+    height: 20px;
+}
+  
+@media screen and (min-width: 1024px) {
+    .bottom-left-arrow {
+        left: 12%;
+        bottom: 72px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .bottom-left-arrow svg {
+        width: 25px;
+        height: 25px;
+    }
+}
 /* ---------------- Mentions Légales Page ---------------- */
 .hr-mentions {
     border: 2px solid rgb(239, 246, 255);

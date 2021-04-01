@@ -1,6 +1,6 @@
 <template>
     <!-- Page Documentation -->
-    <div class="bg-white h-full overflow-hidden pb-10 documentation">
+    <div id="topDocumentation" class="bg-white h-full overflow-hidden pb-10">
         <h2 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 mb-8 lg:mb-0">Documentation</h2>
         <div class="min-w-11/12 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
             <!-- Menu Documentation -->
@@ -27,7 +27,7 @@
                 </NuxtLink>
             </div>
             <!-- Text Documentation -->
-            <article class="kf-appear-1 flex flex-col w-3/4 lg:w-2/3 items-left px-4 mt-5 lg:mt-10 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0 overflow-auto max-h-screen">
+            <article class="kf-appear-1 flex flex-col w-4/5 lg:w-2/3 items-left px-4 mt-5 lg:mt-10 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0">
                 <h3 class="text-3xl text-center font-bold mt-6 md:mr-5 sm:mr-2 text-blue-900 underline">
                     La grille d'évaluation Géode
                 </h3>
@@ -185,6 +185,23 @@
         <NuxtLink to="/#geode" class="geode-link-mobile w-52 mx-auto hidden items-center justify-center mt-3 px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
                 Débutez le test
         </NuxtLink>
+        <!-- Scroll Top Call to action-->
+        <a href="#topDocumentation" v-show="visibleArrow" class="bottom-left-arrow kf-moveInLeft flex items-center justify-center" v-scroll-to="{
+            el: '#topDocumentation',
+            container: 'body',
+            duration: 400,
+            lazy: false,
+            easing: 'linear',
+            offset: -200,
+            force: true,
+            cancelable: true,
+            x: false,
+            y: true
+        }">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+            </svg>
+        </a>
     </div>
 </template>
 
@@ -195,6 +212,22 @@ export default {
     head () {
         // Meta Tag for this page
     },
+    data () {
+    return {
+      visibleArrow: false
+    }
+  },
+  methods: {
+    // Scroll Tops Methods  
+    scrollListener() {
+            this.visibleArrow = window.scrollY > 420
+        }
+    },
+    mounted() {
+        window.addEventListener('scroll', this.scrollListener)
+    },
+    beforeDestroy() {
+        window.removeEventListener('scroll', this.scrollListener)
+    }
 }
 </script>
-
