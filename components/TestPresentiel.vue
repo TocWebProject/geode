@@ -8,11 +8,11 @@
                     <div class="bg-gray-100 px-2 py-3 sm:px-3 sm:py-4 border-t-2 border-pink-400 rounded-t relative">
                         <div class="max-w-md md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-3 sm:mb-2">
-                                <!-- <img
+                                <img
                                     class="w-9 h-9 sm:w-12 sm:h-12 mt-3 object-cover rounded"
                                     alt="Logo Geode"
-                                    src="~/assets/img/bar-chart.png"
-                                /> -->
+                                    src="~/assets/img/logo-geode.png"
+                                />
                                 <h3 class="text-2xl sm:text-3xl text-pink-700 mt-5">Géode en <span class="text-pink-600">présentiel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
