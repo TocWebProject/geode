@@ -3,7 +3,7 @@
     <!--  Call to actions -->
     <div class="border-top border-gray-200">
         <div class="container flex flex-wrap mx-auto justify-center mt-6 mb-3 px-3">
-          <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-100 text-sm lg:text-base font-medium rounded-md text-white bg-pink-800 hover:bg-pink-700 md:py-4 md:text-lg md:px-10">
+          <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-100 text-sm lg:text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-10">
               Débutez le test
           </NuxtLink>
           <NuxtLink to='/documentation' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:text-lg">
@@ -30,7 +30,7 @@
       </div>
     </div>
     <!--  Partners Logo -->
-    <div class="bg-pink-900">
+    <div class="bg-pink-800">
       <div class="container mx-auto py-8 sm:py-3 px-2 flex flex-wrap flex-col md:flex-row">
         <p class="my-auto text-center title-font font-medium tracking-widest text-xl">
           <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-pink-50 hover:text-pink-200 ">La Fabrique des Formations</a>

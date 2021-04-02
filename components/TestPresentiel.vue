@@ -329,7 +329,7 @@
                     </div>
                 </div>
                 <p class="kf-appear-1 max-w-3xl md:w-3/4 text-xl text-center text-red-900 red-alert-error-pattern mx-auto p-5 border-red-400 rounded-b-lg shadow-md" v-if="dataMissing">Veuillez remplir tous les champs du formulaire</p>
-                <button v-if="!showResultPresentiel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-lg">
+                <button v-if="!showResultPresentiel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
                 <a v-if="showResultPresentiel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:py-4 md:text-lg">

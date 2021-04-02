@@ -8,7 +8,13 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        pink: {
+          800: '#ad2472',
+        }
+      }
+    },
   },
   variants: {
     extend: {},

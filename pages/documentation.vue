@@ -22,7 +22,7 @@
                         </nav>
                     </div>
                 </div>
-                <NuxtLink to="/#geode" class="geode-link-desktop w-full sm:hidden lg:flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-pink-800 hover:bg-pink-700 md:py-4 md:text-lg md:px-10">
+                <NuxtLink to="/#geode" class="geode-link-desktop w-full sm:hidden lg:flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-10">
                     Débutez le test
                 </NuxtLink>
             </div>
@@ -174,7 +174,7 @@
                 </p>
             </article>
         </div>
-        <NuxtLink to="/#geode" class="geode-link-mobile w-52 mx-auto hidden items-center justify-center mt-3 px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-pink-700 hover:bg-pink-900 md:py-4 md:text-lg md:px-10">
+        <NuxtLink to="/#geode" class="geode-link-mobile w-52 mx-auto hidden items-center justify-center mt-3 px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-10">
                 Débutez le test
         </NuxtLink>
         <!-- Scroll Top Call to action-->
