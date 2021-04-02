@@ -115,12 +115,12 @@
                    L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet,s ac justo eget nisi egestas auctor. Morbi vulputate, lacus pellentesque fermentum placerat, purus mi blandit est, quis facilisis dolor nunc quis odio. Proin bibendum diam at est ultricies, a dapibus est faucibus.
                 </p>
             </div>
-            <div class="mx-auto rounded-full bg-pink-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-pink-200 border-4 mt-10 shadow-md">
+            <div class="mx-auto rounded-full bg-gray-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-pink-800 border-4 mt-10 shadow-md">
                 <h4 class="text-5xl text-pink-900 font-semibold"> {{ this.degreOuvertureEnvironnementPresentiel }} %</h4>
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
-                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700  bg-pink-100 hover:bg-pink-200 ">
+                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
                     Refaire le test
                 </a>         
             </div>

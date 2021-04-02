@@ -48,7 +48,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingAcces">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingAcces">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingLieu">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingLieu">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingTemps">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingTemps">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingRythme">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRythme">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingObjectifs">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingObjectifs">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingCheminement">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCheminement">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingSequence">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingSequence">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingMethodes">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingMethodes">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +214,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingFormat">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingFormat">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingContenus">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingContenus">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingEvaluation">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingEvaluation">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingSupports">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingSupports">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +300,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingCommunication">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCommunication">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -320,7 +320,7 @@
                                             <option value="3">Plutôt libre</option>
                                             <option value="4">Tout à fait libre</option>
                                         </select>
-                                        <p class="kf-appear-1 text-sm ml-1 text-red-900" v-if="attemptSubmit && missingRessources">Veuillez choisir une réponse</p>
+                                        <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRessources">Veuillez choisir une réponse</p>
                                     </div>
                                 </div>
                             </div>
@@ -332,7 +332,7 @@
                 <button v-if="!showResultPresentiel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
-                <a v-if="showResultPresentiel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-pink-800 bg-pink-100 hover:bg-pink-200 md:py-4 md:text-lg">
+                <a v-if="showResultPresentiel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:py-4 md:text-lg">
                     Refaire le test
                 </a>
             </form>

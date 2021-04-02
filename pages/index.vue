@@ -21,7 +21,7 @@
                   </a>
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                  <NuxtLink to='/documentation' href="#" class="w-full flex items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-white hover:bg-pink-50 md:py-4 md:text-lg md:px-10">
+                  <NuxtLink to='/documentation' href="#" class="w-full flex items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-white hover:bg-pink-50 hover:bg-opacity-60 md:py-4 md:text-lg md:px-10">
                     Documentation
                   </NuxtLink>
                 </div>

@@ -7,7 +7,7 @@
             <div class="col-auto kf-moveInLeft mt-6">
                 <div class="flex flex-row-reverse flex-wrap lg:flex-col justify-center"> 
                     <img src="~/assets/img/undraw_At_work_re_qotl.svg" class="kf-moveInUp w-40 h-40 ml-4 lg:ml-8 my-auto md:mr-6 lg:mr-0" alt="illustration de livres">
-                    <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 pr-10 rounded shadow-lg bg-pink-100">
+                    <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 pr-10 rounded shadow-lg bg-gray-200 hover:bg-opacity-80">
                         <nav class="w-60 p-8 pt-5 h-60">
                                 <p class="text-2xl font-medium">Sommaire</p>
                                 <hr class="hr-sommaire">
