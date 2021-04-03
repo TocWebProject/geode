@@ -30,7 +30,7 @@
       </div>
     </div>
     <!--  Partners Logo -->
-    <div class="bg-pink-800">
+    <div class="bg-pink-900">
       <div class="container mx-auto py-8 sm:py-3 px-2 flex flex-wrap flex-col md:flex-row">
         <p class="my-auto text-center title-font font-medium tracking-widest text-xl">
           <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-pink-50 hover:text-pink-200 ">La Fabrique des Formations</a>

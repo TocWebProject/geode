@@ -13,13 +13,13 @@
     <!-- Call to action button for choice -->
     <div class="container flex justify-center mx-auto max-w-3xl md:w-3/4 px-10 sm:px-6 md:px-7 lg:px-0 bg-white shadow-md">
         <div class="flex flex-col sm:flex-row flex-wrap py-5">
-            <button v-on:click="choixPresentiel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6 outline-none">
+            <button v-on:click="choixPresentiel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6 outline-none">
                         En présentiel
             </button>
-            <button v-on:click="choixDistanciel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6">
+            <button v-on:click="choixDistanciel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6">
                         En distanciel
             </button>
-            <button v-on:click="choixPresentielDistanciel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6">
+            <button v-on:click="choixPresentielDistanciel" class="w-auto xl:w-52 m-2 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg md:px-6">
                         Les deux
             </button>
         </div>
