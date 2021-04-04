@@ -60,7 +60,7 @@
           <li><NuxtLink @click.native="menuIsOpen = false" to="/documentation" class="nav-link tracking-wide my-4 inline-block">Documentation</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/partenaires" class="nav-link tracking-wide my-4 inline-block">Partenaires</NuxtLink></li>
           <li><NuxtLink @click.native="menuIsOpen = false" to="/contact" class="nav-link tracking-wide my-4 inline-block">Contact</NuxtLink></li>
-          <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-pink-800 hover:bg-pink-700 px-3 py-2 rounded text-white focus:text-pink-50">Débutez le test</NuxtLink></li>
+          <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-pink-900 hover:bg-opacity-80 px-3 py-2 rounded text-white focus:text-pink-50">Débutez le test</NuxtLink></li>
         </ul>
         <div class="follow pt-6">
           <p class="italic font-sans text-base mb-1">Visitez:</p>
