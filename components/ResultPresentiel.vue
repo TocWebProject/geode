@@ -359,8 +359,8 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Supports',
                     'Evaluation',
+                    'Supports',
                     'Communication',
                     'Ressources',
                 ],
@@ -382,8 +382,8 @@ export default {
                                 this.degreOuverture.methodesPresentiel,
                                 this.degreOuverture.formatPresentiel,
                                 this.degreOuverture.contenusPresentiel,
-                                this.degreOuverture.supportsPresentiel,
                                 this.degreOuverture.evaluationPresentiel,
+                                this.degreOuverture.supportsPresentiel,
                                 this.degreOuverture.communicationPresentiel,
                                 this.degreOuverture.ressourcesPresentiel
                         ]

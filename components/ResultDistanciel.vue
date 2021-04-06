@@ -359,8 +359,8 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Supports',
                     'Evaluation',
+                    'Supports',
                     'Communication',
                     'Ressources',
                 ],
@@ -382,8 +382,8 @@ export default {
                                 this.degreOuverture.methodesDistanciel,
                                 this.degreOuverture.formatDistanciel,
                                 this.degreOuverture.contenusDistanciel,
-                                this.degreOuverture.supportsDistanciel,
                                 this.degreOuverture.evaluationDistanciel,
+                                this.degreOuverture.supportsDistanciel,
                                 this.degreOuverture.communicationDistanciel,
                                 this.degreOuverture.ressourcesDistanciel
                         ]
