@@ -66,12 +66,12 @@
                         <th class="px-4 py-1">{{this.degreOuverture.contenusDP}}%</th>
                     </tr> 
                     <tr class="text-center bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Supports</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.supportsDP}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-gray-50 border-b border-gray-100">
                         <th class="px-4 py-1">Evaluation</th>
                         <th class="px-4 py-1">{{this.degreOuverture.evaluationDP}}%</th>
+                    </tr> 
+                    <tr class="text-center bg-gray-50 border-b border-gray-100">
+                        <th class="px-4 py-1">Supports</th>
+                        <th class="px-4 py-1">{{this.degreOuverture.supportsDP}}%</th>
                     </tr> 
                     <tr class="text-center bg-gray-50 border-b border-gray-100">
                         <th class="px-4 py-1">Communication</th>
@@ -438,8 +438,8 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Supports',
                     'Evaluation',
+                    'Supports',
                     'Communication',
                     'Ressources',
                 ],
@@ -461,8 +461,8 @@ export default {
                                 this.degreOuverture.methodesDP,
                                 this.degreOuverture.formatDP,
                                 this.degreOuverture.contenusDP,
-                                this.degreOuverture.supportsDP,
                                 this.degreOuverture.evaluationDP,
+                                this.degreOuverture.supportsDP,
                                 this.degreOuverture.communicationDP,
                                 this.degreOuverture.ressourcesDP
                         ]
