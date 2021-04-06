@@ -230,101 +230,101 @@ export default {
             // Calcul du score GEODE de chacune des 14 composantes de l’environnement éducatif arrondi au 0,1 supérieur
 
             // Acces
-            this.score.accesDistanciel = Number((this.coefficientPonderation.acces * this.geodeDataDistanciel.acces).toFixed(1));
+            this.score.accesDistanciel = Number(parseFloat((this.coefficientPonderation.acces * this.geodeDataDistanciel.acces)).toFixed(1));
 
             //Lieu
-            this.score.lieuDistanciel = Number((this.coefficientPonderation.lieu * this.geodeDataDistanciel.lieu).toFixed(1));
+            this.score.lieuDistanciel = Number(parseFloat((this.coefficientPonderation.lieu * this.geodeDataDistanciel.lieu)).toFixed(1));
 
             //Temps
-            this.score.tempsDistanciel = Number((this.coefficientPonderation.temps * this.geodeDataDistanciel.temps).toFixed(1));
+            this.score.tempsDistanciel = Number(parseFloat((this.coefficientPonderation.temps * this.geodeDataDistanciel.temps)).toFixed(1));
             
             //Rythme
-            this.score.rythmeDistanciel = Number((this.coefficientPonderation.rythme * this.geodeDataDistanciel.rythme).toFixed(1));
+            this.score.rythmeDistanciel = Number(parseFloat((this.coefficientPonderation.rythme * this.geodeDataDistanciel.rythme)).toFixed(1));
 
             //Objectifs
-            this.score.objectifsDistanciel = Number((this.coefficientPonderation.objectifs * this.geodeDataDistanciel.objectifs).toFixed(1));
+            this.score.objectifsDistanciel = Number(parseFloat((this.coefficientPonderation.objectifs * this.geodeDataDistanciel.objectifs)).toFixed(1));
             
             //Cheminement
-            this.score.cheminementDistanciel = Number((this.coefficientPonderation.cheminement * this.geodeDataDistanciel.cheminement).toFixed(1));
+            this.score.cheminementDistanciel = Number(parseFloat((this.coefficientPonderation.cheminement * this.geodeDataDistanciel.cheminement)).toFixed(1));
 
             //Sequence
-            this.score.sequenceDistanciel = Number((this.coefficientPonderation.sequence * this.geodeDataDistanciel.sequence).toFixed(1));
+            this.score.sequenceDistanciel = Number(parseFloat((this.coefficientPonderation.sequence * this.geodeDataDistanciel.sequence)).toFixed(1));
 
             //Methodes
-            this.score.methodesDistanciel = Number((this.coefficientPonderation.methodes * this.geodeDataDistanciel.methodes).toFixed(1));
+            this.score.methodesDistanciel = Number(parseFloat((this.coefficientPonderation.methodes * this.geodeDataDistanciel.methodes)).toFixed(1));
 
             //Format
-            this.score.formatDistanciel = Number((this.coefficientPonderation.format * this.geodeDataDistanciel.format).toFixed(1));
+            this.score.formatDistanciel = Number(parseFloat((this.coefficientPonderation.format * this.geodeDataDistanciel.format)).toFixed(1));
 
             //Contenus
-            this.score.contenusDistanciel = Number((this.coefficientPonderation.contenus * this.geodeDataDistanciel.contenus).toFixed(1));
+            this.score.contenusDistanciel = Number(parseFloat((this.coefficientPonderation.contenus * this.geodeDataDistanciel.contenus)).toFixed(1));
 
             //Evaluation
-            this.score.evaluationDistanciel = Number((this.coefficientPonderation.evaluation * this.geodeDataDistanciel.evaluation).toFixed(1));
+            this.score.evaluationDistanciel = Number(parseFloat((this.coefficientPonderation.evaluation * this.geodeDataDistanciel.evaluation)).toFixed(1));
 
             //Supports
-            this.score.supportsDistanciel = Number((this.coefficientPonderation.supports * this.geodeDataDistanciel.supports).toFixed(1));
+            this.score.supportsDistanciel = Number(parseFloat((this.coefficientPonderation.supports * this.geodeDataDistanciel.supports)).toFixed(1));
 
             //Communication
-            this.score.communicationDistanciel = Number((this.coefficientPonderation.communication * this.geodeDataDistanciel.communication).toFixed(1));
+            this.score.communicationDistanciel = Number(parseFloat((this.coefficientPonderation.communication * this.geodeDataDistanciel.communication)).toFixed(1));
 
             //Ressources
-            this.score.ressourcesDistanciel = Number((this.coefficientPonderation.ressources * this.geodeDataDistanciel.ressources).toFixed(1));
+            this.score.ressourcesDistanciel = Number(parseFloat((this.coefficientPonderation.ressources * this.geodeDataDistanciel.ressources)).toFixed(1));
         },
         
         degreOuvertureDistanciel(){
             // Calcul du degré d’ouverture en % de chacune des 14 composantes arrondi au 0,1 supérieur
 
             // Acces
-            this.degreOuverture.accesDistanciel = Number(((this.score.accesDistanciel / this.scoreMax.accesDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.accesDistanciel = Number(parseFloat(((this.score.accesDistanciel / this.scoreMax.accesDistanciel ) * 100)).toFixed(1));
 
             //Lieu
-            this.degreOuverture.lieuDistanciel = Number(((this.score.lieuDistanciel / this.scoreMax.lieuDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.lieuDistanciel = Number(parseFloat(((this.score.lieuDistanciel / this.scoreMax.lieuDistanciel ) * 100)).toFixed(1));
         
             //Temps
-            this.degreOuverture.tempsDistanciel = Number(((this.score.tempsDistanciel / this.scoreMax.tempsDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.tempsDistanciel = Number(parseFloat(((this.score.tempsDistanciel / this.scoreMax.tempsDistanciel ) * 100)).toFixed(1));
             
             //Rythme
-            this.degreOuverture.rythmeDistanciel = Number(((this.score.rythmeDistanciel / this.scoreMax.rythmeDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.rythmeDistanciel = Number(parseFloat(((this.score.rythmeDistanciel / this.scoreMax.rythmeDistanciel ) * 100)).toFixed(1));
 
             //Objectifs
-            this.degreOuverture.objectifsDistanciel = Number(((this.score.objectifsDistanciel / this.scoreMax.objectifsDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.objectifsDistanciel = Number(parseFloat(((this.score.objectifsDistanciel / this.scoreMax.objectifsDistanciel ) * 100)).toFixed(1));
             
             //Cheminement
-            this.degreOuverture.cheminementDistanciel = Number(((this.score.cheminementDistanciel / this.scoreMax.cheminementDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.cheminementDistanciel = Number(parseFloat(((this.score.cheminementDistanciel / this.scoreMax.cheminementDistanciel ) * 100)).toFixed(1));
 
             //Sequence
-            this.degreOuverture.sequenceDistanciel = Number(((this.score.sequenceDistanciel / this.scoreMax.sequenceDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.sequenceDistanciel = Number(parseFloat(((this.score.sequenceDistanciel / this.scoreMax.sequenceDistanciel ) * 100)).toFixed(1));
 
             //Methodes
-            this.degreOuverture.methodesDistanciel = Number(((this.score.methodesDistanciel / this.scoreMax.methodesDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.methodesDistanciel = Number(parseFloat(((this.score.methodesDistanciel / this.scoreMax.methodesDistanciel ) * 100)).toFixed(1));
 
             //Format
-            this.degreOuverture.formatDistanciel = Number(((this.score.formatDistanciel / this.scoreMax.formatDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.formatDistanciel = Number(parseFloat(((this.score.formatDistanciel / this.scoreMax.formatDistanciel ) * 100)).toFixed(1));
 
             //Contenus
-            this.degreOuverture.contenusDistanciel = Number(((this.score.contenusDistanciel / this.scoreMax.contenusDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.contenusDistanciel = Number(parseFloat(((this.score.contenusDistanciel / this.scoreMax.contenusDistanciel ) * 100)).toFixed(1));
             
             //Evaluation
-            this.degreOuverture.evaluationDistanciel  = Number(((this.score.evaluationDistanciel / this.scoreMax.evaluationDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.evaluationDistanciel  = Number(parseFloat(((this.score.evaluationDistanciel / this.scoreMax.evaluationDistanciel ) * 100)).toFixed(1));
 
             //Supports
-            this.degreOuverture.supportsDistanciel = Number(((this.score.supportsDistanciel / this.scoreMax.supportsDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.supportsDistanciel = Number(parseFloat(((this.score.supportsDistanciel / this.scoreMax.supportsDistanciel ) * 100)).toFixed(1));
 
             //Communication
-            this.degreOuverture.communicationDistanciel = Number(((this.score.communicationDistanciel / this.scoreMax.communicationDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.communicationDistanciel = Number(parseFloat(((this.score.communicationDistanciel / this.scoreMax.communicationDistanciel ) * 100)).toFixed(1));
 
             //Ressources
-            this.degreOuverture.ressourcesDistanciel = Number(((this.score.ressourcesDistanciel / this.scoreMax.ressourcesDistanciel ) * 100).toFixed(1));
+            this.degreOuverture.ressourcesDistanciel = Number(parseFloat(((this.score.ressourcesDistanciel / this.scoreMax.ressourcesDistanciel ) * 100)).toFixed(1));
         },
         degreOuvertureParCategories() {
             // Calcul du degré d’ouverture en % de chacune des trois catégories de composantes: 
             // Composantes Saptio Temporelles arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel = Number((((this.score.accesDistanciel + this.score.lieuDistanciel + this.score.tempsDistanciel + this.score.rythmeDistanciel) / (this.scoreMax.accesDistanciel + this.scoreMax.lieuDistanciel + this.scoreMax.tempsDistanciel + this.scoreMax.rythmeDistanciel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesSpatioTemporellesDistanciel = Number(parseFloat((((this.score.accesDistanciel + this.score.lieuDistanciel + this.score.tempsDistanciel + this.score.rythmeDistanciel) / (this.scoreMax.accesDistanciel + this.scoreMax.lieuDistanciel + this.scoreMax.tempsDistanciel + this.scoreMax.rythmeDistanciel)) * 100)).toFixed(1));
             // Composantes Pédagogiques arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesPedagogiquesDistanciel = Number((((this.score.objectifsDistanciel + this.score.cheminementDistanciel + this.score.sequenceDistanciel + this.score.methodesDistanciel + this.score.formatDistanciel + this.score.contenusDistanciel + this.score.evaluationDistanciel) / (this.scoreMax.objectifsDistanciel + this.scoreMax.cheminementDistanciel + this.scoreMax.sequenceDistanciel + this.scoreMax.methodesDistanciel + this.scoreMax.formatDistanciel + this.scoreMax.contenusDistanciel + this.scoreMax.evaluationDistanciel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesPedagogiquesDistanciel = Number(parseFloat((((this.score.objectifsDistanciel + this.score.cheminementDistanciel + this.score.sequenceDistanciel + this.score.methodesDistanciel + this.score.formatDistanciel + this.score.contenusDistanciel + this.score.evaluationDistanciel) / (this.scoreMax.objectifsDistanciel + this.scoreMax.cheminementDistanciel + this.scoreMax.sequenceDistanciel + this.scoreMax.methodesDistanciel + this.scoreMax.formatDistanciel + this.scoreMax.contenusDistanciel + this.scoreMax.evaluationDistanciel)) * 100)).toFixed(1));
             // Composantes Communication éducative médiatisée arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel = Number((((this.score.supportsDistanciel + this.score.communicationDistanciel + this.score.ressourcesDistanciel) / (this.scoreMax.supportsDistanciel + this.scoreMax.communicationDistanciel + this.scoreMax.ressourcesDistanciel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel = Number(parseFloat((((this.score.supportsDistanciel + this.score.communicationDistanciel + this.score.ressourcesDistanciel) / (this.scoreMax.supportsDistanciel + this.scoreMax.communicationDistanciel + this.scoreMax.ressourcesDistanciel)) * 100)).toFixed(1));
         },
         degreOuvertureEnvironnementEtudie(){
             // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur

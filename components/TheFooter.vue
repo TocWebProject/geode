@@ -6,13 +6,13 @@
           <NuxtLink to="/#geode" class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-100 text-sm lg:text-base font-medium rounded-md text-white bg-pink-800 hover:bg-opacity-80 md:py-4 md:text-lg md:px-10">
               Débutez le test
           </NuxtLink>
-          <NuxtLink to='/documentation' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:text-lg">
+          <NuxtLink to='/documentation' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-gray-200 hover:bg-opacity-60 md:text-lg">
             Documentation
           </NuxtLink>
-          <NuxtLink to='/partenaires' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:text-lg ">
+          <NuxtLink to='/partenaires' class="w-auto mr-2 mb-2 flex items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-gray-200 hover:bg-opacity-60 md:text-lg ">
             Partenaires
           </NuxtLink>
-          <NuxtLink to='/contact' class="w-auto flex mb-2 items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-pink-50 hover:bg-opacity-60 md:text-lg">
+          <NuxtLink to='/contact' class="w-auto flex mb-2 items-center justify-center px-5 py-2 border border-pink-600 text-sm lg:text-base font-medium rounded-md text-pink-700  bg-white hover:bg-gray-200 hover:bg-opacity-60 md:text-lg">
             Contact
           </NuxtLink>
         </div>

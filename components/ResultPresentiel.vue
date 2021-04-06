@@ -14,71 +14,6 @@
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
                 <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
             </div>
-            <!-- <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-6">
-                <table class="rounded-lg m-5 w-5/6 mx-auto bg-pink-100 text-pink-800 shadow">
-                    <tr class="text-center border-b-2 border-pink-300">
-                        <td class="px-4 py-2">Composantes</td>
-                        <td class="px-4 py-2">Degré d’ouverture</td>
-                    </tr>
-                    
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Accès</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.accesPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Lieu</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.lieuPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Temps</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.tempsPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Rythme</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.rythmePresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Objectifs</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.objectifsPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Cheminement</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.cheminementPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Sequence</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.sequencePresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Méthodes</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.methodesPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Format</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.formatPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Contenus</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.contenusPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Supports</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.supportsPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Evaluation</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.evaluationPresentiel}}%</th>
-                    </tr> 
-                    <tr class="text-center bg-pink-50 border-b border-pink-100">
-                        <th class="px-4 py-1">Communication</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.communicationPresentiel}}%</th>
-                    </tr> 
-                    <tr class="bg-pink-50 border-b border-pink-100 rounded-b-lg">
-                        <th class="px-4 py-1">Ressources</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.ressourcesPresentiel}}%</th>
-                    </tr> 
-                </table>        
-            </div> -->
             <p class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-3 text-base leading-8 text-justify">
                 L'échelle d'évaluation se situe entre 0 et 100, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla.  consectetur adipiscing elit. Cras fringilla convallis felis, eu pellentesque ligula commodo finibus. Nulla sed tortor ut augue gravida cursus eget vitae nulla. 
             </p>
@@ -295,101 +230,101 @@ export default {
             // Calcul du score GEODE de chacune des 14 composantes de l’environnement éducatif arrondi au 0,1 supérieur
 
             // Acces
-            this.score.accesPresentiel = Number((this.coefficientPonderation.acces * this.geodeDataPresentiel.acces).toFixed(1));
+            this.score.accesPresentiel = Number(parseFloat((this.coefficientPonderation.acces * this.geodeDataPresentiel.acces)).toFixed(1));
 
             //Lieu
-            this.score.lieuPresentiel = Number((this.coefficientPonderation.lieu * this.geodeDataPresentiel.lieu).toFixed(1));
+            this.score.lieuPresentiel = Number(parseFloat((this.coefficientPonderation.lieu * this.geodeDataPresentiel.lieu)).toFixed(1));
 
             //Temps
-            this.score.tempsPresentiel = Number((this.coefficientPonderation.temps * this.geodeDataPresentiel.temps).toFixed(1));
+            this.score.tempsPresentiel = Number(parseFloat((this.coefficientPonderation.temps * this.geodeDataPresentiel.temps)).toFixed(1));
             
             //Rythme
-            this.score.rythmePresentiel = Number((this.coefficientPonderation.rythme * this.geodeDataPresentiel.rythme).toFixed(1));
+            this.score.rythmePresentiel = Number(parseFloat((this.coefficientPonderation.rythme * this.geodeDataPresentiel.rythme)).toFixed(1));
 
             //Objectifs
-            this.score.objectifsPresentiel = Number((this.coefficientPonderation.objectifs * this.geodeDataPresentiel.objectifs).toFixed(1));
+            this.score.objectifsPresentiel = Number(parseFloat((this.coefficientPonderation.objectifs * this.geodeDataPresentiel.objectifs)).toFixed(1));
             
             //Cheminement
-            this.score.cheminementPresentiel = Number((this.coefficientPonderation.cheminement * this.geodeDataPresentiel.cheminement).toFixed(1));
+            this.score.cheminementPresentiel = Number(parseFloat((this.coefficientPonderation.cheminement * this.geodeDataPresentiel.cheminement)).toFixed(1));
 
             //Sequence
-            this.score.sequencePresentiel = Number((this.coefficientPonderation.sequence * this.geodeDataPresentiel.sequence).toFixed(1));
+            this.score.sequencePresentiel = Number(parseFloat((this.coefficientPonderation.sequence * this.geodeDataPresentiel.sequence)).toFixed(1));
 
             //Methodes
-            this.score.methodesPresentiel = Number((this.coefficientPonderation.methodes * this.geodeDataPresentiel.methodes).toFixed(1));
+            this.score.methodesPresentiel = Number(parseFloat((this.coefficientPonderation.methodes * this.geodeDataPresentiel.methodes)).toFixed(1));
 
             //Format
-            this.score.formatPresentiel = Number((this.coefficientPonderation.format * this.geodeDataPresentiel.format).toFixed(1));
+            this.score.formatPresentiel = Number(parseFloat((this.coefficientPonderation.format * this.geodeDataPresentiel.format)).toFixed(1));
 
             //Contenus
-            this.score.contenusPresentiel = Number((this.coefficientPonderation.contenus * this.geodeDataPresentiel.contenus).toFixed(1));
+            this.score.contenusPresentiel = Number(parseFloat((this.coefficientPonderation.contenus * this.geodeDataPresentiel.contenus)).toFixed(1));
 
             //Evaluation
-            this.score.evaluationPresentiel = Number((this.coefficientPonderation.evaluation * this.geodeDataPresentiel.evaluation).toFixed(1));
+            this.score.evaluationPresentiel = Number(parseFloat((this.coefficientPonderation.evaluation * this.geodeDataPresentiel.evaluation)).toFixed(1));
 
             //Supports
-            this.score.supportsPresentiel = Number((this.coefficientPonderation.supports * this.geodeDataPresentiel.supports).toFixed(1));
+            this.score.supportsPresentiel = Number(parseFloat((this.coefficientPonderation.supports * this.geodeDataPresentiel.supports)).toFixed(1));
 
             //Communication
-            this.score.communicationPresentiel = Number((this.coefficientPonderation.communication * this.geodeDataPresentiel.communication).toFixed(1));
+            this.score.communicationPresentiel = Number(parseFloat((this.coefficientPonderation.communication * this.geodeDataPresentiel.communication)).toFixed(1));
 
             //Ressources
-            this.score.ressourcesPresentiel = Number((this.coefficientPonderation.ressources * this.geodeDataPresentiel.ressources).toFixed(1));
+            this.score.ressourcesPresentiel = Number(parseFloat((this.coefficientPonderation.ressources * this.geodeDataPresentiel.ressources)).toFixed(1));
         },
         
         degreOuverturePresentiel(){
             // Calcul du degré d’ouverture en % de chacune des 14 composantes arrondi au 0,1 supérieur
 
             // Acces
-            this.degreOuverture.accesPresentiel = Number(((this.score.accesPresentiel / this.scoreMax.accesPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.accesPresentiel = Number(parseFloat(((this.score.accesPresentiel / this.scoreMax.accesPresentiel ) * 100)).toFixed(1));
 
             //Lieu
-            this.degreOuverture.lieuPresentiel = Number(((this.score.lieuPresentiel / this.scoreMax.lieuPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.lieuPresentiel = Number(parseFloat(((this.score.lieuPresentiel / this.scoreMax.lieuPresentiel ) * 100)).toFixed(1));
         
             //Temps
-            this.degreOuverture.tempsPresentiel = Number(((this.score.tempsPresentiel / this.scoreMax.tempsPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.tempsPresentiel = Number(parseFloat(((this.score.tempsPresentiel / this.scoreMax.tempsPresentiel ) * 100)).toFixed(1));
             
             //Rythme
-            this.degreOuverture.rythmePresentiel = Number(((this.score.rythmePresentiel / this.scoreMax.rythmePresentiel ) * 100).toFixed(1));
+            this.degreOuverture.rythmePresentiel = Number(parseFloat(((this.score.rythmePresentiel / this.scoreMax.rythmePresentiel ) * 100)).toFixed(1));
 
             //Objectifs
-            this.degreOuverture.objectifsPresentiel = Number(((this.score.objectifsPresentiel / this.scoreMax.objectifsPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.objectifsPresentiel = Number(parseFloat(((this.score.objectifsPresentiel / this.scoreMax.objectifsPresentiel ) * 100)).toFixed(1));
             
             //Cheminement
-            this.degreOuverture.cheminementPresentiel = Number(((this.score.cheminementPresentiel / this.scoreMax.cheminementPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.cheminementPresentiel = Number(parseFloat(((this.score.cheminementPresentiel / this.scoreMax.cheminementPresentiel ) * 100)).toFixed(1));
 
             //Sequence
-            this.degreOuverture.sequencePresentiel = Number(((this.score.sequencePresentiel / this.scoreMax.sequencePresentiel ) * 100).toFixed(1));
+            this.degreOuverture.sequencePresentiel = Number(parseFloat(((this.score.sequencePresentiel / this.scoreMax.sequencePresentiel ) * 100)).toFixed(1));
 
             //Methodes
-            this.degreOuverture.methodesPresentiel = Number(((this.score.methodesPresentiel / this.scoreMax.methodesPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.methodesPresentiel = Number(parseFloat(((this.score.methodesPresentiel / this.scoreMax.methodesPresentiel ) * 100)).toFixed(1));
 
             //Format
-            this.degreOuverture.formatPresentiel = Number(((this.score.formatPresentiel / this.scoreMax.formatPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.formatPresentiel = Number(parseFloat(((this.score.formatPresentiel / this.scoreMax.formatPresentiel ) * 100)).toFixed(1));
 
             //Contenus
-            this.degreOuverture.contenusPresentiel = Number(((this.score.contenusPresentiel / this.scoreMax.contenusPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.contenusPresentiel = Number(parseFloat(((this.score.contenusPresentiel / this.scoreMax.contenusPresentiel ) * 100)).toFixed(1));
             
             //Evaluation
-            this.degreOuverture.evaluationPresentiel  = Number(((this.score.evaluationPresentiel / this.scoreMax.evaluationPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.evaluationPresentiel  = Number(parseFloat(((this.score.evaluationPresentiel / this.scoreMax.evaluationPresentiel ) * 100)).toFixed(1));
 
             //Supports
-            this.degreOuverture.supportsPresentiel = Number(((this.score.supportsPresentiel / this.scoreMax.supportsPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.supportsPresentiel = Number(parseFloat(((this.score.supportsPresentiel / this.scoreMax.supportsPresentiel ) * 100)).toFixed(1));
 
             //Communication
-            this.degreOuverture.communicationPresentiel = Number(((this.score.communicationPresentiel / this.scoreMax.communicationPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.communicationPresentiel = Number(parseFloat(((this.score.communicationPresentiel / this.scoreMax.communicationPresentiel ) * 100)).toFixed(1));
 
             //Ressources
-            this.degreOuverture.ressourcesPresentiel = Number(((this.score.ressourcesPresentiel / this.scoreMax.ressourcesPresentiel ) * 100).toFixed(1));
+            this.degreOuverture.ressourcesPresentiel = Number(parseFloat(((this.score.ressourcesPresentiel / this.scoreMax.ressourcesPresentiel ) * 100)).toFixed(1));
         },
         degreOuvertureParCategories() {
             // Calcul du degré d’ouverture en % de chacune des trois catégories de composantes: 
             // Composantes Saptio Temporelles arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesSpatioTemporellesPresentiel = Number((((this.score.accesPresentiel + this.score.lieuPresentiel + this.score.tempsPresentiel + this.score.rythmePresentiel) / (this.scoreMax.accesPresentiel + this.scoreMax.lieuPresentiel + this.scoreMax.tempsPresentiel + this.scoreMax.rythmePresentiel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesSpatioTemporellesPresentiel = Number(parseFloat((((this.score.accesPresentiel + this.score.lieuPresentiel + this.score.tempsPresentiel + this.score.rythmePresentiel) / (this.scoreMax.accesPresentiel + this.scoreMax.lieuPresentiel + this.scoreMax.tempsPresentiel + this.scoreMax.rythmePresentiel)) * 100)).toFixed(1));
             // Composantes Pédagogiques arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesPedagogiquesPresentiel = Number((((this.score.objectifsPresentiel + this.score.cheminementPresentiel + this.score.sequencePresentiel + this.score.methodesPresentiel + this.score.formatPresentiel + this.score.contenusPresentiel + this.score.evaluationPresentiel) / (this.scoreMax.objectifsPresentiel + this.scoreMax.cheminementPresentiel + this.scoreMax.sequencePresentiel + this.scoreMax.methodesPresentiel + this.scoreMax.formatPresentiel + this.scoreMax.contenusPresentiel + this.scoreMax.evaluationPresentiel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesPedagogiquesPresentiel = Number(parseFloat((((this.score.objectifsPresentiel + this.score.cheminementPresentiel + this.score.sequencePresentiel + this.score.methodesPresentiel + this.score.formatPresentiel + this.score.contenusPresentiel + this.score.evaluationPresentiel) / (this.scoreMax.objectifsPresentiel + this.scoreMax.cheminementPresentiel + this.scoreMax.sequencePresentiel + this.scoreMax.methodesPresentiel + this.scoreMax.formatPresentiel + this.scoreMax.contenusPresentiel + this.scoreMax.evaluationPresentiel)) * 100)).toFixed(1));
             // Composantes Communication éducative médiatisée arrondi au 0,1 supérieur
-            this.degreOuvertureCategories.composantesCommunicationEducativePresentiel = Number((((this.score.supportsPresentiel + this.score.communicationPresentiel + this.score.ressourcesPresentiel) / (this.scoreMax.supportsPresentiel + this.scoreMax.communicationPresentiel + this.scoreMax.ressourcesPresentiel)) * 100).toFixed(1));
+            this.degreOuvertureCategories.composantesCommunicationEducativePresentiel = Number(parseFloat((((this.score.supportsPresentiel + this.score.communicationPresentiel + this.score.ressourcesPresentiel) / (this.scoreMax.supportsPresentiel + this.scoreMax.communicationPresentiel + this.scoreMax.ressourcesPresentiel)) * 100)).toFixed(1));
         },
         degreOuvertureEnvironnementEtudie(){
             // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur
