@@ -1,19 +1,19 @@
 <template>
     <div>   
-        <div class="pb-32 px-7 h-full">
+        <div class="pb-40 px-7 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormDistanciel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
-                    <div class="bg-gray-100 px-2 py-3 sm:px-3 sm:py-4 border-t-2 border-pink-500 rounded-t relative">
-                        <div class="max-w-md md:w-full md:mx-0">
+                    <div class="bg-gray-100 px-2 py-3 sm:px-3 sm:py-5 border-t-2 border-pink-500 rounded-t relative">
+                        <div class="max-w-2xl md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-3 sm:mb-2">
                                 <img
                                     class="w-9 h-9 sm:w-12 sm:h-12 mt-3 object-cover rounded"
                                     alt="Logo Geode"
                                     src="~/assets/img/logo-geode.png"
                                 />
-                                <h3 class="text-2xl sm:text-3xl text-pink-700 mt-5 sm:mt-7">Géode en <span class="text-pink-600">distanciel</span></h3>
+                                <h3 class="text-xl sm:text-3xl text-pink-700 mt-5 sm:mt-6">GÉODE pour une formation en <span class="text-pink-600">distanciel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
                                 <svg 
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="bg-white space-y-5">
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-yellow-200">
+                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-200">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                     <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-indigo-300">
+                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                     <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-indigo-600">pédagogiques</span></h3>
@@ -259,7 +259,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-green-200">
+                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
                             <div class="max-w-2xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                     <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes de la <span class="text-green-600">communication éducative médiatisée</span></h3>
@@ -287,7 +287,7 @@
                         </div>
                         <hr/>
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
-                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
+                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (visio-conférence, téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="communication">Outils de communication</label>
                                 <div class="w-full inline-flex mt-2">
@@ -332,7 +332,7 @@
                 <button v-if="!showResultDistanciel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
-                <a v-if="showResultDistanciel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700 bg-white hover:bg-gray-100 hover:bg-opacity-60 md:py-4 md:text-lg">
+                <a v-if="showResultDistanciel" @click="restartTest" href="#startGeode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700 bg-white hover:bg-gray-100 hover:bg-opacity-60 md:py-4 md:text-lg">
                     Refaire le test
                 </a>
             </form>

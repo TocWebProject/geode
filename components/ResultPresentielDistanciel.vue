@@ -121,7 +121,7 @@
             </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
-                <a href="/#geode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
+                <a href="/#startGeode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
                     Refaire le test
                 </a>         
             </div>

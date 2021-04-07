@@ -1,7 +1,7 @@
 <template>
     <!-- Page Documentation -->
     <section id="topDocumentation" class="bg-white h-full overflow-hidden pb-10">
-        <h2 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 mb-8 lg:mb-0">Documentation</h2>
+        <h1 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14 mb-8 lg:mb-0">Documentation</h1>
         <div class="min-w-11/12 mt-1 mb-10 mx-auto flex flex-wrap justify-center">
             <!-- Menu Documentation -->
             <div class="col-auto kf-moveInLeft mt-6">
@@ -9,7 +9,7 @@
                     <img src="~/assets/img/undraw_At_work_re_qotl.svg" class="kf-moveInUp w-40 h-40 ml-4 lg:ml-8 my-auto md:mr-6 lg:mr-0" alt="illustration de livres">
                     <div class="w-60 lg:w-60 h-60 ml-0 mt-1 mb-7 pr-10 rounded shadow-lg bg-gray-200 hover:bg-opacity-80">
                         <nav class="w-60 p-8 pt-5 h-60">
-                                <p class="text-2xl font-medium">Sommaire</p>
+                                <h2 class="text-2xl font-medium">Sommaire</h2>
                                 <hr class="hr-sommaire">
                             <ul>
                                 <li><a class="hover:text-pink-800" href="#target1">Titre 1</a></li>
@@ -29,7 +29,7 @@
             <!-- Text Documentation -->
             <article class="kf-appear-1 flex flex-col w-4/5 lg:w-2/3 items-left px-4 mt-5 lg:mt-10 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0">
                 <h3 class="text-3xl text-center font-bold mt-6 md:mr-5 sm:mr-2 text-pink-900 underline">
-                    La grille d'évaluation Géode
+                    La grille d'évaluation GÉODE
                 </h3>
 
                 <h4 id="target1" class="text-2xl font-bold mt-6 md:mr-5 sm:mr-2 text-pink-800">Titre 1</h4>

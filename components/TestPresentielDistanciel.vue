@@ -1,19 +1,19 @@
 <template>
     <div>   
-        <div class="pb-28 px-7 h-full">
+        <div class="pb-40 px-7 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormDistancielPresentiel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
-                    <div class="bg-gray-100 px-2 py-1 sm:px-3 sm:py-2 border-t-2 border-pink-500 rounded-t relative">
-                        <div class="max-w-md md:w-full md:mx-0">
+                    <div class="bg-gray-100 px-2 py-1 sm:px-3 sm:py-5 border-t-2 border-pink-500 rounded-t relative">
+                        <div class="max-w-lg md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                 <img
                                     class="w-9 h-9 sm:w-11 sm:h-11 mt-4 sm:mt-3 object-cover rounded"
                                     alt="Logo Geode"
                                     src="~/assets/img/logo-geode.png"
                                 />
-                                <h3 class="text-xl sm:text-2xl text-pink-700 mt-7">Géode en <span class="text-pink-600">présentiel</span> et <span class="text-pink-600">distanciel</span></h3>
+                                <h3 class="text-2xl sm:text-3xl text-pink-700 mt-5">GÉODE pour une formation à la fois en <span class="text-pink-600">présentiel</span> et en <span class="text-pink-600">distanciel</span></h3>
                             </div>
                             <button @click="restartTest" aria-label="retour à la première étape" class="absolute top-0 right-0 mt-1 mr-1 sm:mt-2 sm:mr-2">
                                 <svg 
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="bg-white space-y-5">
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-gray-300">
+                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-gray-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                     <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant la répartition horaire de la formation</h3>
@@ -59,7 +59,7 @@
                                 <p class="kf-appear-1 text-sm ml-3 md:ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingHeuresDistanciel">Veuillez donner une réponse valide</p>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-2 border-l-2 border-yellow-200">
+                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-200">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                     <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
@@ -71,7 +71,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-yellow-600 mb-1" for="accesPresentiel">L'accès en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="accesPresentiel">L'accès en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="accesPresentiel" id="accesPresentiel" v-model.number="geodeDataDP.accesPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -103,7 +103,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-yellow-600 mb-1" for="lieuPresentiel">Le lieu en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="lieuPresentiel">Le lieu en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="lieuPresentiel" id="lieuPresentiel" v-model.number="geodeDataDP.lieuPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -135,7 +135,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-yellow-600 mb-1" for="tempsPresentiel">Le temps en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="tempsPresentiel">Le temps en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="tempsPresentiel" id="tempsPresentiel" v-model.number="geodeDataDP.tempsPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -163,11 +163,11 @@
                         </div>
                         <hr/>
                         <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
-                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
+                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le rythme qui lui convient le mieux pour se former ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-yellow-600 mb-1" for="rythmePresentiel">Le rythme en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="rythmePresentiel">Le rythme en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="rythmePresentiel" id="rythmePresentiel" v-model.number="geodeDataDP.rythmePresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -205,7 +205,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="objectifsPresentiel">Les objectifs en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="objectifsPresentiel">Les objectifs en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="objectifsPresentiel" id="objectifsPresentiel" v-model.number="geodeDataDP.objectifsPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -237,7 +237,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="cheminementPresentiel">Le cheminement en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="cheminementPresentiel">Le cheminement en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="cheminementPresentiel" id="cheminementPresentiel" v-model.number="geodeDataDP.cheminementPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -269,7 +269,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="sequencePresentiel">La séquence en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="sequencePresentiel">La séquence en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="sequencePresentiel" id="sequencePresentiel" v-model.number="geodeDataDP.sequencePresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -301,7 +301,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="methodesPresentiel">Les méthodes en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="methodesPresentiel">Les méthodes en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="methodesPresentiel" id="methodesPresentiel" v-model.number="geodeDataDP.methodesPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -333,7 +333,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="formatPresentiel">Le format en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="formatPresentiel">Le format en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="formatPresentiel" id="formatPresentiel" v-model.number="geodeDataDP.formatPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -361,11 +361,11 @@
                         </div>
                         <hr/>
                         <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
-                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir de travailler seul, à deux ou en groupe ?</p>
+                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les contenus théoriques et/ou pratiques qui lui conviennent le mieux ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="contenusPresentiel">Les contenus en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="contenusPresentiel">Les contenus en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="contenusPresentiel" id="contenusPresentiel" v-model.number="geodeDataDP.contenusPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -397,7 +397,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-indigo-600 mb-1" for="evaluationPresentiel">L'évaluation en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-indigo-600 mb-1" for="evaluationPresentiel">L'évaluation en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="evaluationPresentiel" id="evaluationPresentiel" v-model.number="geodeDataDP.evaluationPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -435,7 +435,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-green-600 mb-1" for="supportsPresentiel">Les supports en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-green-600 mb-1" for="supportsPresentiel">Les supports en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="supportsPresentiel" id="supportsPresentiel" v-model.number="geodeDataDP.supportsPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -463,11 +463,11 @@
                         </div>
                         <hr/>
                         <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
-                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
+                            <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (visio-conférence, téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-auto">
-                                        <label class="text-sm text-green-600 mb-1" for="communicationPresentiel">Les communication en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-green-600 mb-1" for="communicationPresentiel">Les communication en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationPresentiel" id="communicationPresentiel" v-model.number="geodeDataDP.communicationPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -499,7 +499,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-60 mx-auto">
-                                        <label class="text-sm text-green-600 mb-1" for="ressourcesPresentiel">Les personnes ressources en <span class="font-bold">presentiel</span></label>
+                                        <label class="text-sm text-green-600 mb-1" for="ressourcesPresentiel">Les personnes ressources en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesPresentiel" id="ressourcesPresentiel" v-model.number="geodeDataDP.ressourcesPresentiel" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
@@ -532,7 +532,7 @@
                 <button v-if="!showResultPresentielDistanciel" type="submit" class="w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg">
                     Evaluez l'ouverture
                 </button>
-                <a v-if="showResultPresentielDistanciel" @click="restartTest" href="#geode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700 bg-white hover:bg-gray-100 md:py-4 md:text-lg">
+                <a v-if="showResultPresentielDistanciel" @click="restartTest" href="#startGeode" class="kf-appear-2 w-60 mx-auto mt-16 flex items-center justify-center px-5 py-4 border border-pink-600 text-base font-medium rounded-md text-pink-700 bg-white hover:bg-gray-100 md:py-4 md:text-lg">
                     Refaire le test
                 </a>
             </form>

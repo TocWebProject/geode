@@ -86,6 +86,12 @@ html {
 /* ---------------- Home Page ---------------- */
 
 /* -- Form -- */
+.hr-home {
+    border: 2px solid #ad2472;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 button:focus {
     outline-color:#fdf2f8 !important;
 } 

@@ -52,7 +52,7 @@
             </svg>
           </button>
         </div>
-        <span @click="menuIsOpen = false" class="flex w-full items-center py-4 border-b">
+        <span @click="menuIsOpen = false" class="flex w-full items-center py-4 pt-1 border-b">
           <Logo />
         </span>
         <ul class="divide-y font-sans">
