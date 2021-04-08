@@ -328,7 +328,7 @@ export default {
         },
         degreOuvertureEnvironnementEtudie(){
             // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur
-            this.degreOuvertureEnvironnementPresentiel = Math.ceil(((
+            this.degreOuvertureEnvironnementPresentiel = Math.floor(((
                 this.score.accesPresentiel +
                 this.score.lieuPresentiel +
                 this.score.tempsPresentiel +

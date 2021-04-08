@@ -298,9 +298,9 @@ export default {
         proportionModalites() {
             // Calcul des proportion des différences modalités à exprimer en centième en fonction du pourcentage de volume horaire obtenu.
             //Presentiel
-            this.proportionPresentiel = Number(parseFloat((this.geodeDataDP.heuresPresentiel) / (this.geodeDataDP.heuresPresentiel + this.geodeDataDP.heuresDistanciel)).toFixed(2))
+            this.proportionPresentiel = Number(parseFloat((this.geodeDataDP.heuresPresentiel) / (this.geodeDataDP.heuresPresentiel + this.geodeDataDP.heuresDistanciel)).toFixed(3))
             //Distanciel
-            this.proportionDistanciel = Number(parseFloat((this.geodeDataDP.heuresDistanciel) / (this.geodeDataDP.heuresPresentiel + this.geodeDataDP.heuresDistanciel)).toFixed(2))
+            this.proportionDistanciel = Number(parseFloat((this.geodeDataDP.heuresDistanciel) / (this.geodeDataDP.heuresPresentiel + this.geodeDataDP.heuresDistanciel)).toFixed(3))
         },
 
         scoreComposantesDP() {
@@ -407,7 +407,7 @@ export default {
 
         degreOuvertureEnvironnementEtudie(){
             // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur
-            this.degreOuvertureEnvironnementDP = Math.ceil(((
+            this.degreOuvertureEnvironnementDP = Math.floor(((
                 this.score.accesDP +
                 this.score.lieuDP +
                 this.score.tempsDP +

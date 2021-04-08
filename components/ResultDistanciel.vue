@@ -328,7 +328,7 @@ export default {
         },
         degreOuvertureEnvironnementEtudie(){
             // Calcul du degré d’ouverture en % de l’environnement étudié arrondi à l'entier supérieur
-            this.degreOuvertureEnvironnementDistanciel = Math.ceil(((
+            this.degreOuvertureEnvironnementDistanciel = Math.floor(((
                 this.score.accesDistanciel +
                 this.score.lieuDistanciel +
                 this.score.tempsDistanciel +
