@@ -30,7 +30,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-400">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-yellow-600">spatio temporelles</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions concernant les composantes <span class="font-semibold">spatio temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="acces">L'accès</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="acces" id="acces" v-model.number="geodeDataDistanciel.acces" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="acces" id="acces" v-model.number="geodeDataDistanciel.acces" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -60,7 +60,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="lieu">Le lieu</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="lieu" id="lieu" v-model.number="geodeDataDistanciel.lieu" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="lieu" id="lieu" v-model.number="geodeDataDistanciel.lieu" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -80,7 +80,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Le temps</label>    
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="temps" id="temps" v-model.number="geodeDataDistanciel.temps" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="temps" id="temps" v-model.number="geodeDataDistanciel.temps" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -100,7 +100,7 @@
                                 <label class="text-sm text-yellow-600 tracking-wide ml-1" for="rythme">Le rythme</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="rythme" id="rythme" v-model.number="geodeDataDistanciel.rythme" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="rythme" id="rythme" v-model.number="geodeDataDistanciel.rythme" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -116,7 +116,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes <span class="text-indigo-600">pédagogiques</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions concernant les composantes <span class="font-semibold">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="objectifs">Les objectifs</label>    
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="objectifs" id="objectifs" v-model.number="geodeDataDistanciel.objectifs" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="objectifs" id="objectifs" v-model.number="geodeDataDistanciel.objectifs" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -146,7 +146,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="cheminement">Le cheminement</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="cheminement" id="cheminement" v-model.number="geodeDataDistanciel.cheminement" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="cheminement" id="cheminement" v-model.number="geodeDataDistanciel.cheminement" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -166,7 +166,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="sequence">La séquence</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="sequence" id="sequence" v-model.number="geodeDataDistanciel.sequence" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="sequence" id="sequence" v-model.number="geodeDataDistanciel.sequence" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -186,7 +186,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="methodes">Les méthodes</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="methodes" id="methodes" v-model.number="geodeDataDistanciel.methodes" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="methodes" id="methodes" v-model.number="geodeDataDistanciel.methodes" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -206,7 +206,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="format">Le format</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="format" id="format" v-model.number="geodeDataDistanciel.format" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="format" id="format" v-model.number="geodeDataDistanciel.format" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -226,7 +226,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="contenus">Les contenus</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="contenus" id="contenus" v-model.number="geodeDataDistanciel.contenus" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="contenus" id="contenus" v-model.number="geodeDataDistanciel.contenus" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -246,7 +246,7 @@
                                 <label class="text-sm text-indigo-600 tracking-wide ml-1" for="evaluation">L'évaluation</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="evaluation" id="evaluation" v-model.number="geodeDataDistanciel.evaluation" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="evaluation" id="evaluation" v-model.number="geodeDataDistanciel.evaluation" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -262,7 +262,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
                             <div class="max-w-2xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-pink-700">Questions concernant les composantes de la <span class="text-green-600">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions concernant les composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="supports">Les supports</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="supports" id="supports" v-model.number="geodeDataDistanciel.supports" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="supports" id="supports" v-model.number="geodeDataDistanciel.supports" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -292,7 +292,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="communication">Outils de communication</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="communication" id="communication" v-model.number="geodeDataDistanciel.communication" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="communication" id="communication" v-model.number="geodeDataDistanciel.communication" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
@@ -312,7 +312,7 @@
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="ressources">Les personnes ressources</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
-                                        <select form="geodeFormDistanciel" name="ressources" id="ressources" v-model.number="geodeDataDistanciel.ressources" class="block w-full mt-0 rounded-md border-gray-300 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-200 focus:ring-opacity-50 pr-8 mb-3">
+                                        <select form="geodeFormDistanciel" name="ressources" id="ressources" v-model.number="geodeDataDistanciel.ressources" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre Choix</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
