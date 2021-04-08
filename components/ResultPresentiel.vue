@@ -2,7 +2,7 @@
     <!-- Geode Result Text -->
     <section id="resultPresentiel" class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-32">
-            <h3 class="kf-moveInDown text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats Géode en présentiel</h3>
+            <h3 class="kf-moveInDown w-3/4 xl:w-1/2 mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation en présentiel</h3>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
             <h4 class="kf-appear-1 mx-auto md:w-9/12 w-10/12 text-center mt-20 mb-2 text-2xl text-pink-900">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
@@ -27,15 +27,15 @@
             <!-- Pills Composantes -->
             <div class="mx-auto max-w-4xl flex flex-col lg:flex-row  items-center justify-around mt-5">
                 <div class="rounded-lg font-semibold text-center bg-yellow-200 hover:bg-yellow-300 py-1 px-7 my-2 shadow">
-                    <p class="">Composantes Saptio Temporelles:</p>
+                    <p class="">Composantes Spatio-temporelles :</p>
                     <p class="text-xl">{{ this.degreOuvertureCategories.composantesSpatioTemporellesPresentiel }}%</p>
                 </div>
                 <div class="rounded-lg font-semibold text-center bg-indigo-200 hover:bg-indigo-300 py-1 px-7 my-2 shadow">
-                    <p>Composantes Pédagogiques:</p>
+                    <p>Composantes Pédagogiques :</p>
                     <p class="text-xl">{{ this.degreOuvertureCategories.composantesPedagogiquesPresentiel }}%</p>
                 </div>
                 <div class="rounded-lg font-semibold text-center bg-green-200 hover:bg-green-300 py-1 px-7 my-2 shadow">
-                    <p>Composantes Communication:</p>
+                    <p>Composantes Communication :</p>
                     <p class="text-xl">{{ this.degreOuvertureCategories.composantesCommunicationEducativePresentiel }}%</p>
                 </div>
             </div>
@@ -397,7 +397,7 @@ export default {
                 ],
                 datasets: [
                     {
-                        label: 'Composantes Saptio Temporelles',
+                        label: 'Composantes Spatio-temporelles',
                         data: [this.degreOuvertureCategories.composantesSpatioTemporellesPresentiel],
                         backgroundColor: '#fde68a'
                     },

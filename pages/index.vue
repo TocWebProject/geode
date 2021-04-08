@@ -8,11 +8,11 @@
           <section class="kf-moveInLeft mt-3 mr-auto max-w-8xl px-4 sm:mt-7 sm:px-6 lg:mt-24 lg:px-10 xl:mt-28 xl:pl-20">
             <div class="text-center lg:text-left">
               <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span class="block xl:inline">Evaluez l’ouverture</span>
+                <span class="block xl:inline">Évaluez l’ouverture</span>
                 <span class="block text-pink-800 xl:inline">d’un environnement éducatif</span>
               </h1>
-              <p class="mt-1 text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto lg:mt-5 md:text-xl lg:mx-0 lg:pr-10">
-                GÉODE permet d’évaluer le degré d’ouverture des 14 composantes qui structurent tout environnement éducatif ainsi que celui des trois catégories dont elles se réfèrent. 
+              <p class="mt-1 text-lg text-gray-500 sm:text-xl sm:max-w-xl sm:mx-auto lg:mt-5 md:text-3xl lg:mx-0 lg:pr-10">
+                GÉODE : un instrument au service <br>de l'ingénierie et de la recherche
               </p>
               <div class="mt-3 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">

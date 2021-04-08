@@ -30,7 +30,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-400">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions concernant les composantes <span class="font-semibold">spatio temporelles</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="acces" id="acces" v-model.number="geodeDataPresentiel.acces" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -61,7 +61,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="lieu" id="lieu" v-model.number="geodeDataPresentiel.lieu" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -77,11 +77,11 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
                             <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
-                                <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Le temps</label>    
+                                <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Les horaires</label>    
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="temps" id="temps" v-model.number="geodeDataPresentiel.temps" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -101,7 +101,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="rythme" id="rythme" v-model.number="geodeDataPresentiel.rythme" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -116,7 +116,7 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions concernant les composantes <span class="font-semibold">pédagogiques</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="objectifs" id="objectifs" v-model.number="geodeDataPresentiel.objectifs" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -147,7 +147,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="cheminement" id="cheminement" v-model.number="geodeDataPresentiel.cheminement" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -167,7 +167,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="sequence" id="sequence" v-model.number="geodeDataPresentiel.sequence" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -187,7 +187,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="methodes" id="methodes" v-model.number="geodeDataPresentiel.methodes" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -207,7 +207,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="format" id="format" v-model.number="geodeDataPresentiel.format" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -227,7 +227,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="contenus" id="contenus" v-model.number="geodeDataPresentiel.contenus" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -247,7 +247,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="evaluation" id="evaluation" v-model.number="geodeDataPresentiel.evaluation" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -262,18 +262,18 @@
                         <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
                             <div class="max-w-2xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions concernant les composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
-                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les supports d’apprentissage qui lui conviennent le mieux  (polycopiés, ouvrages, textes numérisés, vidéo et/ou audio en ligne ou non, etc.) ?</p>
+                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les supports d’apprentissage qui lui conviennent le mieux  (ouvrages, textes numérisés, vidéo et/ou podcast en ligne ou non, etc.) ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
                                 <label class="text-sm text-green-600 tracking-wide ml-1" for="supports">Les supports</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="supports" id="supports" v-model.number="geodeDataPresentiel.supports" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -293,7 +293,7 @@
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="communication" id="communication" v-model.number="geodeDataPresentiel.communication" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>
@@ -309,11 +309,11 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
                             <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
-                                <label class="text-sm text-green-600 tracking-wide ml-1" for="ressources">Les personnes ressources</label>
+                                <label class="text-sm text-green-600 tracking-wide ml-1" for="ressources">Les personnes-ressources</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="ressources" id="ressources" v-model.number="geodeDataPresentiel.ressources" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
-                                            <option value="">Votre Choix</option>
+                                            <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
                                             <option value="1">Pas vraiment libre</option>
                                             <option value="2">Moyennement libre</option>

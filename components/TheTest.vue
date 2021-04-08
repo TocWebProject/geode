@@ -4,8 +4,8 @@
         <hr class="hr-home w-28 mx-auto">
         <h3 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Préambule</h3>
         <div class="w-4/5 md:w-3/4 mx-auto text-justify text-lg pt-5">
-            <p class="italic text-center">
-                <span class="font-semibold"> « L’ouverture en formation renvoie à un ensemble de dispositifs flexibles et autonomisants
+            <p class="text-center">
+                <span class="font-semibold italic"> « L’ouverture en formation renvoie à un ensemble de dispositifs flexibles et autonomisants
                 dont la principale propriété est d’ouvrir à l’apprenant des libertés de choix, afin qu’il puisse
                 exercer un contrôle sur sa formation et sur ses apprentissages »</span> (Jézégou, 2005).
             </p>
@@ -22,9 +22,9 @@
             </p>
             <p class="pt-4">
                 L’auteur de GÉODE est <a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="https://pro.univ-lille.fr/annie-jezegou/">Annie Jézégou</a>, Professeur des Universités au
-                laboratoire CIREL (URL 4354), équipe Trigone, Université de Lille. En 2010, GÉODE a fait
+                laboratoire CIREL (ULR 4354), équipe Trigone, Université de Lille. En 2010, GÉODE a fait
                 l’objet <a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="http://www.ijede.ca/index.php/jde/article/view/625">d’une publication scientifique</a> dans la Revue de l’Éducation à Distance/Journal of
-                Distance Educatuion (Jézégou, 2010).
+                Distance Education (Jézégou, 2010).
             </p> 
             <p class="pt-4">
                 La présente application constitue la version Web de GÉODE.

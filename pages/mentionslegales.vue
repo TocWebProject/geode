@@ -23,7 +23,7 @@
             Domaine universitaire du "Pont de Bois rue du Barreau<br>
             BP 60149, 59653 Lille
         </p>
-        <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-700 pt-5 sm:pt-8 md:text-3xl">Conception / Réalisation</h2>
+        <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-700 pt-5 sm:pt-8 md:text-3xl">Conception Web</h2>
         <hr class="hr-mentions w-64 mx-auto">
         <p class="w-11/12 sm:w-1/2 mx-auto text-center pt-3">
             Ass Ouest Wax Création
@@ -37,11 +37,6 @@
         <hr class="hr-mentions w-44 mx-auto">
         <p class="w-11/12 sm:w-1/2 mx-auto text-center pt-3">
             Direction de l'innovation pédagogique de l'Université de Lille
-        </p>
-        <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-700 pt-5 sm:pt-8 md:text-3xl">Webmestre</h2>
-        <hr class="hr-mentions w-24 mx-auto">
-        <p class="w-11/12 sm:w-1/2 mx-auto text-center pt-3">
-            Jean Heutte
         </p>
         <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-700 pt-5 sm:pt-8 md:text-3xl">Droits d'auteur et propriété intellectuelle</h2>
         <hr class="hr-mentions w-72 sm:w-96 mx-auto">

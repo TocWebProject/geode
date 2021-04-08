@@ -5,7 +5,7 @@
         <div class="bg-gray-50 py-2 border-t-2 bg-opacity-5">
             <div class="max-w-sm mx-auto md:w-full md:mx-0">
                 <div class="inline-flex space-x-4 mb-2">
-                    <h3 class="text-xl sm:text-3xl pt-4 text-pink-700">La formation se déroule:</h3>
+                    <h3 class="text-xl sm:text-3xl pt-4 text-pink-700">La formation se déroule :</h3>
                 </div>
             </div>
         </div>

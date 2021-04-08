@@ -19,10 +19,10 @@
       </div>
     <!--  Legal Mentions -->
     <div class="bg-white">
-      <div class="container mx-auto text-center lg:w-3/5 w-10/12 py-8 sm:py-5 px-5">
+      <div class="container mx-auto text-center w-10/12 lg:w-4/5 xl:w-3/5 py-8 sm:py-5 px-5">
         <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-center text-center text-gray-800 text-sm xl:text-base">
           Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha. GÉODE est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
-          La propriété intellectuelle de la grille Géode appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nd 4.0.
+          <br>La propriété intellectuelle de GÉODE appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nc-nd 4.0.
         </span>
         <div class="flex justify-center text-sm mt-2">
           <NuxtLink to="/mentionslegales" class="mr-5 title-font tracking-widest text-pink-900 hover:text-gray-700 border-b-2 border-pink-100 hover:border-pink-200">MENTIONS LEGALES</NuxtLink>
