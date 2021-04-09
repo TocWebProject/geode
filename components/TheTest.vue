@@ -3,7 +3,7 @@
         <h3 id="geode" class="text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-20 sm:text-6xl md:text-7xl">GÉODE</h3>
         <hr class="hr-home w-28 mx-auto">
         <h3 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Préambule</h3>
-        <div class="w-4/5 md:w-3/4 mx-auto text-justify text-lg pt-5">
+        <div class="w-11/12 md:w-3/4 mx-auto text-justify text-lg pt-5">
             <p class="text-center">
                 <span class="font-semibold italic"> « L’ouverture en formation renvoie à un ensemble de dispositifs flexibles et autonomisants
                 dont la principale propriété est d’ouvrir à l’apprenant des libertés de choix, afin qu’il puisse
