@@ -1,6 +1,6 @@
 <template>
     <div>   
-        <div class="pb-40 px-7 h-full">
+        <div class="pb-40 px-5 sm:px-6 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormDistancielPresentiel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
@@ -466,7 +466,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (documents partagés, visio-conférence, téléphone, messagerie, forum, chat, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-64 mx-auto">
+                                    <div class="flex flex-col w-72 mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="communicationPresentiel">Les outils de communication en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationPresentiel" id="communicationPresentiel" v-model.number="geodeDataDP.communicationPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -478,8 +478,8 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCommunicationPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-64 mx-auto">
-                                        <label class="text-sm text-green-600 mb-1" for="communicationDistanciel">Les outils de communication en <span class="font-bold">distanciel</span></label>
+                                    <div class="flex flex-col w-72 mx-auto">
+                                        <label class="text-sm  text-green-600 mb-1" for="communicationDistanciel">Les outils de communication en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationDistanciel" id="communicationDistanciel" v-model.number="geodeDataDP.communicationDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
@@ -498,7 +498,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-60 mx-auto">
+                                    <div class="flex flex-col w-72 mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesPresentiel">Les personnes-ressources en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesPresentiel" id="ressourcesPresentiel" v-model.number="geodeDataDP.ressourcesPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -510,7 +510,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRessourcesPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-60 mx-auto">
+                                    <div class="flex flex-col w-72 mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesDistanciel">Les personnes-ressources en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesDistanciel" id="ressourcesDistanciel" v-model.number="geodeDataDP.ressourcesDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -728,28 +728,6 @@ export default {
         },
         
         restartTest() {   
-            // console.log('starting restart')
-            // this.geodeDataDP.acces === '';
-            // this.geodeDataDP.lieu === '';
-            // this.geodeDataDP.temps === '';
-            // this.geodeDataDP.rythme === '';
-            // this.geodeDataDP.objectifs === '';
-            // this.geodeDataDP.cheminement === '';
-            // this.geodeDataDP.sequence === '';
-            // this.geodeDataDP.methodes === '';
-            // this.geodeDataDP.format === '';
-            // this.geodeDataDP.contenus === '';
-            // this.geodeDataDP.supports === '';
-            // this.geodeDataDP.evaluation === '';
-            // this.geodeDataDP.communication === '';
-            // this.geodeDataDP.ressources === '';
-            
-            // this.attemptSubmit = false;
-            // this.dataMissing = false;
-            // this.showResultPresentielDistanciel = false;
-
-
-
             // Emit to display the first step and hide Form in TheTest.vue
             this.$emit('back-to-first-step');
         },

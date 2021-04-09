@@ -1,6 +1,6 @@
 <template>
     <div>   
-        <div class="pb-40 px-7 h-full">
+        <div class="pb-40 px-5 sm:px-6 h-full">
             <!--  Geode Forms -->
             <form id="geodeFormDistanciel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
@@ -287,9 +287,9 @@
                         </div>
                         <hr/>
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
-                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (visio-conférence, téléphone, messagerie, forum, chat, wiki, etc.) ?</p>
+                            <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (visio-conférence, téléphone, messagerie, forum, chat, etc.) ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
-                                <label class="text-sm text-green-600 tracking-wide ml-1" for="communication">Outils de communication</label>
+                                <label class="text-sm text-green-600 tracking-wide ml-1" for="communication">les outils de communication</label>
                                 <div class="w-full inline-flex mt-2">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormDistanciel" name="communication" id="communication" v-model.number="geodeDataDistanciel.communication" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
@@ -444,26 +444,6 @@ export default {
         },
         
         restartTest() {   
-            // console.log('starting restart')
-            // this.geodeDataDistanciel.acces === '';
-            // this.geodeDataDistanciel.lieu === '';
-            // this.geodeDataDistanciel.temps === '';
-            // this.geodeDataDistanciel.rythme === '';
-            // this.geodeDataDistanciel.objectifs === '';
-            // this.geodeDataDistanciel.cheminement === '';
-            // this.geodeDataDistanciel.sequence === '';
-            // this.geodeDataDistanciel.methodes === '';
-            // this.geodeDataDistanciel.format === '';
-            // this.geodeDataDistanciel.contenus === '';
-            // this.geodeDataDistanciel.supports === '';
-            // this.geodeDataDistanciel.evaluation === '';
-            // this.geodeDataDistanciel.communication === '';
-            // this.geodeDataDistanciel.ressources === '';
-            
-            // this.attemptSubmit = false;
-            // this.dataMissing = false;
-            // this.showResultDistanciel = false;
-
             // Emit to display the first step and hide Form in TheTest.vue
             this.$emit('back-to-first-step');
         },
