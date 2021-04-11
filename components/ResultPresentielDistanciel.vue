@@ -13,65 +13,65 @@
             <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-8">
                 <table class="rounded-lg m-5 w-full sm:w-5/6 lg:w-3/5 mx-auto bg-gray-100 text-gray-800 shadow">
                     <tr class="text-center border-b-2 border-gray-300">
-                        <td class="px-4 py-2">Composantes</td>
-                        <td class="px-4 py-2">Degré d’ouverture</td>
+                        <td class="px-2 md:px-4 py-2">Composantes</td>
+                        <td class="px-2 md:px-4 py-2">Degré d’ouverture</td>
                     </tr>
                     
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Accès</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.accesDP}}% | {{this.degreOuvertureLitteral.accesDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Accès</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.accesDP}}% | {{this.degreOuvertureLitteral.accesDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Lieu</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.lieuDP}}%  | {{this.degreOuvertureLitteral.lieuDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Lieu</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.lieuDP}}%  | {{this.degreOuvertureLitteral.lieuDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Horaires</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.tempsDP}}% | {{this.degreOuvertureLitteral.tempsDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Horaires</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.tempsDP}}% | {{this.degreOuvertureLitteral.tempsDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Rythme</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.rythmeDP}}% | {{this.degreOuvertureLitteral.rythmeDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Rythme</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.rythmeDP}}% | {{this.degreOuvertureLitteral.rythmeDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Objectifs</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.objectifsDP}}% | {{this.degreOuvertureLitteral.objectifsDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Objectifs</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.objectifsDP}}% | {{this.degreOuvertureLitteral.objectifsDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Cheminement</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.cheminementDP}}% | {{this.degreOuvertureLitteral.cheminementDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Cheminement</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.cheminementDP}}% | {{this.degreOuvertureLitteral.cheminementDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Sequence</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.sequenceDP}}% | {{this.degreOuvertureLitteral.sequenceDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Sequence</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.sequenceDP}}% | {{this.degreOuvertureLitteral.sequenceDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Méthodes</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.methodesDP}}% | {{this.degreOuvertureLitteral.methodesDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Méthodes</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.methodesDP}}% | {{this.degreOuvertureLitteral.methodesDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Format</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.formatDP}}% | {{this.degreOuvertureLitteral.formatDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Format</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.formatDP}}% | {{this.degreOuvertureLitteral.formatDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Contenus</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.contenusDP}}% | {{this.degreOuvertureLitteral.contenusDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Contenus</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.contenusDP}}% | {{this.degreOuvertureLitteral.contenusDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Evaluation</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.evaluationDP}}% | {{this.degreOuvertureLitteral.evaluationDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Evaluation</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.evaluationDP}}% | {{this.degreOuvertureLitteral.evaluationDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Supports</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.supportsDP}}% | {{this.degreOuvertureLitteral.supportsDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Supports</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.supportsDP}}% | {{this.degreOuvertureLitteral.supportsDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Communication</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.communicationDP}}% | {{this.degreOuvertureLitteral.communicationDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Communication</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.communicationDP}}% | {{this.degreOuvertureLitteral.communicationDP}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100 rounded-b-lg">
-                        <th class="px-4 py-1">Ressources</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.ressourcesDP}}% | {{this.degreOuvertureLitteral.ressourcesDP}}</th>
+                        <th class="px-2 md:px-4 py-1">Ressources</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.ressourcesDP}}% | {{this.degreOuvertureLitteral.ressourcesDP}}</th>
                     </tr> 
                 </table>        
             </div>            

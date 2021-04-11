@@ -13,65 +13,65 @@
             <div class="kf-appear-2 mx-auto w-screen mt-4 md:px-14 xl:px-20 m-8">
                 <table class="rounded-lg m-5 w-full sm:w-5/6 lg:w-3/5 mx-auto bg-gray-100 text-gray-800 shadow">
                     <tr class="text-center border-b-2 border-gray-300">
-                        <td class="px-4 py-2">Composantes</td>
-                        <td class="px-4 py-2">Degré d’ouverture</td>
+                        <td class="px-2 md:px-4 py-2">Composantes</td>
+                        <td class="px-2 md:px-4 py-2">Degré d’ouverture</td>
                     </tr>
                     
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Accès</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.accesPresentiel}}% | {{this.degreOuvertureLitteral.accesPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Accès</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.accesPresentiel}}% | {{this.degreOuvertureLitteral.accesPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Lieu</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.lieuPresentiel}}%  | {{this.degreOuvertureLitteral.lieuPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Lieu</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.lieuPresentiel}}%  | {{this.degreOuvertureLitteral.lieuPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Horaires</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.tempsPresentiel}}% | {{this.degreOuvertureLitteral.tempsPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Horaires</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.tempsPresentiel}}% | {{this.degreOuvertureLitteral.tempsPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Rythme</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.rythmePresentiel}}% | {{this.degreOuvertureLitteral.rythmePresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Rythme</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.rythmePresentiel}}% | {{this.degreOuvertureLitteral.rythmePresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Objectifs</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.objectifsPresentiel}}% | {{this.degreOuvertureLitteral.objectifsPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Objectifs</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.objectifsPresentiel}}% | {{this.degreOuvertureLitteral.objectifsPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Cheminement</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.cheminementPresentiel}}% | {{this.degreOuvertureLitteral.cheminementPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Cheminement</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.cheminementPresentiel}}% | {{this.degreOuvertureLitteral.cheminementPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Sequence</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.sequencePresentiel}}% | {{this.degreOuvertureLitteral.sequencePresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Sequence</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.sequencePresentiel}}% | {{this.degreOuvertureLitteral.sequencePresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Méthodes</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.methodesPresentiel}}% | {{this.degreOuvertureLitteral.methodesPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Méthodes</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.methodesPresentiel}}% | {{this.degreOuvertureLitteral.methodesPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Format</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.formatPresentiel}}% | {{this.degreOuvertureLitteral.formatPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Format</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.formatPresentiel}}% | {{this.degreOuvertureLitteral.formatPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Contenus</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.contenusPresentiel}}% | {{this.degreOuvertureLitteral.contenusPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Contenus</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.contenusPresentiel}}% | {{this.degreOuvertureLitteral.contenusPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Evaluation</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.evaluationPresentiel}}% | {{this.degreOuvertureLitteral.evaluationPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Evaluation</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.evaluationPresentiel}}% | {{this.degreOuvertureLitteral.evaluationPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Supports</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.supportsPresentiel}}% | {{this.degreOuvertureLitteral.supportsPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Supports</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.supportsPresentiel}}% | {{this.degreOuvertureLitteral.supportsPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-4 py-1">Communication</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.communicationPresentiel}}% | {{this.degreOuvertureLitteral.communicationPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Communication</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.communicationPresentiel}}% | {{this.degreOuvertureLitteral.communicationPresentiel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100 rounded-b-lg">
-                        <th class="px-4 py-1">Ressources</th>
-                        <th class="px-4 py-1">{{this.degreOuverture.ressourcesPresentiel}}% | {{this.degreOuvertureLitteral.ressourcesPresentiel}}</th>
+                        <th class="px-2 md:px-4 py-1">Ressources</th>
+                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.ressourcesPresentiel}}% | {{this.degreOuvertureLitteral.ressourcesPresentiel}}</th>
                     </tr> 
                 </table>        
             </div>
