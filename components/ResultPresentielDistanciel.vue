@@ -929,7 +929,7 @@ export default {
 
             this.barChartDataCategorie = {
                 labels: [
-                    'Présentiel et Distanciel',
+                    'En Présentiel et en Distanciel',
                 ],
                 datasets: [
                     {
@@ -969,7 +969,7 @@ export default {
                 ],
                 datasets: [
                     {
-                        label: 'Présentiel',
+                        label: 'En Présentiel et en Distanciel',
                         data: [
                             this.degreOuverture.accesDP,
                                 this.degreOuverture.lieuDP,
