@@ -2,7 +2,7 @@
     <!-- Geode Result Text -->
     <section id="resultPresentielDistanciel" class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-32">
-            <h3 class="kf-moveInDown w-8/12 sm:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation <br class="">à la fois en présentiel et en distanciel</h3>
+            <h3 class="kf-moveInDown w-11/12 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation <br class="">à la fois en présentiel et en distanciel</h3>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
             <h4 class="kf-appear-1 mx-auto md:w-9/12 w-11/12 text-center mt-5 md:mt-10 mb-2 text-2xl text-pink-900 uppercase font-semibold">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <!-- Bar Chart Composantes -->
