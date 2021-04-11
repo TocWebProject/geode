@@ -902,7 +902,7 @@ export default {
                 ],
                 datasets: [
                     {
-                        label: 'En Présentiel et en Distanciel',
+                        label: 'Présentiel et Distanciel',
                         color: '#ad2472',
                         backgroundColor: 'rgba(102, 21, 67, 0.5)',
                         borderColor: 'rgba(102, 21, 67, 0.7)',
@@ -929,7 +929,7 @@ export default {
 
             this.barChartDataCategorie = {
                 labels: [
-                    'En Présentiel et en Distanciel',
+                    'Présentiel et Distanciel',
                 ],
                 datasets: [
                     {
@@ -969,7 +969,7 @@ export default {
                 ],
                 datasets: [
                     {
-                        label: 'En Présentiel et en Distanciel',
+                        label: 'Présentiel et Distanciel',
                         data: [
                             this.degreOuverture.accesDP,
                                 this.degreOuverture.lieuDP,
