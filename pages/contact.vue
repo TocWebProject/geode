@@ -10,7 +10,7 @@
                         <picture>
                             <source media="(max-width: 575.97px)" srcset="~/assets/img/undraw_Work_time_re_hdyv.svg">
                             <source media="(min-width: 575.98px)" srcset="~/assets/img/undraw_Work_time_re_hdyv.svg">
-                            <img class="kf-moveInLeft h-48 w-full sm:h-60 md:h-64 lg:h-full lg:rounded-lg" src="~/assets/img/undraw_Work_time_re_hdyv.svg" alt="Photographie du dôme en verre d'un batiment moderne">
+                            <img class="kf-moveInLeft h-48 w-full sm:h-60 md:h-64 lg:h-full lg:rounded-lg" src="~/assets/img/undraw_Work_time_re_hdyv.svg" width="472" height="320" alt="Photographie du dôme en verre d'un batiment moderne">
                         </picture> 
                     </div>
                     <div class="bg-pink-50 bg-opacity-50 hover:bg-opacity-70 mx-auto my-auto py-12 px-10 max-w-5xl lg:w-1/2">

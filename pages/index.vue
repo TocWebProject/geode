@@ -35,7 +35,7 @@
         <picture>
           <source media="(max-width: 575.97px)" srcset="~/assets/img/undraw_Data_re_80ws.svg">
           <source media="(min-width: 575.98px)" srcset="~/assets/img/undraw_Data_re_80ws.svg">
-          <img class="kf-moveInUp h-56 w-full sm:h-72 md:h-96 lg:h-full" src="~/assets/img/undraw_Data_re_80ws.svg" alt="Photographie du dôme en verre d'un batiment moderne">
+          <img class="kf-moveInUp h-56 w-full sm:h-72 md:h-96 lg:h-full" src="~/assets/img/undraw_Data_re_80ws.svg" width="630" height="606" alt="Photographie du dôme en verre d'un batiment moderne">
         </picture> 
       </div>
     </div>

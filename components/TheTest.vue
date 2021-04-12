@@ -31,7 +31,7 @@
             </p>   
         </div>
         <h4 id="startGeode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Débutez le test</h4>
-        <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-5/12 sm:w-1/4 lg:w-1/6 pt-8 pl-10 xl:pl-20" alt="illustration de livres">
+        <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-5/12 sm:w-1/4 lg:w-1/6 pt-8 pl-10 xl:pl-20" width="290.16" height="184.33" alt="illustration de livres">
         <!--  Choix de la modalité de la formation, elle se déroule en -> Distanciel? / Présentiel? / Présentiel et Distanciel? -->
         <transition name="fade" mode="out-in">
             <TestChoixModalite 

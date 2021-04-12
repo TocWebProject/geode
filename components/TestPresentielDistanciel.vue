@@ -12,6 +12,8 @@
                                     class="w-9 h-9 sm:w-11 sm:h-11 mt-4 sm:mt-3 object-cover rounded"
                                     alt="Logo Geode"
                                     src="~/assets/img/logo-geode.png"
+                                    width="48" 
+                                    height="48"
                                 />
                                 <h3 class="text-2xl sm:text-3xl text-pink-700 mt-5">GÉODE pour une formation à la fois en <span class="text-pink-600">présentiel</span> et en <span class="text-pink-600">distanciel</span></h3>
                             </div>

@@ -37,10 +37,10 @@
         </p>
         <div class="md:flex flex-wrap justify-center align-middle md:ml-auto md:mt-0 mt-6 md:w-auto w-2/3 text-center mx-auto md:mx-px">
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="mx-auto my-auto mr-5">
-            <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-14 mx-auto" alt="logo universite de lille">
+            <img src="~/assets/img/universite-lille-logo-footer.svg" class="w-auto h-14 mx-auto" width="162.75" height="56" alt="logo universite de lille">
           </a>
           <a href="http://www.isite-ulne.fr/index.php/fr/page-daccueil/" rel="noopener noreferrer" target="_blank">
-            <img src="~/assets/img/logo-i-universite-lille-site.png" class="w-auto h-20 mx-auto" alt="logo universite de lille">
+            <img src="~/assets/img/logo-i-universite-lille-site.png" class="w-auto h-20 mx-auto" width="211.13" height="80" alt="logo universite de lille i-site">
           </a>
         </div>
       </div>
