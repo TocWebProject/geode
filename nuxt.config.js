@@ -23,7 +23,55 @@ export default {
       { hid: 'description',
         name: 'description',
         content: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille' 
-      }
+      },
+      //Opengraph
+      { property: "og:site_name", content: "GÉODE" },
+      { hid: "og:type", property: "og:type", content: "website" },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "https://geodepreview01.netlify.app/",
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "GÉODE | Évaluez l’ouverture d’un environnement éducatif",
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: "GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille",
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "/geode-social-share.png",
+      },
+      { property: "og:image:width", content: "740" },
+      { property: "og:image:height", content: "300" },
+      //Twitter Card
+      { name: "twitter:site", content: "GÉODE" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        hid: "twitter:url",
+        name: "twitter:url",
+        content: "https://geodepreview01.netlify.app/",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "GÉODE | Évaluez l’ouverture d’un environnement éducatif",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/geode-social-share.png",
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
