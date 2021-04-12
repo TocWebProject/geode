@@ -45,7 +45,7 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "/geode-social-share.png",
+        content: "https://geodepreview01.netlify.app/geode-social-share.png",
       },
       { property: "og:image:width", content: "740" },
       { property: "og:image:height", content: "300" },
@@ -70,7 +70,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/geode-social-share.png",
+        content: "https://geodepreview01.netlify.app/geode-social-share.png",
       },
     ],
     link: [
