@@ -38,10 +38,10 @@
                         </div>
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
                             <p class="w-11/12 md:w-8/12 ml-4 sm:ml-6 md:mx-8 text-lg">Nombre d'heures en présentiel déclaré par l'organisme de formation :</p>
-                            <div class="w-10/12 md:w-5/12 mx-auto sm:mx-6">
-                            <label class="text-sm text-blue-800 tracking-wide ml-2" for="heuresPresentiel">Heures en présentiel</label>
+                            <div class="w-10/12 md:w-5/12 mx-4 sm:mx-6">
+                            <label class="text-sm text-blue-800 tracking-wide" for="heuresPresentiel">Heures en présentiel</label>
                                 <div class="w-full inline-flex">
-                                    <div class="flex-shrink w-48 ml-2 md:ml-0 mb-3">
+                                    <div class="flex-shrink w-48 md:ml-0 mb-3">
                                         <input form="geodeFormDistancielPresentiel" type="number" min="0" placeholder="..." name="heuresPresentiel" id="heuresPresentiel" v-model.number="geodeDataDP.heuresPresentiel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                     </div>
                                 </div>
@@ -51,10 +51,10 @@
                         <hr/>
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
                             <p class="w-11/12 md:w-8/12 ml-4 sm:ml-6 md:mx-8 text-lg">Nombre d'heures en distanciel déclaré par l'organisme de formation :</p>
-                            <div class="w-10/12 md:w-5/12 mx-auto sm:mx-6">
-                            <label class="text-sm text-blue-800 tracking-wide ml-2" for="heuresDistanciel">Heures en distanciel</label>
+                            <div class="w-10/12 md:w-5/12 mx-4 sm:mx-6">
+                            <label class="text-sm text-blue-800 tracking-wide" for="heuresDistanciel">Heures en distanciel</label>
                                 <div class="w-full inline-flex">
-                                    <div class="flex-shrink w-48 ml-2 md:ml-0 mb-3">
+                                    <div class="flex-shrink w-48 md:ml-0 mb-3">
                                         <input form="geodeFormDistancielPresentiel" placeholder="..." type="number" min="0" name="heuresDistanciel" id="heuresDistanciel" v-model.number="geodeDataDP.heuresDistanciel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                     </div>
                                 </div>
@@ -68,11 +68,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 sm:items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre d’accéder à la formation au moment qui lui convient le mieux ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-5 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="accesPresentiel">L'accès en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="accesPresentiel" id="accesPresentiel" v-model.number="geodeDataDP.accesPresentiel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -84,7 +84,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingAccesPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-5 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="accesDistanciel">L'accès en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="accesDistanciel" id="accesDistanciel" v-model.number="geodeDataDP.accesDistanciel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -104,7 +104,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le (les) lieu(x) les plus adaptés à ses possibilités pour se former ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="lieuPresentiel">Le lieu en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="lieuPresentiel" id="lieuPresentiel" v-model.number="geodeDataDP.lieuPresentiel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -116,7 +116,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingLieuPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="lieuDistanciel">Le lieu en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="lieuDistanciel" id="lieuDistanciel" v-model.number="geodeDataDP.lieuDistanciel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -136,7 +136,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="tempsPresentiel">Les horaires en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="tempsPresentiel" id="tempsPresentiel" v-model.number="geodeDataDP.tempsPresentiel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -148,7 +148,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingTempsPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="tempsDistanciel">Les horaires en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="tempsDistanciel" id="tempsDistanciel" v-model.number="geodeDataDP.tempsDistanciel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -168,7 +168,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le rythme qui lui convient le mieux pour se former ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="rythmePresentiel">Le rythme en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="rythmePresentiel" id="rythmePresentiel" v-model.number="geodeDataDP.rythmePresentiel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -180,7 +180,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRythmePresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-yellow-600 mb-1" for="rythmeDistanciel">Le rythme en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="rythmeDistanciel" id="rythmeDistanciel" v-model.number="geodeDataDP.rythmeDistanciel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -206,7 +206,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les objectifs à atteindre au travers de sa formation et de ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="objectifsPresentiel">Les objectifs en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="objectifsPresentiel" id="objectifsPresentiel" v-model.number="geodeDataDP.objectifsPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -218,7 +218,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingObjectifsPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="objectifsDistanciel">Les objectifs en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="objectifsDistanciel" id="objectifsDistanciel" v-model.number="geodeDataDP.objectifsDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -238,7 +238,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le cheminement d’apprentissage qui lui convient le mieux ? </p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="cheminementPresentiel">Le cheminement en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="cheminementPresentiel" id="cheminementPresentiel" v-model.number="geodeDataDP.cheminementPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -250,7 +250,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCheminementPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="cheminementDistanciel">Le cheminement en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="cheminementDistanciel" id="cheminementDistanciel" v-model.number="geodeDataDP.cheminementDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -270,7 +270,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le séquencement ou l’ordre de succession des activités pédagogiques ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="sequencePresentiel">La séquence en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="sequencePresentiel" id="sequencePresentiel" v-model.number="geodeDataDP.sequencePresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -282,7 +282,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingSequencePresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="sequenceDistanciel">La séquence en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="sequenceDistanciel" id="sequenceDistanciel" v-model.number="geodeDataDP.sequenceDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -302,7 +302,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les méthodes pédagogiques qui lui conviennent le mieux  (conventionnelles, actives, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="methodesPresentiel">Les méthodes en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="methodesPresentiel" id="methodesPresentiel" v-model.number="geodeDataDP.methodesPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -314,7 +314,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingMethodesPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="methodesDistanciel">Les méthodes en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="methodesDistanciel" id="methodesDistanciel" v-model.number="geodeDataDP.methodesDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -334,7 +334,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir de travailler seul, à deux ou en groupe ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="formatPresentiel">Le format en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="formatPresentiel" id="formatPresentiel" v-model.number="geodeDataDP.formatPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -346,7 +346,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingFormatPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="formatDistanciel">Le format en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="formatDistanciel" id="formatDistanciel" v-model.number="geodeDataDP.formatDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -366,7 +366,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les contenus théoriques et/ou pratiques qui lui conviennent le mieux ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="contenusPresentiel">Les contenus en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="contenusPresentiel" id="contenusPresentiel" v-model.number="geodeDataDP.contenusPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -378,7 +378,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingContenusPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="contenusDistanciel">Les contenus en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="contenusDistanciel" id="contenusDistanciel" v-model.number="geodeDataDP.contenusDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -398,7 +398,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les modalités d’évaluation de sa formation et de ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="evaluationPresentiel">L'évaluation en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="evaluationPresentiel" id="evaluationPresentiel" v-model.number="geodeDataDP.evaluationPresentiel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -410,7 +410,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingEvaluationPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-indigo-600 mb-1" for="evaluationDistanciel">L'évaluation en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="evaluationDistanciel" id="evaluationDistanciel" v-model.number="geodeDataDP.evaluationDistanciel" class="block w-full mt-0 rounded-md border-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -436,7 +436,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les supports d’apprentissage qui lui conviennent le mieux  (ouvrages, textes numérisés, vidéo et/ou podcast en ligne ou non, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="supportsPresentiel">Les supports en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="supportsPresentiel" id="supportsPresentiel" v-model.number="geodeDataDP.supportsPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -448,7 +448,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingSupportsPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-56 mx-auto">
+                                    <div class="flex flex-col w-56 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="supportsDistanciel">Les supports en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="supportsDistanciel" id="supportsDistanciel" v-model.number="geodeDataDP.supportsDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -468,7 +468,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (documents partagés, visio-conférence, téléphone, messagerie, forum, chat, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-72 mx-auto">
+                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="communicationPresentiel">Les outils de communication en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationPresentiel" id="communicationPresentiel" v-model.number="geodeDataDP.communicationPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -480,7 +480,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCommunicationPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-72 mx-auto">
+                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
                                         <label class="text-sm  text-green-600 mb-1" for="communicationDistanciel">Les outils de communication en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationDistanciel" id="communicationDistanciel" v-model.number="geodeDataDP.communicationDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -500,7 +500,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-72 mx-auto">
+                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesPresentiel">Les personnes-ressources en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesPresentiel" id="ressourcesPresentiel" v-model.number="geodeDataDP.ressourcesPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
@@ -512,7 +512,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRessourcesPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-72 mx-auto">
+                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesDistanciel">Les personnes-ressources en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesDistanciel" id="ressourcesDistanciel" v-model.number="geodeDataDP.ressourcesDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-3">
                                             <option value="">Votre réponse</option>
