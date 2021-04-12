@@ -11,9 +11,9 @@
                 <span class="block xl:inline">Évaluez l’ouverture</span>
                 <span class="block text-pink-800 xl:inline">d’un environnement éducatif</span>
               </h1>
-              <p class="mt-2 text-lg text-gray-500 sm:text-xl sm:max-w-xl sm:mx-auto lg:mt-5 md:text-3xl lg:mx-0 lg:pr-10">
+              <h2 class="mt-2 text-lg text-gray-500 sm:text-xl sm:max-w-xl sm:mx-auto lg:mt-5 md:text-3xl lg:mx-0 lg:pr-10">
                 GÉODE : un instrument au service <br>de l'ingénierie et de la recherche
-              </p>
+              </h2>
               <div class="mt-4 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
                   <a href="#geode" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-opacity-80 md:py-4 md:text-lg md:px-10">

@@ -28,7 +28,13 @@
 
 <script>
 export default {
-    transition: 'page'
+    name: 'partenaires',
+    transition: 'page',
+    head () {
+        return {
+            title: 'Partenaires',
+        }
+    },
 }
 </script>
 

@@ -201,8 +201,10 @@
 export default {
     name: 'documentation',
     transition: 'page',
-    head () {
-        // Meta Tag for this page
+    head() {
+        return {
+            title: 'Documentation',
+        }
     },
     data () {
     return {

@@ -29,5 +29,11 @@
 <script>
 export default {
     name: 'contact',
+    transition: 'page',
+    head() {
+        return {
+            title: 'Contact',
+        }
+    },
 }
 </script>

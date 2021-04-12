@@ -6,6 +6,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      openGraphImage: "/_nuxt/assets/img/undraw_Data_re_80ws.svg",
+    }
+  },
+}
+</script>
+
 <style>
 html {
   font-family:

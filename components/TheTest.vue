@@ -2,7 +2,7 @@
     <section class="min-h-screen bg-gray-50">
         <h3 id="geode" class="text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-20 sm:text-6xl md:text-7xl">GÉODE</h3>
         <hr class="hr-home w-28 mx-auto">
-        <h3 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Préambule</h3>
+        <h4 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Préambule</h4>
         <div class="w-11/12 md:w-3/4 mx-auto text-justify text-lg pt-5">
             <p class="text-center">
                 <span class="font-semibold italic"> « L’ouverture en formation renvoie à un ensemble de dispositifs flexibles et autonomisants
@@ -30,7 +30,7 @@
                 La présente application constitue la version Web de GÉODE.
             </p>   
         </div>
-        <h3 id="startGeode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Débutez le test</h3>
+        <h4 id="startGeode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Débutez le test</h4>
         <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-5/12 sm:w-1/4 lg:w-1/6 pt-8 pl-10 xl:pl-20" alt="illustration de livres">
         <!--  Choix de la modalité de la formation, elle se déroule en -> Distanciel? / Présentiel? / Présentiel et Distanciel? -->
         <transition name="fade" mode="out-in">
@@ -87,6 +87,7 @@ export default {
 </script>
 
 <style scoped>
+/* Css transition entre les components du test */
 .fade-enter {
     opacity: 0;
 }
