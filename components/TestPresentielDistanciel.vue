@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 sm:items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 sm:items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre d’accéder à la formation au moment qui lui convient le mieux ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -100,7 +100,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le (les) lieu(x) les plus adaptés à ses possibilités pour se former ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -164,7 +164,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le rythme qui lui convient le mieux pour se former ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -202,7 +202,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les objectifs à atteindre au travers de sa formation et de ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -234,7 +234,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le cheminement d’apprentissage qui lui convient le mieux ? </p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -266,7 +266,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir le séquencement ou l’ordre de succession des activités pédagogiques ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -298,7 +298,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les méthodes pédagogiques qui lui conviennent le mieux  (conventionnelles, actives, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -330,7 +330,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir de travailler seul, à deux ou en groupe ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -362,7 +362,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les contenus théoriques et/ou pratiques qui lui conviennent le mieux ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -394,7 +394,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les modalités d’évaluation de sa formation et de ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -432,7 +432,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les supports d’apprentissage qui lui conviennent le mieux  (ouvrages, textes numérisés, vidéo et/ou podcast en ligne ou non, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
@@ -464,7 +464,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (documents partagés, visio-conférence, téléphone, messagerie, forum, chat, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
@@ -496,7 +496,7 @@
                             </div>
                         </div>
                         <hr/>
-                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-10 text-gray-600 items-center">
+                        <div class="flex flex-col space-y-4 space-y-0 w-full p-4 pt-5 text-gray-600 items-center">
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
