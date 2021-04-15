@@ -1,6 +1,0 @@
-//Vetur Setup - include all vue files and files that they import from
-{
-    "include": [
-      "./src/**/*"
-    ]
-  }
