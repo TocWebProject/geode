@@ -3,7 +3,7 @@
 <p>Projet en cours de développement - branch develop</p>
 
 ## Homepage Screenshot
-<img src="src/assets/img/screenshot-landingpage.png" style="width: 50%">
+<img src="assets/img/screenshot-landingpage.png" style="width: 50%">
 
 <p>Améliorations attendues:</p>
 <ul>
