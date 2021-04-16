@@ -1,0 +1,167 @@
+/*  Html and *, *::before,*::after reset defined in default.vue layout 
+    Body color defined in tailwind.css  
+    Contact Yann at rioualy@gmail.com for any questions.
+*/
+
+/* ---------------- Smooth Scrool Anchor ---------------- */
+html {
+    scroll-behavior: smooth;
+ }
+
+/* ---------------- Pages Transition ---------------- */
+.page-enter-active, .page-leave-active { transition: all .4s ease }
+.page-enter, .page-leave-active { transform: translateY(20px); opacity: 0; }
+
+/* ---------------- Keyframes ---------------- */
+.kf-appear-1 {
+    animation: 1s appear;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+}
+
+.kf-appear-2 {
+    animation: 1.3s appear;
+}
+    
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+}
+
+.kf-moveInLeft {
+    animation: 1s moveInLeft;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+}
+
+.kf-moveInRight {
+    animation: 1s moveInRight;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+}
+
+.kf-moveInUp {
+    animation: 1s moveInUp;
+}
+
+@keyframes moveInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+}
+
+.kf-moveInDown {
+    animation: 1s moveInDown;
+}
+
+@keyframes moveInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+}
+
+/* -------------------------------- PAGES -------------------------------- */
+
+/* ---------------- Home Page ---------------- */
+
+/* -- Form -- */
+.hr-home {
+    border: 2px solid #ad2472;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:focus {
+    outline-color:#fdf2f8 !important;
+} 
+
+form select option{
+    overflow: auto;
+}
+
+.red-alert-error-pattern {
+    background-color: #fef2f2;
+    background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23fecaca' fill-opacity='0.23' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/* ---------------- Documentation Page ---------------- */
+.hr-sommaire {
+    width: 70px;
+    border: 2px solid #fdf2f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bottom-left-arrow {
+    position: fixed !important;
+    bottom:60px;
+    left: 2%;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color:  #AD2472;
+    cursor: pointer;
+}
+
+.bottom-left-arrow svg {
+    width: 20px;
+    height: 20px;
+}
+  
+@media screen and (min-width: 1024px) {
+    .bottom-left-arrow {
+        left: 12%;
+        bottom: 72px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .bottom-left-arrow svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+/* ---------------- Mentions Légales Page ---------------- */
+.hr-mentions {
+    border: 2px solid #fdf2f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .geode-link-desktop {
+        display: none;
+    }
+
+    .geode-link-mobile{
+        display: flex;
+    }
+}
+
+/* ---------------- Contact Page ----------------*/
+@media screen and (min-height: 1024px) {
+    .container-contact {
+        height: 56vh;
+    }
+}
