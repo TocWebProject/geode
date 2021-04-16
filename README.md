@@ -1,7 +1,17 @@
-# geode
-Application visant à évaluer l’ouverture d’un environnement éducatif - Formulaire & Résultat w/Nuxt.js, Tailwind Css, Chart.js. 
+# GÉODE - Application visant à évaluer l’ouverture d’un environnement éducatif - Formulaires & Résultats w/Nuxt.js, Tailwind Css, Chart.js.
+ 
+<p>Projet en cours de développement - branch develop</p>
 
-Version 0.1.0 en cours de développement - branch develop
+## Homepage Screenshot
+<img src="src/assets/img/screenshot-landingpage.png" style="width: 50%">
+
+<p>Améliorations attendues:</p>
+<ul>
+    <li>Remplacer lorem ipsum par la vrai documentation</li> 
+    <li>Setup de nuxt avec l'url final de l'app (en attente)</li> 
+    <li>Setup Sitemap & robot.txt</li> 
+    <li>Harmoniser les commentaires en FR</li> 
+</ul>
 
 ## Build Setup
 
