@@ -19,8 +19,8 @@
       </div>
     <!--  Legal Mentions -->
     <div class="bg-white">
-      <div class="container mx-auto text-center w-full py-8 sm:py-5 px-1">
-        <span class="sm:ml-auto sm:mt-0 mt-2 w-full text-center text-gray-800 text-sm xl:text-base">
+      <div class="container mx-auto w-72 sm:w-full text-center py-8 sm:py-5 px-1">
+        <span class="sm:mt-0 mt-2 text-center text-gray-800 text-sm xl:text-base">
           Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha. 
           <br>GÉODE est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
           <br>La propriété intellectuelle de GÉODE appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nc-nd 4.0.
