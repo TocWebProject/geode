@@ -2,11 +2,11 @@
     <!-- Geode Result Text -->
     <section id="resultPresentiel" class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-32">
-            <h3 class="kf-moveInUp w-3/4 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation en présentiel</h3>
+            <h3 class="kf-moveInUp w-3/4 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation en présentiel</h3>
             <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
             <h4 class="kf-appear-2 mx-auto w-full md:w-9/12 text-center mt-5 md:mt-10 mb-5 text-2xl text-pink-900 uppercase font-semibold">1 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
             <!-- Ellipse Résultat environnement étudié -->
-            <div class="flex my-8">
+            <div class="flex my-5 md:my-8">
                 <vue-ellipse-progress 
                     :progress="progressEllipse"
                     :size="250"
