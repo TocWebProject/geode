@@ -1034,7 +1034,7 @@ export default {
         // Redirection vers la section résultats
         this.$router.push('/#resultPresentiel'); 
         // Delay du loading pour vue-ellipse-progress -> l'animation est plus dynamique 
-        setTimeout(() => this.loadingEllipse = false, 600); 
+        setTimeout(() => this.loadingEllipse = false, 900); 
     }
 }
 

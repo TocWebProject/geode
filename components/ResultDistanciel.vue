@@ -842,25 +842,25 @@ export default {
             this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel = Number(parseFloat((((this.score.supportsDistanciel + this.score.communicationDistanciel + this.score.ressourcesDistanciel) / (this.scoreMax.supportsDistanciel + this.scoreMax.communicationDistanciel + this.scoreMax.ressourcesDistanciel)) * 100)).toFixed(1));
              // Réponse littéral
             if (100 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 90 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouvert +';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouverte +';
             } else if ( 90 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 80 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouvert';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouverte';
             } else if ( 80 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 70 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouvert -';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Hautement ouverte -';
             } else if ( 70 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 60 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouvert +';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouverte +';
             } else if ( 60 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 50 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouvert';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouverte';
             } else if ( 50 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 40 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouvert -';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Moyennement ouverte -';
             } else if ( 40 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 30 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouvert +';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouverte +';
             } else if ( 30 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 20 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouvert';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouverte';
             } else if ( 20 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel && this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel > 10 ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouvert -';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Peu ouverte -';
             } else if ( 10 >= this.degreOuvertureCategories.composantesCommunicationEducativeDistanciel ) {
-                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Fermé';
+                this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDistanciel = 'Fermée';
             }
         },
         degreOuvertureEnvironnementEtudie(){
@@ -1027,7 +1027,7 @@ export default {
         // Redirection vers la section résultats
         this.$router.push('/#resultDistanciel'); 
         // Delay du loading pour vue-ellipse-progress -> l'animation est plus dynamique 
-        setTimeout(() => this.loadingEllipse = false, 600);      
+        setTimeout(() => this.loadingEllipse = false, 900);      
     }
 }
 
