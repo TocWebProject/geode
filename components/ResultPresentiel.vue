@@ -4,7 +4,7 @@
         <div  class="relative overflow-hidden pb-32">
             <h3 class="kf-moveInUp w-3/4 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation en présentiel</h3>
             <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
-            <h4 class="kf-appear-2 mx-auto w-full md:w-9/12 text-center mt-5 md:mt-10 mb-5 text-2xl text-pink-900 uppercase font-semibold">1 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
+            <h4 class="kf-appear-2 mx-auto w-full md:w-9/12 text-center mt-10 md:mt-16 mb-5 text-2xl text-pink-900 uppercase font-semibold">1 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
             <!-- Ellipse Résultat environnement étudié -->
             <div class="flex my-5 md:my-8">
                 <vue-ellipse-progress 
@@ -34,7 +34,7 @@
             </div>    
             
             <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
-            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-20 mb-5 text-2xl text-pink-900 uppercase font-semibold">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
+            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-10 md:mt-20 mb-5 text-2xl text-pink-900 uppercase font-semibold">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
             <!-- Pills Catégorie de composantes -->
             <div class="mx-auto max-w-5xl flex flex-col lg:flex-row items-center justify-around mt-8">
                 <div class="rounded-lg border-2 border-yellow-400 font-semibold text-center bg-yellow-100 hover:bg-yellow-200 py-1 px-7 my-2 shadow">
@@ -58,7 +58,7 @@
                 <bar-chart-result v-if="barChartDataCategorie" class="p-1 sm:p-4" :data="barChartDataCategorie" :options="barChartOptionsCategorie" :height="300"/>
             </div>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
-            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-20 mb-2 text-2xl text-pink-900 uppercase font-semibold">3 - Degré d’ouverture en % de chacune des 14 composantes</h4>
+            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-10 md:mt-20 mb-2 text-2xl text-pink-900 uppercase font-semibold">3 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <!-- Bar Chart Composantes -->
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl mt-5">
                 <bar-chart-result v-if="barChartDataComposantes" class="p-1 sm:p-4" :data="barChartDataComposantes" :options="barChartOptionsComposantes" :height="300"/>
