@@ -2,9 +2,62 @@
     <!-- Geode Result Text -->
     <section id="resultPresentielDistanciel" class="h-auto bg-white">
         <div  class="relative overflow-hidden pb-32">
-            <h3 class="kf-moveInDown w-3/4 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation <br class="">à la fois en présentiel et en distanciel</h3>
+            <h3 class="kf-moveInUp w-3/4 lg:w-full mx-auto text-3xl text-center tracking-tight font-extrabold text-gray-900 pt-20 md:pt-28 sm:text-4xl md:text-5xl">Résultats GÉODE pour cette formation <br class="">à la fois en présentiel et en distanciel</h3>
+            <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
+            <h4 class="kf-appear-2 mx-auto w-full md:w-9/12 text-center mt-20 mb-5 text-2xl text-pink-900 uppercase font-semibold">1 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
+            <!-- Ellipse Résultat environnement étudié -->
+            <div class="flex my-8">
+                <vue-ellipse-progress 
+                    :progress="progressEllipse"
+                    :size="250"
+                    thickness="6"
+                    lineMode="in 10"
+                    emptyThickness="7"
+                    :color="gradientEllipse"
+                    emptyColor="#661543"  
+                    colorFill="#f9fafb"
+                    emptyColorFill="#e5e7eb"                      
+                    animation="rs 1300 400"
+                    :noData="false"
+                    :loading="loadingEllipse"                      
+                    fontColor="#661543"
+                    :gap="10"
+                    dot="10 #661543"  
+                    fontSize="3.5rem">
+                    <span slot="legend-value">%</span>
+                </vue-ellipse-progress>
+            </div>
+            <div v-if="!loadingEllipse" class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
+                <p class="text-2xl text-pink-800 leading-8 text-center">
+                    L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementDPLitteral }}</span>
+                </p>
+            </div>   
+            <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
+            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-5 md:mt-10 mb-5 text-2xl text-pink-900 uppercase font-semibold">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
+            <!-- Pills Catégorie de composantes -->
+            <div class="mx-auto max-w-5xl flex flex-col lg:flex-row items-center justify-around mt-8">
+                <div class="rounded-lg border-2 border-yellow-400 font-semibold text-center bg-yellow-100 hover:bg-yellow-200 py-1 px-7 my-2 shadow">
+                    <p class="text-lg underline">Catégorie Spatio-temporelle :</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesSpatioTemporellesDP }}</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesSpatioTemporellesDP }}%</p>
+                </div>
+                <div class="rounded-lg border-2 border-indigo-400 font-semibold text-center bg-indigo-100 hover:bg-indigo-200 py-1 px-7 my-2 shadow">
+                    <p class="text-lg underline">Catégorie Pédagogique :</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesPedagogiquesDP }}</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesPedagogiquesDP }}%</p>
+                </div>
+                <div class="rounded-lg border-2 border-green-500 font-semibold text-center bg-green-100 hover:bg-green-200 py-1 px-7 my-2 shadow">
+                    <p class="text-lg underline">Catégorie Communication :</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDP }}</p>
+                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesCommunicationEducativeDP }}%</p>
+                </div>
+            </div>
+            <!-- Bar Chart -->
+            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl mt-5">
+                <bar-chart-result v-if="barChartDataCategorie" class="p-1 sm:p-4" :data="barChartDataCategorie" :options="barChartOptionsCategorie" :height="300"/>
+            </div>
             <!-- Degré d’ouverture en % de chacune des 14 composantes -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-11/12 text-center mt-5 md:mt-10 mb-2 text-2xl text-pink-900 uppercase font-semibold">1 - Degré d’ouverture en % de chacune des 14 composantes</h4>
+            <h4 class="kf-appear-2 mx-auto md:w-9/12 w-11/12 text-center mt-20 mb-2 text-2xl text-pink-900 uppercase font-semibold">3 - Degré d’ouverture en % de chacune des 14 composantes</h4>
             <!-- Bar Chart Composantes -->
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl mt-5">
                 <bar-chart-result v-if="barChartDataComposantes" class="p-1 sm:p-4" :data="barChartDataComposantes" :options="barChartOptionsComposantes" :height="300"/>
@@ -79,40 +132,6 @@
             <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
                 <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
             </div>   
-            <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-11/12 text-center mt-20 mb-5 text-2xl text-pink-900 uppercase font-semibold">2 - Degré d’ouverture en % de chacune des trois catégories de composantes</h4>
-            <!-- Pills Catégorie de composantes -->
-            <div class="mx-auto max-w-5xl flex flex-col lg:flex-row items-center justify-around mt-8">
-                <div class="rounded-lg font-semibold text-center bg-yellow-200 hover:bg-yellow-300 py-1 px-7 my-2 shadow">
-                    <p class="text-lg underline">Catégorie Spatio-temporelle :</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesSpatioTemporellesDP }}</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesSpatioTemporellesDP }}%</p>
-                </div>
-                <div class="rounded-lg font-semibold text-center bg-indigo-200 hover:bg-indigo-300 py-1 px-7 my-2 shadow">
-                    <p class="text-lg underline">Catégorie Pédagogique :</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesPedagogiquesDP }}</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesPedagogiquesDP }}%</p>
-                </div>
-                <div class="rounded-lg font-semibold text-center bg-green-200 hover:bg-green-300 py-1 px-7 my-2 shadow">
-                    <p class="text-lg underline">Catégorie Communication :</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategoriesLitteral.composantesCommunicationEducativeDP }}</p>
-                    <p class="text-lg">{{ this.degreOuvertureCategories.composantesCommunicationEducativeDP }}%</p>
-                </div>
-            </div>
-            <!-- Bar Chart -->
-            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl mt-5">
-                <bar-chart-result v-if="barChartDataCategorie" class="p-1 sm:p-4" :data="barChartDataCategorie" :options="barChartOptionsCategorie" :height="300"/>
-            </div>
-            <!-- Calcul du degré d’ouverture en % de l’environnement étudié  -->
-            <h4 class="kf-appear-1 mx-auto md:w-9/12 w-11/12 text-center mt-20 mb-5 text-2xl text-pink-900 uppercase font-semibold">3 - Calcul du degré d’ouverture en % de l’environnement étudié</h4>
-            <div class="mx-auto rounded-full bg-gray-200 hover:bg-gray-100 h-48 w-48 md:w-56 md:h-56 flex items-center justify-center border-pink-800 border-4 mt-10 shadow-md">
-                <h4 class="text-5xl text-pink-900 font-semibold"> {{ this.degreOuvertureEnvironnementDP }} %</h4>
-            </div>
-            <div class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
-                <p class="text-2xl text-pink-800 leading-8 text-center">
-                  L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementDPLitteral }}</span>
-                </p>
-            </div>
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
                 <a href="/#startGeode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
@@ -347,6 +366,24 @@ export default {
                     ]
                 }
             },
+            // Data Ellipse Résultat degré ouverture de l'environnement étudié
+            gradientEllipse: {
+                radial: false,
+                colors: [
+                {
+                    color: '#f472b6', 
+                    offset: "0",
+                    opacity: '0.5',
+                },
+                {
+                    color: '#661543',
+                    offset: "100",
+                    opacity: '1',
+                },
+                ]
+            },
+            loadingEllipse: true,
+            progressEllipse: null,
         }
     },
 
@@ -989,7 +1026,8 @@ export default {
                         backgroundColor: 'rgba(102, 21, 67, 0.9)'
                     },
                 ]
-            }
+            },
+            this.progressEllipse = this.degreOuvertureEnvironnementDP
         }
     },
         
@@ -1004,6 +1042,8 @@ export default {
         this.fillDataResult();
         // Redirection vers la section résultats
         this.$router.push('/#resultPresentielDistanciel'); 
+        // Delay du loading pour vue-ellipse-progress -> l'animation est plus dynamique 
+        setTimeout(() => this.loadingEllipse = false, 600);      
     }
 }
 
