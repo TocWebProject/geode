@@ -28,7 +28,7 @@
             </div>
             <!-- Text Documentation -->
             <article class="kf-appear-1 flex flex-col w-4/5 lg:w-2/3 items-left px-4 mt-5 lg:mt-10 md:ml-5 lg:ml-10 xl:ml-14 sm:ml-0">
-                <h3 class="text-3xl text-center font-bold mt-6 md:mr-5 sm:mr-2 text-pink-900 underline">
+                <h3 class="text-3xl text-center font-bold mt-6 md:mr-5 sm:mr-2 text-pink-900">
                     La grille d'évaluation GÉODE
                 </h3>
 
