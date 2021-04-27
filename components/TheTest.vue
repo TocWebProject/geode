@@ -1,6 +1,6 @@
 <template>
     <section class="min-h-screen bg-gray-50">
-        <h3 id="geode" class="text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-20 sm:text-6xl md:text-7xl">GÉODE</h3>
+        <h3 id="geode" class="text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-16 sm:text-6xl md:text-7xl">GÉODE</h3>
         <hr class="hr-home w-28 mx-auto">
         <h4 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Préambule</h4>
         <div class="w-11/12 md:w-3/4 mx-auto text-justify text-lg pt-5">
