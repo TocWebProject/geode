@@ -24,7 +24,7 @@
             BP 60149, 59653 Lille
         </p>
         <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-900 pt-5 sm:pt-8 md:text-3xl">Conception Web</h2>
-        <hr class="hr-mentions w-64 mx-auto">
+        <hr class="hr-mentions w-44 mx-auto">
         <p class="w-11/12 sm:w-2/3 mx-auto text-center pt-3">
             Ass Ouest Wax Création
         </p>
