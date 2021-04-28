@@ -63,15 +63,15 @@
           <li><NuxtLink @click.native="menuIsOpen = false" to="/#geode" class="call-to-test my-8 w-full text-center cta inline-block bg-pink-900 hover:bg-opacity-80 px-3 py-2 rounded text-white focus:text-pink-50">Débutez le test</NuxtLink></li>
         </ul>
         <div class="follow pt-6">
-          <p class="italic font-sans text-base mb-1">Visitez:</p>
+          <p class="italic font-sans text-base mb-1">Visitez :</p>
           <p class="text-left title-font font-medium tracking-widest text-lg">
             <a href="https://fabrique-formations.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="font-semibold text-pink-800 hover:text-pink-500 ">La Fabrique des Formations</a>
           </p>
           <a href="https://www.univ-lille.fr/" rel="noopener noreferrer" target="_blank" class="">
             <img src="~/assets/img/universite-lille-logo-side-nav.svg" class="inline-block mt-4 h-10 w-26" width="116.25" height="40" alt="logo université de lille">
           </a>
-          <p class="italic font-sans text-base mt-4">Suivez-nous:</p>
-          <div class="social flex space-x-10 mt-2">
+          <p class="italic font-sans text-base mt-4">Suivez-nous :</p>
+          <div class="social flex justify-between mt-2 mb-1">
             <a href="https://twitter.com/univ_lille" target="_blank" rel="noopener noreferrer" title="Lien Twitter université lille">
               <svg 
                 title="Lien Twitter université lille"
