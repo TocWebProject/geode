@@ -968,12 +968,12 @@ export default {
                     {
                         label: 'Composantes Pédagogiques',
                         data: [this.degreOuvertureCategories.composantesPedagogiquesPresentiel],
-                        backgroundColor: '#c7d2fe'
+                        backgroundColor: '#a5b4fc'
                     },
                     {
                         label: 'Composantes de la Communication éducative médiatisée',
                         data: [this.degreOuvertureCategories.composantesCommunicationEducativePresentiel],
-                        backgroundColor: '#a7f3d0'
+                        backgroundColor: '#047857'
                     }
                 ]
             }
