@@ -41,6 +41,8 @@
     </div>
     <!-- Geode Test Section -->
     <TheTest></TheTest>
+    <!-- BottomNav -->
+    <BottomNav></BottomNav>
   </div>
 </template>
 

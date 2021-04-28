@@ -23,7 +23,7 @@
             <p class="pt-4">
                 L’auteur de GÉODE est <a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="https://pro.univ-lille.fr/annie-jezegou/">Annie Jézégou</a>, Professeur des Universités au
                 laboratoire CIREL (ULR 4354), équipe Trigone, Université de Lille. En 2010, GÉODE a fait
-                l’objet <a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="http://www.ijede.ca/index.php/jde/article/view/625">d’une publication scientifique</a> dans la Revue de l’Éducation à Distance/Journal of
+                l’objet d’<a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="http://www.ijede.ca/index.php/jde/article/view/625">une publication scientifique</a> dans la Revue de l’Éducation à Distance/Journal of
                 Distance Education (Jézégou, 2010).
             </p> 
             <p class="pt-4">
