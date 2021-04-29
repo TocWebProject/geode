@@ -333,6 +333,7 @@ export default {
                     easing: 'easeInOutExpo',
                 },
                 legend: {
+                    display: false,
                     position: 'bottom',
                 },
                 title: {
@@ -1023,7 +1024,22 @@ export default {
                                 this.degreOuverture.communicationDP,
                                 this.degreOuverture.ressourcesDP
                         ],
-                        backgroundColor: 'rgba(102, 21, 67, 0.9)'
+                        backgroundColor: [
+                            '#fde68a',      // color for data at index 0
+                            '#fde68a',      // color for data at index 1
+                            '#fde68a',      // color for data at index 2
+                            '#fde68a',      // color for data at index 3
+                            '#a5b4fc',      //...
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#047857',
+                            '#047857',
+                            '#047857',
+                        ],
                     },
                 ]
             },

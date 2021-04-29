@@ -329,7 +329,11 @@ export default {
                     easing: 'easeInOutExpo',
                 },
                 legend: {
+                    display: false,
                     position: 'bottom',
+                },
+                labels: {
+                    boxWidth: 0,
                 },
                 title: {
                     display: false,
@@ -987,27 +991,42 @@ export default {
                     'Supports',
                     'Communication',
                     'Ressources'
-                ],
+                ],        
                 datasets: [
                     {
                         label: 'Distanciel',
                         data: [
                             this.degreOuverture.accesDistanciel,
-                                this.degreOuverture.lieuDistanciel,
-                                this.degreOuverture.tempsDistanciel,
-                                this.degreOuverture.rythmeDistanciel,
-                                this.degreOuverture.objectifsDistanciel,
-                                this.degreOuverture.cheminementDistanciel,
-                                this.degreOuverture.sequenceDistanciel,
-                                this.degreOuverture.methodesDistanciel,
-                                this.degreOuverture.formatDistanciel,
-                                this.degreOuverture.contenusDistanciel,
-                                this.degreOuverture.evaluationDistanciel,
-                                this.degreOuverture.supportsDistanciel,
-                                this.degreOuverture.communicationDistanciel,
-                                this.degreOuverture.ressourcesDistanciel
+                            this.degreOuverture.lieuDistanciel,
+                            this.degreOuverture.tempsDistanciel,
+                            this.degreOuverture.rythmeDistanciel,
+                            this.degreOuverture.objectifsDistanciel,
+                            this.degreOuverture.cheminementDistanciel,
+                            this.degreOuverture.sequenceDistanciel,
+                            this.degreOuverture.methodesDistanciel,
+                            this.degreOuverture.formatDistanciel,
+                            this.degreOuverture.contenusDistanciel,
+                            this.degreOuverture.evaluationDistanciel,
+                            this.degreOuverture.supportsDistanciel,
+                            this.degreOuverture.communicationDistanciel,
+                            this.degreOuverture.ressourcesDistanciel
                         ],
-                        backgroundColor: 'rgba(102, 21, 67, 0.9)'
+                        backgroundColor: [
+                            '#fde68a',      // color for data at index 0
+                            '#fde68a',      // color for data at index 1
+                            '#fde68a',      // color for data at index 2
+                            '#fde68a',      // color for data at index 3
+                            '#a5b4fc',      //...
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#a5b4fc',
+                            '#047857',
+                            '#047857',
+                            '#047857',
+                        ],
                     },
                 ]
             },
