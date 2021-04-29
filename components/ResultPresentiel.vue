@@ -29,7 +29,7 @@
             </div>
             <div v-if="!loadingEllipse" class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-2xl text-pink-800 leading-8 text-center">
-                    L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementPresentielLitteral }}</span>
+                    L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementPresentielLitteral }}</span>.
                 </p>
             </div>    
             

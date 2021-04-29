@@ -5,7 +5,7 @@
             <form id="geodeFormDistancielPresentiel" role="form" v-on:submit.prevent="onSubmit"> 
                 <!--  Form header -->
                 <div class="mx-auto container max-w-3xl md:w-3/4 shadow-lg">
-                    <div class="bg-gray-100 px-2 py-1 sm:px-3 sm:py-5 border-t-2 border-pink-500 rounded-t relative">
+                    <div class="bg-gray-100 px-2 py-3 sm:px-3 sm:py-6 border-t-2 border-pink-500 rounded-t relative">
                         <div class="max-w-lg md:w-full md:mx-0">
                             <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
                                 <img
@@ -29,10 +29,10 @@
                         </div>
                     </div>
                     <div class="bg-white space-y-5">
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-blue-400">
-                            <div class="max-w-lg md:w-full md:mx-0">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-blue-400">
+                            <div class="max-w-xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant la <span class="font-semibold">répartition horaire</span> de la formation</h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-blue-700">Questions concernant la <span class="font-semibold">répartition horaire</span> de la formation</h3>
                                 </div>
                             </div>
                         </div>
@@ -61,10 +61,10 @@
                                 <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingHeuresDistanciel">Veuillez donner une réponse valide</p>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-400">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-yellow-400">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -195,10 +195,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -425,10 +425,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
-                            <div class="max-w-2xl md:w-full md:mx-0">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-green-500">
+                            <div class="max-w-4xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +468,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les outils qui lui conviennent le mieux pour, si besoin, communiquer et interagir avec les formateurs et les autres apprenants (documents partagés, visio-conférence, téléphone, messagerie, forum, chat, etc.) ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto mb-3">
+                                    <div class="flex flex-col w-64 mx-3 sm:mx-auto mb-3">
                                         <label class="text-sm text-green-600 mb-1" for="communicationPresentiel">Les outils de communication en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationPresentiel" id="communicationPresentiel" v-model.number="geodeDataDP.communicationPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>
@@ -480,7 +480,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingCommunicationPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
+                                    <div class="flex flex-col w-64 mx-3 sm:mx-auto">
                                         <label class="text-sm  text-green-600 mb-1" for="communicationDistanciel">Les outils de communication en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="communicationDistanciel" id="communicationDistanciel" v-model.number="geodeDataDP.communicationDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>
@@ -500,7 +500,7 @@
                             <p class="w-11/12 ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir les personnes-ressources qui lui conviennent le mieux pour l’aider dans sa formation et dans ses apprentissages ?</p>
                             <div class="w-11/12">
                                 <div class="flex flex-wrap flex-col sm:flex-row justify-around mt-4">
-                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto mb-3">
+                                    <div class="flex flex-col w-64 mx-3 sm:mx-auto mb-3">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesPresentiel">Les personnes-ressources en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesPresentiel" id="ressourcesPresentiel" v-model.number="geodeDataDP.ressourcesPresentiel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>
@@ -512,7 +512,7 @@
                                         </select>
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingRessourcesPresentiel">Veuillez choisir une réponse</p>
                                     </div>
-                                    <div class="flex flex-col w-72 mx-3 sm:mx-auto">
+                                    <div class="flex flex-col w-64 mx-3 sm:mx-auto">
                                         <label class="text-sm text-green-600 mb-1" for="ressourcesDistanciel">Les personnes-ressources en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="ressourcesDistanciel" id="ressourcesDistanciel" v-model.number="geodeDataDP.ressourcesDistanciel" class="block w-full mt-0 rounded-md border-green-600 shadow-sm focus:border-green-500 focus:ring focus:ring-green-100 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>

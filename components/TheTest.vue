@@ -27,7 +27,7 @@
                 Distance Education (Jézégou, 2010).
             </p> 
             <p class="pt-4">
-                La présente application constitue la version Web de GÉODE.
+                Pour citer cette application : Jézégou, A. (2021). GEODE pour évaluer l'ouverture d'un environnement éducatif [application web]. La Fabrique des Formations, Fondation i-Site, Université de Lille. Récupéré de https://geode.com
             </p>   
         </div>
         <h4 id="startGeode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Débutez le test</h4>

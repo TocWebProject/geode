@@ -29,10 +29,10 @@
                         </div>
                     </div>
                     <div class="bg-white space-y-5">
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-400">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-yellow-400">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -115,10 +115,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -261,10 +261,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
-                            <div class="max-w-2xl md:w-full md:mx-0">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-green-500">
+                            <div class="max-w-3xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 w-full text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>

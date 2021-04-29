@@ -29,7 +29,7 @@
             </div>
             <div v-if="!loadingEllipse" class="kf-appear-2 mx-auto md:w-9/12 w-10/12 mt-4">
                 <p class="text-2xl text-pink-800 leading-8 text-center">
-                    L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementDistancielLitteral }}</span>
+                    L'environnement étudié est <span class="font-semibold">{{ this.degreOuvertureEnvironnementDistancielLitteral }}</span>.
                 </p>
             </div>    
             <!-- Degré d’ouverture en % de chacune des trois catégories de composantes  -->
@@ -339,7 +339,6 @@ export default {
                 },
                 tooltips: {
                     backgroundColor: '#1f2937'
-
                 },
                 scales: {
                     xAxes: [
