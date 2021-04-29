@@ -72,7 +72,7 @@
           </a>
           <p class="italic font-sans text-base mt-4">Suivez-nous :</p>
           <div class="social flex justify-between mt-2 mb-1">
-            <a href="https://twitter.com/univ_lille" target="_blank" rel="noopener noreferrer" title="Lien Twitter université lille">
+            <a href="https://twitter.com/fabformations" target="_blank" rel="noopener noreferrer" title="Lien Twitter la fabrique des formations">
               <svg 
                 title="Lien Twitter université lille"
                 aria-hidden="true" focusable="false" 
