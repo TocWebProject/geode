@@ -129,9 +129,9 @@
                 </table>        
             </div>
             <!-- Radar Chart Composantes-->
-            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
+            <!-- <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
                 <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
-            </div>         
+            </div>          -->
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-20">
                 <a href="/#startGeode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
@@ -911,7 +911,7 @@ export default {
         fillDataResult() {
             this.radarChartData = {
                 labels: [
-                    'Acces',
+                    'Accès',
                     'Lieu',
                     'Temps',
                     'Rythme',
@@ -921,7 +921,7 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Evaluation',
+                    'Évaluation',
                     'Supports',
                     'Communication',
                     'Ressources',
@@ -977,9 +977,9 @@ export default {
             },
             this.barChartDataComposantes = {
                 labels: [
-                    'Acces',
+                    'Accès',
                     'Lieu',
-                    'Horaires',
+                    'Temps',
                     'Rythme',
                     'Objectifs',
                     'Cheminement',
@@ -987,11 +987,11 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Evaluation',
+                    'Évaluation',
                     'Supports',
                     'Communication',
-                    'Ressources'
-                ],        
+                    'Ressources',
+                ],       
                 datasets: [
                     {
                         label: 'Distanciel',

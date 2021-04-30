@@ -1,9 +1,9 @@
 <template>
     <div>
-        <section class="relative bg-white h-full overflow-hidden pb-10">
+        <section class="relative bg-white overflow-hidden pb-20">
             <h1 class="kf-moveInDown text-3xl sm:text-4xl md:text-5xl text-center tracking-tight font-extrabold text-gray-900 pt-5 sm:pt-14">Partenaires</h1>
-            <h2 class="kf-appear-1 text-lg text-gray-700 mt-5 lg:mt-10 w-5/6 lg:w-3/5 mx-auto text-justify">
-                Le projet Fabrique des formations (Learning-Fab) est réalisé avec le soutien financier de l’État français dans le cadre du Programme « Investissements d’avenir » (I-SITE ULNE / ANR-16-IDEX-0004 ULNE) géré par l’Agence Nationale de la Recherche française (ANR).
+            <h2 class="kf-appear-1 text-lg text-gray-700 mt-5 lg:mt-10 w-5/6 lg:w-3/5 mx-auto text-left lg:text-justify">
+                Le projet <a href="https://fabrique-formations.univ-lille.fr/" class="text-pink-900 hover:text-pink-800" rel="noopener noreferrer" target="_blank">Fabrique des formations</a> (I-SITE ULNE / ANR-16-IDEX-0004 ULNE) (Learning-Fab) est réalisé avec le soutien financier de l’État français dans le cadre du Programme « Investissements d’avenir » géré par l’Agence Nationale de la Recherche française (ANR).
             </h2>
             <!-- Logos Partenaires -->
             <div class="kf-moveInUp flex flex-col md:flex-row justify-center w-auto h-full mt-4">

@@ -914,7 +914,7 @@ export default {
         fillDataResult() {
             this.radarChartData = {
                 labels: [
-                    'Acces',
+                    'Accès',
                     'Lieu',
                     'Temps',
                     'Rythme',
@@ -924,7 +924,7 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Evaluation',
+                    'Évaluation',
                     'Supports',
                     'Communication',
                     'Ressources',
@@ -982,9 +982,9 @@ export default {
 
             this.barChartDataComposantes = {
                 labels: [
-                    'Acces',
+                    'Accès',
                     'Lieu',
-                    'Horaires',
+                    'Temps',
                     'Rythme',
                     'Objectifs',
                     'Cheminement',
@@ -992,10 +992,10 @@ export default {
                     'Méthodes',
                     'Format',
                     'Contenus',
-                    'Evaluation',
+                    'Évaluation',
                     'Supports',
                     'Communication',
-                    'Ressources'
+                    'Ressources',
                 ],
                 datasets: [
                     {
