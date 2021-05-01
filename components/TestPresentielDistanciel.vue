@@ -137,7 +137,7 @@
                             <div class="w-11/12">
                                 <div class="flex flex-col sm:flex-row justify-around mt-4">
                                     <div class="flex flex-col w-56 mx-3 sm:mx-auto mb-3">
-                                        <label class="text-sm text-yellow-600 mb-1" for="tempsPresentiel">Les horaires en <span class="font-bold">présentiel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="tempsPresentiel">Le temps en <span class="font-bold">présentiel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="tempsPresentiel" id="tempsPresentiel" v-model.number="geodeDataDP.tempsPresentiel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
@@ -149,7 +149,7 @@
                                         <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingTempsPresentiel">Veuillez choisir une réponse</p>
                                     </div>
                                     <div class="flex flex-col w-56 mx-3 sm:mx-auto">
-                                        <label class="text-sm text-yellow-600 mb-1" for="tempsDistanciel">Les horaires en <span class="font-bold">distanciel</span></label>
+                                        <label class="text-sm text-yellow-600 mb-1" for="tempsDistanciel">Le temps en <span class="font-bold">distanciel</span></label>
                                         <select form="geodeFormDistancielPresentiel" name="tempsDistanciel" id="tempsDistanciel" v-model.number="geodeDataDP.tempsDistanciel" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-1">
                                             <option value="">Votre réponse</option>
                                             <option value="0">Pas du tout libre</option>
