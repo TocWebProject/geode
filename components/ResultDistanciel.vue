@@ -128,10 +128,6 @@
                     </tr> 
                 </table>        
             </div>
-            <!-- Radar Chart Composantes-->
-            <!-- <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
-                <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
-            </div>          -->
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-20">
                 <a href="/#startGeode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
@@ -248,34 +244,6 @@ export default {
             // Degré d’ouverture en % de l’environnement étudié
             degreOuvertureEnvironnementDistanciel: null,
             degreOuvertureEnvironnementDistancielLitteral: null,
-            // RADAR CHARTS.JS -> radarChartData renvoyé en mounted() par fillData() passé en props à <radar-chart-result>
-            radarChartData: null,
-            radarChartOptions: {
-                responsive: true,
-                responsiveAnimationDuration: 500,                
-                animation : {
-                    duration: 2200,
-                    easing: 'easeInOutExpo',
-                },
-                legend: {
-                    position: 'bottom',
-                },
-                title: {
-                    display: false,
-                    text: 'Résultat Géode Radar',
-                    fontSize: 24,
-                    fontColor: '#6b7280'
-                },
-                tooltips: {
-                    backgroundColor: '#1f2911'
-                },
-                scale: {
-                    ticks: {
-                        beginAtZero: true,
-                        max: 100,
-					}
-				}
-            },
             // BAR CHARTS.JS -> barChartDataCategorie passé en props à <bar-chart-result>
             barChartDataCategorie: null,
             barChartOptionsCategorie: {
@@ -909,50 +877,6 @@ export default {
         },
 
         fillDataResult() {
-            this.radarChartData = {
-                labels: [
-                    'Accès',
-                    'Lieu',
-                    'Temps',
-                    'Rythme',
-                    'Objectifs',
-                    'Cheminement',
-                    'Sequence',
-                    'Méthodes',
-                    'Format',
-                    'Contenus',
-                    'Évaluation',
-                    'Supports',
-                    'Communication',
-                    'Ressources',
-                ],
-                datasets: [
-                    {
-                        label: 'Distanciel',
-                        color: '#ad2472',
-                        backgroundColor: 'rgba(102, 21, 67, 0.5)',
-                        borderColor: 'rgba(102, 21, 67, 0.7)',
-                        pointBackgroundColor: 'rgba(102, 21, 67, 0.9)',
-                        data: [
-                                this.degreOuverture.accesDistanciel,
-                                this.degreOuverture.lieuDistanciel,
-                                this.degreOuverture.tempsDistanciel,
-                                this.degreOuverture.rythmeDistanciel,
-                                this.degreOuverture.objectifsDistanciel,
-                                this.degreOuverture.cheminementDistanciel,
-                                this.degreOuverture.sequenceDistanciel,
-                                this.degreOuverture.methodesDistanciel,
-                                this.degreOuverture.formatDistanciel,
-                                this.degreOuverture.contenusDistanciel,
-                                this.degreOuverture.evaluationDistanciel,
-                                this.degreOuverture.supportsDistanciel,
-                                this.degreOuverture.communicationDistanciel,
-                                this.degreOuverture.ressourcesDistanciel
-                        ]
-                    }
-                ]
-            },
-
             this.barChartDataCategorie = {
                 labels: [
                     'Distanciel',

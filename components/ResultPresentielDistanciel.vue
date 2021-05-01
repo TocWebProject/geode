@@ -127,11 +127,7 @@
                         <th class="px-2 md:px-4 py-1">{{this.degreOuverture.ressourcesDP}}% | {{this.degreOuvertureLitteral.ressourcesDP}}</th>
                     </tr> 
                 </table>        
-            </div>            
-            <!-- Radar Chart -->
-            <div class="kf-appear-2 mx-auto md:w-1/2 w-screen max-w-2xl">
-                <radar-chart-result v-if="radarChartData" class="p-1 sm:p-4" :data="radarChartData" :options="radarChartOptions" :height="300"/>
-            </div>   
+            </div>            >
             <!-- Btn restart Geode test -->
             <div class="h-36 pt-16">
                 <a href="/#startGeode" v-on:click="restart()" class="w-60 flex mx-auto items-center justify-center px-8 py-3 border border-pink-600 text-base font-medium rounded-md text-pink-800 bg-gray-50 hover:bg-gray-100">
@@ -251,34 +247,6 @@ export default {
             // Degré d’ouverture en % de l’environnement étudié
             degreOuvertureEnvironnementDP: null,
             degreOuvertureEnvironnementDPLitteral: null,
-            // RADAR CHARTS.JS -> radarChartData renvoyé en mounted() par fillData() passé en props à <radar-chart-result>
-            radarChartData: null,
-            radarChartOptions: {
-                responsive: true,
-                responsiveAnimationDuration: 500,                
-                animation : {
-                    duration: 2200,
-                    easing: 'easeInOutExpo',
-                },
-                legend: {
-                    position: 'bottom',
-                },
-                title: {
-                    display: false,
-                    text: 'Résultat Géode Radar',
-                    fontSize: 24,
-                    fontColor: '#6b7280'
-                },
-                tooltips: {
-                    backgroundColor: '#1f2911'
-                },
-                scale: {
-                    ticks: {
-                        beginAtZero: true,
-                        max: 100,
-					}
-				}
-            },
             // BAR CHARTS.JS -> barChartDataCategorie passé en props à <bar-chart-result>
             barChartDataCategorie: null,
             barChartOptionsCategorie: {
@@ -921,50 +889,6 @@ export default {
         },
 
         fillDataResult() {
-            this.radarChartData = {
-                labels: [
-                    'Accès',
-                    'Lieu',
-                    'Temps',
-                    'Rythme',
-                    'Objectifs',
-                    'Cheminement',
-                    'Sequence',
-                    'Méthodes',
-                    'Format',
-                    'Contenus',
-                    'Évaluation',
-                    'Supports',
-                    'Communication',
-                    'Ressources',
-                ],
-                datasets: [
-                    {
-                        label: 'Présentiel et Distanciel',
-                        color: '#ad2472',
-                        backgroundColor: 'rgba(102, 21, 67, 0.5)',
-                        borderColor: 'rgba(102, 21, 67, 0.7)',
-                        pointBackgroundColor: 'rgba(102, 21, 67, 0.9)',
-                        data: [
-                                this.degreOuverture.accesDP,
-                                this.degreOuverture.lieuDP,
-                                this.degreOuverture.tempsDP,
-                                this.degreOuverture.rythmeDP,
-                                this.degreOuverture.objectifsDP,
-                                this.degreOuverture.cheminementDP,
-                                this.degreOuverture.sequenceDP,
-                                this.degreOuverture.methodesDP,
-                                this.degreOuverture.formatDP,
-                                this.degreOuverture.contenusDP,
-                                this.degreOuverture.evaluationDP,
-                                this.degreOuverture.supportsDP,
-                                this.degreOuverture.communicationDP,
-                                this.degreOuverture.ressourcesDP
-                        ]
-                    }
-                ]
-            },
-
             this.barChartDataCategorie = {
                 labels: [
                     'Présentiel et Distanciel',
