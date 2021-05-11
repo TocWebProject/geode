@@ -120,12 +120,12 @@ form select option{
 
 .bottom-left-arrow {
     position: fixed !important;
-    bottom:60px;
-    left: 2%;
+    bottom:25px;
+    left: 5px;
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background-color:  #AD2472;
+    background-color: #d1d5db;
     cursor: pointer;
 }
 
