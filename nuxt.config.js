@@ -83,6 +83,7 @@ export default {
    pwa: {
     manifest: {
       name: 'GÉODE',
+      title: 'GÉODE',
       lang: 'fr',
       description: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille',
       background_color: '#661543',
