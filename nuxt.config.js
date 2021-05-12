@@ -78,6 +78,25 @@ export default {
       { hid: 'canonical', rel:'canonical', href: 'https://geodepreview01.netlify.app/' }
     ]
   },
+
+   // PWA
+   pwa: {
+    manifest: {
+      name: 'GÉODE',
+      lang: 'fr',
+      description: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille',
+      background_color: '#661543',
+
+    },
+    meta: {
+      name:'GÉODE',
+      author: 'La fabrique des formations',
+      lang: 'fr',
+      description: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille',
+      theme_color: '#661543',
+    }
+  },
+  
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main.css',
