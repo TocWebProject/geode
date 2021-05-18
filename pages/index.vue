@@ -32,15 +32,13 @@
       </div>
       <!-- Header Img -->
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5 xl:w-5/12 lg:mr-16 xl:mr-18 2xl:mr-44">
-        <picture>
-          <source media="(max-width: 575.97px)" srcset="~/assets/img/undraw_Data_re_80ws.svg">
-          <source media="(min-width: 575.98px)" srcset="~/assets/img/undraw_Data_re_80ws.svg">
-          <img class="kf-moveInUp h-56 w-full sm:h-72 md:h-96 lg:h-full" src="~/assets/img/undraw_Data_re_80ws.svg" width="630" height="606" alt="Photographie du dôme en verre d'un batiment moderne">
-        </picture> 
+          <img class="kf-moveInUp h-56 w-full sm:h-72 md:h-96 lg:h-full" src="~/assets/img/undraw_Data_re_80ws.svg" width="630" height="606" alt="Illustration de trois personnes manipulant des graphiques">
       </div>
     </div>
     <!-- Geode Test Section -->
     <TheTest></TheTest>
+    <!-- BottomNav -->
+    <BottomNav></BottomNav>
   </div>
 </template>
 

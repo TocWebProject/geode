@@ -5,12 +5,18 @@
 ## Homepage Screenshot
 <img src="assets/img/screenshot-landingpage.png" style="width: 50%">
 
+<p>Dernières améliorations</p>
+<ul>
+    <li>Progressive Web App</li> 
+    <li>Mise en place de la documentation</li> 
+    <li>Footer dynamique</li>
+    <li>Animation des résultats et des graphiques</li>
+
+</ul>
+
 <p>Améliorations attendues:</p>
 <ul>
-    <li>Remplacer lorem ipsum par la vrai documentation</li> 
-    <li>Setup de nuxt avec l'url final de l'app (en attente)</li> 
-    <li>Setup Sitemap & robot.txt</li> 
-    <li>Harmoniser les commentaires en FR</li> 
+    <li>Setup de nuxt avec l'url final de l'app, nuxt.config.js pour le canonical et l'img path des OpenGraph/TwitterCard, robot.txt, sitemap (en attente)</li> 
 </ul>
 
 ## Build Setup

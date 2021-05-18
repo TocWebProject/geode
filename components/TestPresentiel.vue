@@ -29,10 +29,10 @@
                         </div>
                     </div>
                     <div class="bg-white space-y-5">
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-yellow-400">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-yellow-400">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-yellow-600">Questions liées aux composantes <span class="font-semibold">spatio-temporelles</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                         <div class="md:inline-flex space-y-4 md:space-y-0 w-full p-4 sm:p-2 text-gray-600 items-center">
                             <p class="w-11/12 ml-4 sm:ml-6 md:mx-8 text-lg">L’apprenant est-il libre de choisir ses horaires en fonction de ses disponibilités ?</p>
                             <div class="md:w-5/12 max-w-sm mx-4 sm:mx-6">
-                                <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Les horaires</label>    
+                                <label class="text-sm text-yellow-600 tracking-wide ml-1" for="temps">Le temps</label>    
                                 <div class="w-full inline-flex mt-1">
                                     <div class="flex-shrink w-48 inline-block relative">
                                         <select form="geodeFormPresentiel" name="temps" id="temps" v-model.number="geodeDataPresentiel.temps" class="block w-full mt-0 rounded-md border-yellow-300 shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50 pr-8 mb-1">
@@ -115,10 +115,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-indigo-300">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-indigo-300">
                             <div class="max-w-lg md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-indigo-700">Questions liées aux composantes <span class="font-semibold">pédagogiques</span></h3>
                                 </div>
                             </div>
                         </div>
@@ -261,10 +261,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-gray-50 px-2 py-1 sm:px-3 sm:py-5 border-l-4 border-green-500">
-                            <div class="max-w-2xl md:w-full md:mx-0">
+                        <div class="bg-gray-50 px-2 py-3 sm:px-3 sm:py-6 border-l-4 border-green-500">
+                            <div class="max-w-3xl md:w-full md:mx-0">
                                 <div class="inline-flex items-start space-x-1 sm:space-x-2 mb-2">
-                                    <h3 class="text-lg mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
+                                    <h3 class="text-lg lg:text-xl mt-2 ml-2 sm:ml-6 text-green-700">Questions liées aux composantes de la <span class="font-semibold">communication éducative médiatisée</span></h3>
                                 </div>
                             </div>
                         </div>

@@ -78,6 +78,26 @@ export default {
       { hid: 'canonical', rel:'canonical', href: 'https://geodepreview01.netlify.app/' }
     ]
   },
+
+   // PWA
+   pwa: {
+    manifest: {
+      name: 'GÉODE',
+      short_name:'GÉODE',
+      lang: 'fr',
+      description: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille',
+      background_color: '#661543',
+
+    },
+    meta: {
+      name:'GÉODE',
+      author: 'La fabrique des formations',
+      lang: 'fr',
+      description: 'GÉODE : Grille d’Évaluation de l’Ouverture D’un Environnement éducatif, un instrument au service de l\'ingénierie et de la recherche dont l\'auteur est Annie Jezegou. Outil développé par la Fabrique des Formations - Université de Lille',
+      theme_color: '#661543',
+    }
+  },
+  
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main.css',
@@ -97,6 +117,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/vue-ellipse-progress.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -107,6 +128,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'vue-scrollto/nuxt',
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -116,5 +138,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  
   }
 }
