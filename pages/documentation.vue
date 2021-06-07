@@ -27,12 +27,12 @@
                 <!-- Text Documentation -->
                 <article class="kf-appear-1 flex flex-col w-full sm:w-11/12 lg:w-2/3 items-left px-4 mt-5 lg:mt-10 sm:ml-0 md:ml-5 lg:ml-10 xl:ml-14">
                     <h4 id="environnementeducatif" class="text-xl md:text-2xl font-bold tracking-tight mt-6 md:mr-5 sm:mr-2 text-pink-800">L’ouverture d’un environnement éducatif : de quoi parle-t-on ?</h4>
-                    <p class="text-justify mt-4">
+                    <p class="text-justify mt-3">
                         <span class="font-semibold italic tracking-tight sm:tracking-normal"> « L’ouverture en formation renvoie à un ensemble de dispositifs flexibles et autonomisants
                         dont la principale propriété est d’ouvrir à l’apprenant des libertés de choix, afin qu’il puisse
                         exercer un contrôle sur sa formation et sur ses apprentissages »</span> (Jézégou, 2005, p. 103).
                     </p>
-                    <p class="mt-4 text-justify tracking-tight sm:tracking-normal">
+                    <p class="mt-2 text-justify tracking-tight sm:tracking-normal">
                         Jusqu’aux années 2000, l’acronyme FOAD (Formations Ouvertes et À Distance) renvoyait à
                         un ensemble d’environnements éducatifs tels que : les centres de ressources multimédia, les
                         espaces d’autoformation, les ateliers pédagogiques personnalisés, les universités et campus
@@ -44,20 +44,27 @@
                         d’accéder à la formation en fonction de leurs disponibilités, de se former à distance
                         notamment grâce aux facilités de communication offertes par les Technologies Numériques
                         de l’Information et de la Communication (TNIC), tout en garantissant une gratuité d’accès.
+                    </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2"> 
                         Ici, l’ouverture en formation est souvent avancée dans les discours politiques et socio-
                         économiques comme une évidence, un allant de soi. Cette notion d’ouverture a longtemps
                         souffert d’un faible ancrage théorique, ce qui peut notamment expliquer les multiples
-                        interprétations qui en ont été faites.<br>
+                        interprétations qui en ont été faites.
+                    </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2"> 
                         Un premier jalon pour une définition a été posé en 2001 lors d’une conférence de consensus
                         sur « l’accompagnement des formations ouvertes » (Collectif de Chasseneuil, 2001). Par
-                        "formation ouverte", ce collectif d'experts proposait d’entendre :<br>
-                        <span class="block pl-7 md:pl-16 tracking-tight sm:tracking-normal">
+                        "formation ouverte", ce collectif d'experts proposait d’entendre :
+                    
+                        <span class="block pl-7 md:pl-16 mt-2 mb-1 tracking-tight sm:tracking-normal">
                             un dispositif organisé, finalisé, reconnu comme tel par les acteurs, qui prend en compte
                             la singularité des personnes dans leurs dimensions individuelle et collective et repose
                             sur des situations d’apprentissage complémentaire en termes de temps, de lieux, de
                             médiations pédagogiques, humaines et technologiques, et de ressources (Collectif de
                             Chasseneuil, 2001, p. 177).
                         </span>
+                    </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2"> 
                         Ici, la volonté de ce collectif était de dépasser la référence trop floue à l’éclatement des unités
                         d’espace, de temps et d’action, encore aujourd’hui dominante dans les représentations sociales
                         sur les formations ouvertes. Il voulait aussi et surtout inciter à penser l’ingénierie des
@@ -65,6 +72,8 @@
                         de communication, personnes - ressources, etc. Par ailleurs, l’ouvrage résultant de cette
                         conférence de consensus posait également, sans pour autant la développer outre mesure, la
                         question des conditions à créer ici pour favoriser l’apprentissage autodirigé.
+                    </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2"> 
                         C’est en travaillant plus particulièrement sur cette question que Jézégou (2005) a reconstitué
                         une partie du rationnel qui permet de donner une signification à l’ouverture en formation. Un
                         second jalon de caractérisation de l’ouverture a ainsi été posé : « l’ouverture en formation
@@ -74,10 +83,10 @@
                         constitue une condition organisationnelle et pédagogique indispensable pour favoriser
                         l’exercice de l’autodirection de l’apprenant.
                     </p>
+                    
 
                     <h4 id="presentation" class="text-xl md:text-2xl font-bold mt-6 md:mr-5 sm:mr-2 text-pink-800">Qu’est-ce que GÉODE ?</h4>
-
-                    <p class="mt-4 text-justify tracking-tight sm:tracking-normal">
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-3">
                         GÉODE est l’acronyme de « Grille d’Évaluation de l’Ouverture D’un Environnement
                         éducatif ». Il s’agit d’un instrument à la fois au service de l’ingénierie et de la recherche. Il
                         permet de déterminer le degré d’ouverture d’un environnement éducatif qu’il soit en
@@ -87,6 +96,9 @@
                         bases de calcul (Jézégou, 2010). La mise en œuvre d’un tel protocole permet également
                         d’évaluer le degré d’ouverture de chaque composante - et catégorie de composantes - et donc
                         de caractériser l’ouverture de l’environnement étudié.
+                    </p>    
+                        
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2"> 
                         La première catégorie intègre les composantes qui définissent ensemble les conditions spatio-
                         temporelles des apprentissages. Il s’agit du lieu, du temps vu sous l’angle des horaires, de
                         l’accès et du rythme de la formation. La deuxième catégorie intègre les aspects purement
@@ -119,12 +131,14 @@
                             <th class="font-semibold px-1 md:px-2 lg:px-5 py-2">supports d’apprentissage, outils de communication, personnes-ressources</th>
                         </tr> 
                     </table>  
-                    <p class="mb-5 ml-1">Tableau 1. <span class="italic">Les trois catégories de composantes GEODE d’un environnement éducatif</span></p>   
+                    <p class="mb-4 ml-1">Tableau 1. <span class="italic">Les trois catégories de composantes GEODE d’un environnement éducatif</span> (Jézégou, 2005, p. 123)</p>   
                     <p class="text-justify tracking-tight sm:tracking-normal">
                         La première étape du protocole d’évaluation consiste à renseigner un questionnaire dont la
                         validité de contenu a été confirmée. Ce questionnaire peut être renseigné seul ou à plusieurs
                         sur la base d’un consensus collectif quant à la réponse à donner pour chacune des questions
-                        posées.<br>
+                        posées.
+                    </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2">
                         Une fois le questionnaire rempli, a contrario de la version manuelle, cette application Web
                         réalise automatiquement toutes les étapes suivantes du protocole. Ces étapes mettent en œuvre
                         des bases spécifiques de calcul telles que décrites dans Jézégou (2010).
@@ -135,7 +149,6 @@
                         « hautement ouvert + »  (totale liberté de choix) :
                     </p>
                     <table class="rounded-lg text-center w-full mt-5 mb-4 bg-gray-100 text-gray-800 shadow">
-             
                         <tr class="border-b-2 border-gray-300">
                             <td class="text-base font-semibold px-1 md:px-2 lg:px-5 py-4">Degré d’ouverture en %</td>
                             <td class="text-base font-semibold px-1 md:px-2 lg:px-5 py-4">Typologie</td>
@@ -190,13 +203,19 @@
                         question de l’ouverture - et donc du degré de liberté de choix et d’action offert à l’apprenant -
                         se pose au plan scientifique.
                     </p>
+                    <p class="text-justify tracking-tight sm:tracking-normal mt-2">
+                        <span class="font-bold">Précision :</span><br>
+                        Les scores GEODE obtenus sont calculés automatiquement par cette application à partir des réponses données par une personne ayant répondu au questionnaire et pour un environnement éducatif précis.<br>
+                        Si pour ce même environnement, plusieurs personnes répondent à ce questionnaire alors il s'agit de calculer la moyenne des scores individuels pour obtenir les scores GEODE. L'application n'intégre pas cette fonction.<br>
+                        Point de vigilance : lorsque le formation se déroule "en présentiel et en distanciel" (les deux) et toujours pour le même environnement, tous les répondants doivent préciser le même volume horaire pour chacune des deux modalités et tel que déclaré par l'organisme de formation.<br>
+                    </p>
                     <h4 id="references" class="text-xl md:text-2xl font-bold mt-6 md:mr-5 sm:mr-2 text-pink-800">Références bibliographiques</h4>
-                    
-                    
-                    <p class="mt-4 text-justify">
+                    <p class="mt-3 text-justify">
                         Collectif de Chasseneuil, (2001). <span class="italic">Accompagner les formations ouvertes.</span> L’Harmattan.
                         Jézégou, A. (2005). <span class="italic">Formations ouvertes : libertés de choix et autodirection de l’apprenant.</span>
-                        L’Harmatttan.
+                        L’Harmatttan.<br>
+                    </p>
+                    <p class="mt-1 text-justify">
                         Jézégou, A. (2010). Le dispositif GÉODE pour évaluer le degré d’ouverture d’un
                         environnement éducatif. <span class="italic">Revue de l’Éducation à Distance/Journal of Distance Education</span>, 83-
                         108.
