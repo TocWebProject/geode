@@ -71,60 +71,60 @@
                     </tr>
                     
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Accès</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.accesDistanciel}}% | {{this.degreOuvertureLitteral.accesDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">Accès</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">{{this.degreOuverture.accesDistanciel}}% | {{this.degreOuvertureLitteral.accesDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Lieu</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.lieuDistanciel}}%  | {{this.degreOuvertureLitteral.lieuDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">Lieu</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">{{this.degreOuverture.lieuDistanciel}}%  | {{this.degreOuvertureLitteral.lieuDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Horaires</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.tempsDistanciel}}% | {{this.degreOuvertureLitteral.tempsDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">Horaires</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">{{this.degreOuverture.tempsDistanciel}}% | {{this.degreOuvertureLitteral.tempsDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Rythme</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.rythmeDistanciel}}% | {{this.degreOuvertureLitteral.rythmeDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">Rythme</th>
+                        <th class="px-2 md:px-4 py-1 text-yellow-600">{{this.degreOuverture.rythmeDistanciel}}% | {{this.degreOuvertureLitteral.rythmeDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Objectifs</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.objectifsDistanciel}}% | {{this.degreOuvertureLitteral.objectifsDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Objectifs</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.objectifsDistanciel}}% | {{this.degreOuvertureLitteral.objectifsDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Cheminement</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.cheminementDistanciel}}% | {{this.degreOuvertureLitteral.cheminementDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Cheminement</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.cheminementDistanciel}}% | {{this.degreOuvertureLitteral.cheminementDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Sequence</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.sequenceDistanciel}}% | {{this.degreOuvertureLitteral.sequenceDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Sequence</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.sequenceDistanciel}}% | {{this.degreOuvertureLitteral.sequenceDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Méthodes</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.methodesDistanciel}}% | {{this.degreOuvertureLitteral.methodesDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Méthodes</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.methodesDistanciel}}% | {{this.degreOuvertureLitteral.methodesDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Format</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.formatDistanciel}}% | {{this.degreOuvertureLitteral.formatDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Format</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.formatDistanciel}}% | {{this.degreOuvertureLitteral.formatDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Contenus</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.contenusDistanciel}}% | {{this.degreOuvertureLitteral.contenusDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Contenus</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.contenusDistanciel}}% | {{this.degreOuvertureLitteral.contenusDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Evaluation</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.evaluationDistanciel}}% | {{this.degreOuvertureLitteral.evaluationDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">Evaluation</th>
+                        <th class="px-2 md:px-4 py-1 text-indigo-600">{{this.degreOuverture.evaluationDistanciel}}% | {{this.degreOuvertureLitteral.evaluationDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Supports</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.supportsDistanciel}}% | {{this.degreOuvertureLitteral.supportsDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">Supports</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">{{this.degreOuverture.supportsDistanciel}}% | {{this.degreOuvertureLitteral.supportsDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100">
-                        <th class="px-2 md:px-4 py-1">Communication</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.communicationDistanciel}}% | {{this.degreOuvertureLitteral.communicationDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">Communication</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">{{this.degreOuverture.communicationDistanciel}}% | {{this.degreOuvertureLitteral.communicationDistanciel}}</th>
                     </tr> 
                     <tr class="bg-gray-50 border-b border-gray-100 rounded-b-lg">
-                        <th class="px-2 md:px-4 py-1">Ressources</th>
-                        <th class="px-2 md:px-4 py-1">{{this.degreOuverture.ressourcesDistanciel}}% | {{this.degreOuvertureLitteral.ressourcesDistanciel}}</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">Ressources</th>
+                        <th class="px-2 md:px-4 py-1 text-green-600">{{this.degreOuverture.ressourcesDistanciel}}% | {{this.degreOuvertureLitteral.ressourcesDistanciel}}</th>
                     </tr> 
                 </table>        
             </div>

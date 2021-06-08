@@ -204,13 +204,13 @@
                         se pose au plan scientifique.
                     </p>
                     <p class="text-justify tracking-tight sm:tracking-normal mt-2">
-                        <span class="font-bold">Précision :</span><br>
-                        Les scores GEODE obtenus sont calculés automatiquement par cette application à partir des réponses données par une personne ayant répondu au questionnaire et pour un environnement éducatif précis.<br>
-                        Si pour ce même environnement, plusieurs personnes répondent à ce questionnaire alors il s'agit de calculer la moyenne des scores individuels pour obtenir les scores GEODE. L'application n'intégre pas cette fonction.<br>
-                        Point de vigilance : lorsque le formation se déroule "en présentiel et en distanciel" (les deux) et toujours pour le même environnement, tous les répondants doivent préciser le même volume horaire pour chacune des deux modalités et tel que déclaré par l'organisme de formation.<br>
+                        <span class="font-bold text-lg">Précision :</span><br>
+                        Les scores GEODE obtenus sont calculés automatiquement par cette application à partir des réponses données par <span class="font-semibold">une personne</span> ayant répondu au questionnaire et pour un environnement éducatif précis.<br>
+                        Si pour <span class="font-semibold">ce même environnement, plusieurs personnes</span> répondent à ce questionnaire alors il s'agit de calculer la moyenne des scores individuels pour obtenir les scores GEODE. L'application n'intégre pas cette fonction.<br>
+                        Point de vigilance : lorsque le formation se déroule "en présentiel et en distanciel" (les deux) et toujours pour le même environnement, tous les répondants doivent préciser <span class="font-semibold">le même volume horaire pour chacune</span> des deux modalités et tel que déclaré par l'organisme de formation.<br>
                     </p>
                     <h4 id="references" class="text-xl md:text-2xl font-bold mt-6 md:mr-5 sm:mr-2 text-pink-800">Références bibliographiques</h4>
-                    <p class="mt-3 text-justify">
+                    <p class="mt-2 text-justify">
                         Collectif de Chasseneuil, (2001). <span class="italic">Accompagner les formations ouvertes.</span> L’Harmattan.
                         Jézégou, A. (2005). <span class="italic">Formations ouvertes : libertés de choix et autodirection de l’apprenant.</span>
                         L’Harmatttan.<br>
