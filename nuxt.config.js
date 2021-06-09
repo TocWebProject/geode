@@ -97,6 +97,11 @@ export default {
       theme_color: '#661543',
     }
   },
+
+  // Tailwind CSS
+  tailwindcss: {
+    mode: 'jit'
+  },
   
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
