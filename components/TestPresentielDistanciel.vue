@@ -42,7 +42,7 @@
                             <label class="text-sm text-blue-800 tracking-wide" for="heuresPresentiel">Heures en présentiel</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 md:ml-0 mb-1">
-                                        <input form="geodeFormDistancielPresentiel" type="number" min="0" placeholder="..." name="heuresPresentiel" id="heuresPresentiel" v-model.number="geodeDataDP.heuresPresentiel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                        <input form="geodeFormDistancielPresentiel" type="number" min="0" placeholder="ex: 60" name="heuresPresentiel" id="heuresPresentiel" v-model.number="geodeDataDP.heuresPresentiel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                     </div>
                                 </div>
                                 <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingHeuresPresentiel">Veuillez donner une réponse valide</p>
@@ -55,7 +55,7 @@
                             <label class="text-sm text-blue-800 tracking-wide" for="heuresDistanciel">Heures en distanciel</label>
                                 <div class="w-full inline-flex">
                                     <div class="flex-shrink w-48 md:ml-0 mb-1">
-                                        <input form="geodeFormDistancielPresentiel" placeholder="..." type="number" min="0" name="heuresDistanciel" id="heuresDistanciel" v-model.number="geodeDataDP.heuresDistanciel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                        <input form="geodeFormDistancielPresentiel" placeholder="ex: 140" type="number" min="0" name="heuresDistanciel" id="heuresDistanciel" v-model.number="geodeDataDP.heuresDistanciel" @keypress.enter.prevent class="mt-1 block w-full rounded-md border-blue-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                     </div>
                                 </div>
                                 <p class="kf-appear-1 text-sm ml-1 text-red-700 font-semibold" v-if="attemptSubmit && missingHeuresDistanciel">Veuillez donner une réponse valide</p>
