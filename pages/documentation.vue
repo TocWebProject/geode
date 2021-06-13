@@ -196,6 +196,7 @@
                             <th class="font-semibold px-1 md:px-2 lg:px-5 py-2">fermée</th>
                         </tr> 
                     </table> 
+                    <p class="mb-4 ml-1">Tableau 2. <span class="italic">Les trois catégories de composantes GEODE d’un environnement éducatif</span> (Jézégou, 2005, p. 135)</p> 
                     <p class="text-justify tracking-tight sm:tracking-normal">
                         GEODE est un instrument utile aux praticiens pour l’ingénierie et l’audit d’un environnement
                         éducatif institué que ce dernier soit en présentiel, en distanciel ou alliant les deux modalités.

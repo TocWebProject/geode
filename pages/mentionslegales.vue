@@ -42,6 +42,9 @@
             <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-900 pt-5 sm:pt-8 md:text-3xl">Droits d'auteur et propriété intellectuelle</h2>
             <hr class="hr-mentions w-72 sm:w-96 mx-auto">
             <p class="w-11/12 sm:w-2/3 mx-auto pt-3 text-justify">
+                La propriété intellectuelle de GÉODE appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nc-nd 4.0.
+            </p>
+            <p class="w-11/12 sm:w-2/3 mx-auto pt-3 text-justify">
                 L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés.
                 La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.
                 Les photographies, textes, dessins, images etc. protégés par les droits de la propriété intellectuelle sont la propriété de l'Université de Lille ou de tiers ayant permis à l'Université de Lille d'en faire usage.

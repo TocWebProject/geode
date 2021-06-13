@@ -16,7 +16,7 @@
                 Quatre d’entre elles sont dites <span class="font-semibold">« spatio-temporelles »</span>; sept sont qualifiées de <span class="font-semibold">« pédagogiques »</span> tandis que les trois dernières renvoient à la <span class="font-semibold">« communication éducative médiatisée »</span>. 
                 GÉODE s’appuie sur un protocole recueil et de traitement de données. Il permet d’évaluer le degré d’ouverture de chacune de ces 14  composantes, celui des trois catégories de composantes et, plus globalement, le degré d’ouverture de l’environnement éducatif étudié. 
                 Ce degré d’ouverture varie sur un continuum constitué de 10 graduations allant de « fermé » (aucune liberté de choix offerte à l’apprenant) à « hautement ouvert  + » (totale liberté de choix offerte à l’apprenant). 
-                GÉODE est à la fois au service de l’ingénierie et de la recherche.  Pour plus d'informations et avant de débuter le test, consulter la <NuxtLink to="/documentation" class="text-pink-800 hover:border-pink-600">documentation</NuxtLink>.
+                GÉODE est à la fois au service de l’ingénierie et de la recherche. 
             </p>
             <p class="pt-4">
                 L’auteur de GÉODE est <a class="text-pink-800 hover:border-pink-600" rel="noopener noreferrer" target="_blank" href="https://pro.univ-lille.fr/annie-jezegou/">Annie Jézégou</a>, Professeur des Universités au
@@ -27,6 +27,9 @@
             <p class="pt-4">
                 Pour citer cette application : Jézégou, A. (2021). GEODE pour évaluer l'ouverture d'un environnement éducatif [application web]. La Fabrique des Formations, Fondation i-Site, Université de Lille. Récupéré de https://geodeURL.com
             </p>   
+            <p class="pt-4">
+                Pour plus d'informations et avant de débuter le test, consulter la <NuxtLink to="/documentation" class="text-pink-800 hover:border-pink-600">documentation</NuxtLink>.
+            </p>
         </div>
         <h4 id="startGeode" class="text-4xl text-center tracking-tight font-extrabold text-gray-900 pt-10 sm:text-3xl md:text-4xl">Débutez le test</h4>
         <img src="~/assets/img/undraw_education_f8ru.svg" class="kf-appear-1 mx-auto w-5/12 sm:w-1/4 lg:w-1/6 pt-8 pl-10 xl:pl-20" width="290.16" height="184.33" alt="illustration de livres">
