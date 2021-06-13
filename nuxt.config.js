@@ -106,7 +106,8 @@ export default {
 
   // Sitemap
   sitemap: {
-    // hostname: 'https://example.com',
+    // NEED TO BE CHANGE FOR PRODUCTION !!!!!!!!!!!!!!!!!
+    hostname: 'https://example.com',
     gzip: true,
     exclude: [
       '/mentionslegales',
