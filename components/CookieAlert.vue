@@ -2,8 +2,8 @@
     <transition name="fade" mode="out-in">
         <div v-if="isOpen" class="kf-moveInUp fixed bottom-0 left-0 lg:flex items-center p-2 bg-gray-100 shadow-sm justify-center w-full">
             <div class="mx-auto text-center lg:mx-2">
-                <p class="text-xs lg:text-base">
-                    <span class="mx-2 text-lg md:text-xl">🍪</span>Autoriser les cookies afin d'étudier la fréquentation et améliorer l'application ? Liser les
+                <p class="text-xs lg:text-base leading-loose">
+                    <span class="mx-2 pb-2 text-lg md:text-xl">🍪</span>Autoriser les cookies afin d'étudier la fréquentation et améliorer l'application ? Liser les
                     <NuxtLink to="/mentionslegales" class="hover:text-gray-700">mentions légales</NuxtLink>
                     pour plus d'informations
                 </p>
