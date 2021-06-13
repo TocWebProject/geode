@@ -2,11 +2,11 @@
   <footer class="text-gray-700 body-font">
     <!--  Legal Mentions -->
     <div class="bg-white">
-      <div class="container mx-auto w-72 sm:w-full text-center py-8 sm:py-5 px-1">
-        <span class="sm:mt-0 mt-2 text-center text-gray-800 text-sm xl:text-base">
-          Ce site ne collecte aucune donnée personnelle et ne contient aucun cookie, traceur de réseaux sociaux ou captcha. 
-          <br>GÉODE est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.
-          <br>La propriété intellectuelle de GÉODE appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nc-nd 4.0.
+      <div class="container mx-auto w-72 lg:w-full text-center py-8 sm:py-5 px-1">
+        <span class="sm:mt-0 mt-2 text-center text-gray-800 text-xs xl:text-base">
+          GÉODE est extrêmement sensible aux questions de confidentialité, de sécurité et de souveraineté.<br>
+          Ce site utlise des cookies dans l'unique but d'améliorer l'application et de mesurer la fréquentation. Liser les <NuxtLink to="/mentionslegales" class="hover:text-gray-700">mentions légales</NuxtLink> pour plus d'informations.<br> 
+          La propriété intellectuelle de GÉODE appartient à Annie Jézégou en qualité d'auteur sous la licence CC-by-nc-nd 4.0.
         </span>
         <div v-if="$route.name !== 'mentionslegales'" class="flex justify-center text-sm mt-2">
           <NuxtLink to="/mentionslegales" class="mr-5 title-font tracking-widest text-pink-900 hover:text-gray-700 border-b-2 border-pink-100 hover:border-pink-200">MENTIONS LÉGALES</NuxtLink>
