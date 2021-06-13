@@ -98,6 +98,21 @@ export default {
     }
   },
 
+  // Environnement
+  env: {
+    // Google Analytics
+    GA_MEASUREMENT_ID: process.env.GA_MEASUREMENT_ID
+  },
+
+  // Sitemap
+  sitemap: {
+    // hostname: 'https://example.com',
+    gzip: true,
+    exclude: [
+      '/mentionslegales',
+    ]
+  },
+
   // Tailwind CSS
   tailwindcss: {
     mode: 'jit'
@@ -118,6 +133,10 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/vue-ellipse-progress.js',
+    {
+      src: './plugins/GoogleAnalytics.js',
+      mode: 'client'
+    }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -133,7 +152,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-  
+    '@nuxtjs/sitemap'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

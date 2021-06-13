@@ -62,12 +62,12 @@
             <p class="w-11/12 sm:w-2/3 mx-auto text-justify pt-3">
                 Les témoins servent à faciliter la navigation sur le site et à rationaliser les procédures d'enregistrement ou de mesure d'audience. Les témoins sont des fichiers texte placés sur le disque dur de votre ordinateur par un serveur de page Web. Votre ordinateur est sans doute configuré pour accepter les témoins. Vous pouvez cependant modifier ce paramètre pour qu'il les refuse et l'Université de Lille vous suggère de le faire si l'utilisation des témoins vous inquiète. Quand vous visitez ce site Web, pour chercher, lire ou télécharger de l'information, l'Université de Lille recueille et conserve certains "renseignements visiteur" vous concernant, tels le nom du domaine et de l'ordinateur hôte à partir desquels vous allez sur Internet, l'adresse du protocole Internet (IP) de l'ordinateur que vous utilisez, la date et l'heure de votre navigation sur ce site, et les URL à partir desquelles vous êtes passé à ce site. L'Université de Lille utilise cette information pour analyser et mesurer la fréquentation de son site et pour travailler à le rendre plus utile. L'Université de Lille détruit cette information après un certain temps. Si vous ne voulez pas que l'Université de Lille recueille ce genre d'information, ne naviguez pas sur son site.
             </p>
-            <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-900 pt-5 sm:pt-8 md:text-3xl">Politique de confidentialité</h2>
+            <!-- <h2 class="kf-moveInDown text-2xl text-center tracking-tight font-extrabold text-pink-900 pt-5 sm:pt-8 md:text-3xl">Politique de confidentialité</h2>
             <hr class="hr-mentions w-64 mx-auto">
             <p class="w-11/12 sm:w-2/3 mx-auto text-justify pt-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est nibh, accumsan quis nibh vitae, dictum finibus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse risus massa, consequat vel vestibulum et, efficitur luctus metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam pellentesque sed eros vitae sollicitudin. Quisque eget sagittis lorem. Suspendisse ante sem, semper id aliquam eget, ullamcorper egestas nunc.
                 Fusce cursus est pulvinar, feugiat mauris et, feugiat ex. Integer suscipit ex sed ante tincidunt feugiat. Suspendisse lobortis feugiat arcu. Suspendisse ultrices lectus et ex ullamcorper.
-            </p>
+            </p> -->
         </div>
         <!-- BottomNav -->
         <BottomNav></BottomNav>
