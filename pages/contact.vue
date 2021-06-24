@@ -13,7 +13,7 @@
                         <div class="bg-pink-50 flex flex-col justify-center items-center xl:items-left h-full bg-opacity-50 hover:bg-opacity-70 py-12 px-3 md:px-10 max-w-5xl lg:w-1/2">
                             <h2 class="lg:mt-5 text-2xl text-gray-800 font-bold">Partager votre<span class="text-pink-800"> expérience</span></h2>
                             <div class="mb-5">
-                                <p class="text-xl">geode@geode.com</p>
+                                <p class="text-xl">justine.roussel@univ-lille.fr </p>
                             </div>
                             <h3 class="lg:mt-5 text-xl md:text-2xl text-gray-800 font-bold mb-16">
                                 Visiter <a href="https://fabrique-formations.univ-lille.fr/" class="underline text-pink-800 hover:text-opacity-70 tracking-wide" target="_blank" rel="noopener noreferrer" title="Lien vers la fabrique des formations">la fabrique des formations</a>
