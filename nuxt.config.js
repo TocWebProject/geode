@@ -114,6 +114,11 @@ export default {
     ]
   },
 
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
+  },
+
   // Tailwind CSS
   tailwindcss: {
     mode: 'jit'
@@ -153,6 +158,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap'
   ],
 
